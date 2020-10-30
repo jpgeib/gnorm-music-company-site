@@ -1,7 +1,13 @@
 #navbar {
     background-color: black;
+    margin: 0 auto;
+    width: 90%;
 }
 
-.memu-item {
-    color: red;
+.active {
+    color: white;
+}
+
+#home, #livemusic, #instruction, #progear, #shows, #contact {
+    color: white;
 }

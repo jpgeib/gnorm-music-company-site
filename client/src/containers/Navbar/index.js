@@ -19,7 +19,7 @@ export default class Navbar extends Component {
                 <Menu.Item
                     as={Link}
                     to="/"
-                    className="menu-item"
+                    id="home"
                     name="home"
                     active={activeItem === "home"}
                     onClick={this.handleItemClick}
@@ -29,7 +29,7 @@ export default class Navbar extends Component {
                 <Menu.Item
                     as={Link}
                     to="/livemusic"
-                    className="menu-item"
+                    id="livemusic"
                     name="livemusic"
                     active={activeItem === "livemusic"}
                     onClick={this.handleItemClick}
@@ -39,7 +39,7 @@ export default class Navbar extends Component {
                 <Menu.Item
                     as={Link}
                     to="/instruction"
-                    className="menu-item"
+                    id="instruction"
                     name="instruction"
                     active={activeItem === "instruction"}
                     onClick={this.handleItemClick}
@@ -49,7 +49,7 @@ export default class Navbar extends Component {
                 <Menu.Item
                     as={Link}
                     to="/progear"
-                    className="menu-item"
+                    id="progear"
                     name="progear"
                     active={activeItem === "progear"}
                     onClick={this.handleItemClick}
@@ -59,7 +59,7 @@ export default class Navbar extends Component {
                 <Menu.Item
                     as={Link}
                     to="/shows"
-                    className="menu-item"
+                    id="shows"
                     name="shows"
                     active={activeItem === "shows"}
                     onClick={this.handleItemClick}
@@ -69,7 +69,7 @@ export default class Navbar extends Component {
                 <Menu.Item
                     as={Link}
                     to="/contact"
-                    className="menu-item"
+                    id="contact"
                     name="contact"
                     active={activeItem === "contact"}
                     onClick={this.handleItemClick}
