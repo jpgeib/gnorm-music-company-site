@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Grid, Image, Header } from "semantic-ui-react";
 import HomeList from "../../components/HomeList";
+import Footer from "../../components/Footer";
 import GnormProfile from "../../assets/images/GnormProfile.jpg";
 
 import "./style.css";
@@ -35,6 +36,7 @@ class Home extends Component {
                         </Grid.Column>
                     </Grid.Row>
                 </Grid>
+                <Footer />
             </>
         );
     }
