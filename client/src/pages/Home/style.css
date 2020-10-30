@@ -3,3 +3,13 @@
     width: 80%;
     margin-top: 1%;
 }
+
+#home-container {
+    margin: 0 auto;
+    width: 80%;
+    background-color: #3d413f;
+}
+
+#home-subcontainer {
+    margin: 0 auto;
+}
