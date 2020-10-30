@@ -7,6 +7,7 @@ import Instruction from "../../pages/Instruction";
 import ProGear from "../../pages/ProGear";
 import Shows from "../../pages/Shows";
 import Contact from "../../pages/Contact";
+import Footer from "../../components/Footer";
 
 class App extends Component {
   
@@ -20,6 +21,7 @@ class App extends Component {
         <Route exact path="/progear" component={ProGear} />
         <Route exact path="/shows" component={Shows} />
         <Route exact path="/contact" component={Contact} />
+        <Footer />
       </>
     )
   }
