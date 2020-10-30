@@ -3,3 +3,13 @@
     width: 80%;
     margin-top: 1%;
 }
+
+#live-container {
+    margin: 0 auto;
+    width: 80%;
+    background-color: #3d413f;
+}
+
+#oc-header, #dnr-header, #fed-header, #shell-header {
+    color: white;
+}
