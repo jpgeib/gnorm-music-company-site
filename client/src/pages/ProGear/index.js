@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Image, Header } from "semantic-ui-react";
+import Audix from "../../components/Audix";
 
 import "./style.css";
 
@@ -17,7 +18,7 @@ class ProGear extends Component {
                 </Grid>
                 <Grid id="progear-container">
                     <Grid.Row>
-
+                        <Audix />
                     </Grid.Row>
                     <Grid.Row>
 
