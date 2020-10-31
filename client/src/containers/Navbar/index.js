@@ -38,16 +38,6 @@ export default class Navbar extends Component {
                 </Menu.Item>
                 <Menu.Item
                     as={Link}
-                    to="/instruction"
-                    id="instruction"
-                    name="instruction"
-                    active={activeItem === "instruction"}
-                    onClick={this.handleItemClick}
-                >
-                    Instruction
-                </Menu.Item>
-                <Menu.Item
-                    as={Link}
                     to="/progear"
                     id="progear"
                     name="progear"
