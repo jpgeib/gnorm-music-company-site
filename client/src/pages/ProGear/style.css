@@ -8,5 +8,7 @@
     margin: 0 auto;
     width: 80%;
     background-color: #3d413f;
-    margin-bottom: 13.2%;
+    margin-bottom: 8.2%;
+    overflow-y: auto;
+    max-height: 580px;
 }
