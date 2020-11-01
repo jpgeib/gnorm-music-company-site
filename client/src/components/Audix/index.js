@@ -18,7 +18,7 @@ export default class Audix extends Component {
                                 <Header id="audix-header" as="h2">Audix</Header>
                             </Grid.Column>
                             <Grid.Column width={8}>
-                                <Header id="audix-link" href="https://audixusa.com/" target=":blank" as="h2">https://audixusa.com/</Header>
+                                <Header as="h2"><a id="audix-link" href="https://audixusa.com/" target=":blank">https://audixusa.com/</a></Header>
                             </Grid.Column>
                         </Grid.Row>
                         <Grid.Row>
