@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Grid, Image, Header } from "semantic-ui-react";
 import Audix from "../../components/Audix";
+import BoomerangMusic from "../../components/BoomerangMusic";
 
 import "./style.css";
 
@@ -24,7 +25,7 @@ class ProGear extends Component {
 
                     </Grid.Row>
                     <Grid.Row>
-
+                        <BoomerangMusic />
                     </Grid.Row>
                     <Grid.Row>
                         
