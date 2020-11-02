@@ -15,7 +15,7 @@ export default class RadianAudio extends Component {
                     <Grid id="radian-container">
                         <Grid.Row>
                             <Grid.Column width={8}>
-                                <Header id="radian-header" as="h2">Guytron</Header>
+                                <Header id="radian-header" as="h2">Radian Audio</Header>
                             </Grid.Column>
                             <Grid.Column width={8}>
                                 <Header as="h2"><a id="radian-link" href="https://radianaudio.com/" target=":blank">https://radianaudio.com/</a></Header>

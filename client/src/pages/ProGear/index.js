@@ -4,6 +4,7 @@ import Audix from "../../components/Audix";
 import Guytron from "../../components/Guytron";
 import BoomerangMusic from "../../components/BoomerangMusic";
 import RadianAudio from "../../components/RadianAudio";
+import GeorgeLs from "../../components/GeorgeLs";
 
 import "./style.css";
 
@@ -33,7 +34,7 @@ class ProGear extends Component {
                         <RadianAudio />
                     </Grid.Row>
                     <Grid.Row>
-                        
+                        <GeorgeLs />
                     </Grid.Row>
                     <Grid.Row>
                         
