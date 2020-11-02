@@ -5,6 +5,7 @@ import Guytron from "../../components/Guytron";
 import BoomerangMusic from "../../components/BoomerangMusic";
 import RadianAudio from "../../components/RadianAudio";
 import GeorgeLs from "../../components/GeorgeLs";
+import WeberVST from "../../components/WeberVST";
 
 import "./style.css";
 
@@ -37,7 +38,7 @@ class ProGear extends Component {
                         <GeorgeLs />
                     </Grid.Row>
                     <Grid.Row>
-                        
+                        <WeberVST />
                     </Grid.Row>
                 </Grid>
             </>

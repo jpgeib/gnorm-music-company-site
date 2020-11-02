@@ -4,7 +4,7 @@ import GeorgeLsImage from "../../assets/images/img_george.jpg";
 
 import "./style.css";
 
-export default class RadianAudio extends Component {
+export default class GeorgeLs extends Component {
     render() {
         return (
             <>
