@@ -17,8 +17,10 @@ class Shows extends Component {
                         <Grid.Column width={16}>
                             <Header id="shows-subheader" as="h3">To view available showdates, click on the Calendly link below:</Header>
                         </Grid.Column>
+                    </Grid.Row>
+                    <Grid.Row>
                         <Grid.Column width={16}>
-                            <Header as="h3">[Link to Calendly]</Header>
+                            <Header id="calendly-link" as="h3">[Link to Calendly]</Header>
                         </Grid.Column>
                     </Grid.Row>
                 </Grid>

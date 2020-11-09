@@ -1,0 +1,16 @@
+#shows-header-container {
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 1%;
+}
+
+#shows-subheader, #calendly-link {
+    color: white;
+}
+
+#shows-container {
+    margin: 0 auto;
+    width: 80%;
+    background-color: #3d413f;
+    margin-bottom: 8.1%;
+}
