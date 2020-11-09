@@ -8,7 +8,7 @@ export default class HomeList extends Component {
         return (
             <List>
                 <List.Item className="home-list-item">
-                    <List.Icon>🎸 </List.Icon>
+                    <List.Icon>🎸</List.Icon>
                     <List.Content>Guitar</List.Content>
                 </List.Item>
                 <List.Item className="home-list-item">
