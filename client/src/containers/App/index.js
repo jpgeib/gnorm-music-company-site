@@ -3,6 +3,10 @@ import { Route } from "react-router-dom";
 import Navbar from "../Navbar";
 import Home from "../../pages/Home";
 import LiveMusic from "../../pages/LiveMusic";
+import OutsideChance from "../../pages/LiveMusic/OutsideChance";
+import DNR from "../../pages/LiveMusic/DNR";
+import Federation from "../../pages/LiveMusic/Federation";
+import Shellshockt from "../../pages/LiveMusic/ShellShockt"; 
 import ProGear from "../../pages/ProGear";
 import Shows from "../../pages/Shows";
 import Contact from "../../pages/Contact";
@@ -16,10 +20,10 @@ class App extends Component {
         <Navbar />
         <Route exact path="/" component={Home} />
         <Route exact path="/livemusic" component={LiveMusic} />
-        <Route exact path="/livemusic/outsidechance" component={LiveMusic} />
-        <Route exact path="/livemusic/federation" component={LiveMusic} />
-        <Route exact path="/livemusic/dnr" component={LiveMusic} />
-        <Route exact path="/livemusic/shellshockt" component={LiveMusic} />
+        <Route exact path="/livemusic/outsidechance" component={OutsideChance} />
+        <Route exact path="/livemusic/federation" component={Federation} />
+        <Route exact path="/livemusic/dnr" component={DNR} />
+        <Route exact path="/livemusic/shellshockt" component={Shellshockt} />
         <Route exact path="/progear" component={ProGear} />
         <Route exact path="/shows" component={Shows} />
         <Route exact path="/contact" component={Contact} />
