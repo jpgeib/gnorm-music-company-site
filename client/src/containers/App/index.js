@@ -16,6 +16,10 @@ class App extends Component {
         <Navbar />
         <Route exact path="/" component={Home} />
         <Route exact path="/livemusic" component={LiveMusic} />
+        <Route exact path="/livemusic/outsidechance" component={LiveMusic} />
+        <Route exact path="/livemusic/federation" component={LiveMusic} />
+        <Route exact path="/livemusic/dnr" component={LiveMusic} />
+        <Route exact path="/livemusic/shellshockt" component={LiveMusic} />
         <Route exact path="/progear" component={ProGear} />
         <Route exact path="/shows" component={Shows} />
         <Route exact path="/contact" component={Contact} />
