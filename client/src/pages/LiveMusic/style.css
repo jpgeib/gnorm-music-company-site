@@ -6,15 +6,14 @@
 
 #live-container {
     margin: 0 auto;
-    width: 80%;
-    background-color: #3d413f;
-    margin-bottom: 8.1%;
+    width: 52.4%;
+    background-color: white;
 }
 
 #live-header {
-    color: white;
+    color: black;
 }
 
 #oc-header, #dnr-header, #fed-header, #shell-header {
-    color: white;
+    color: black;
 }
