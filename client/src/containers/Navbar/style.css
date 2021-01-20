@@ -1,7 +1,12 @@
 #navbar {
     background-color: #9a9a9a;
     margin: 0 auto;
-    width: 80%;
+    width: 52.35%;
+}
+
+#gnorm-banner {
+    margin: 0 auto;
+    margin-top: 5%;
 }
 
 .active {

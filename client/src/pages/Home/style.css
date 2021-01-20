@@ -2,19 +2,21 @@ body {
     background-image: url(../../assets/images/dark-gradient-background.jpg);
 }
 
-#home-header-container {
+/* #home-header-container {
     margin: 0 auto;
     width: 80%;
-    margin-top: 1%;
-}
+} */
 
 #home-container {
     margin: 0 auto;
-    width: 80%;
-    background-color: #3d413f;
-    margin-bottom: 13.2%;
+    width: 52.35%;
+    background-color: white;
 }
 
 #home-subcontainer {
+    margin: 0 auto;
+}
+
+#guitar-footer {
     margin: 0 auto;
 }
