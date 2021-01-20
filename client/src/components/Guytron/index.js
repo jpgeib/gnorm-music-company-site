@@ -23,13 +23,7 @@ export default class Guytron extends Component {
                         </Grid.Row>
                         <Grid.Row>
                             <Grid.Column width={16}>
-                                <Header id="guytron-text" as="h3">
-                                    I have been using Guytron amps and cabs almost exclusively since November of 1998. 
-                                    Every now and than I try something else, only to go back to the Guytron, wondering 
-                                    why I bothered. One of my heads was run over by a truck during load-in. The box was 
-                                    crushed and splintered, but I straightened up the tubes and did the gig. Guy Hedrick, 
-                                    the genius behind the amp, is a smoking player, as well as a friend.
-                                </Header>
+                                <Header id="guytron-text" as="h3">{this.props.guytronText}</Header>
                             </Grid.Column>
                         </Grid.Row>
                     </Grid>

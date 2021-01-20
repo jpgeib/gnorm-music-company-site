@@ -23,12 +23,7 @@ export default class WeberVST extends Component {
                         </Grid.Row>
                         <Grid.Row>
                             <Grid.Column width={16}>
-                                <Header id="weber-text" as="h3">
-                                    Weber not only makes great speakers, they also make a full line of power attenuators, 
-                                    an ohm-matching box, and other interesting things. I particularly like their Blue Dog 
-                                    and Blue Pup speakers. The Blue Pup is the only 10" speaker I'm aware of that nails 
-                                    that Celestion Blue tone.
-                                </Header>
+                                <Header id="weber-text" as="h3">{this.props.weberText}</Header>
                             </Grid.Column>
                         </Grid.Row>
                     </Grid>

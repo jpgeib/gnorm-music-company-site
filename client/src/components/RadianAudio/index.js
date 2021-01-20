@@ -23,11 +23,7 @@ export default class RadianAudio extends Component {
                         </Grid.Row>
                         <Grid.Row>
                             <Grid.Column width={16}>
-                                <Header id="radian-text" as="h3">
-                                    Radian makes great coaxial speakers. The most notable is the Microwedge line. 
-                                    High power handling and 90º conical dispersion. I use RMW-1108's, RPX-108P-V's, 
-                                    and RPX-112P-V's.
-                                </Header>
+                                <Header id="radian-text" as="h3">{this.props.radianText}</Header>
                             </Grid.Column>
                         </Grid.Row>
                     </Grid>

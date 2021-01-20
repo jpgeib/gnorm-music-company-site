@@ -6,6 +6,14 @@ import BoomerangMusic from "../../components/BoomerangMusic";
 import RadianAudio from "../../components/RadianAudio";
 import GeorgeLs from "../../components/GeorgeLs";
 import WeberVST from "../../components/WeberVST";
+import { 
+    audixText, 
+    boomerangText, 
+    georgeText, 
+    guytronText, 
+    radianText, 
+    weberText 
+} from "../../text";
 
 import "./style.css";
 
@@ -23,22 +31,22 @@ class ProGear extends Component {
                 </Grid>
                 <Grid id="progear-container">
                     <Grid.Row>
-                        <Audix />
+                        <Audix audixText={audixText} />
                     </Grid.Row>
                     <Grid.Row>
-                        <Guytron />
+                        <Guytron guytronText={guytronText} />
                     </Grid.Row>
                     <Grid.Row>
-                        <BoomerangMusic />
+                        <BoomerangMusic boomerangText={boomerangText} />
                     </Grid.Row>
                     <Grid.Row>
-                        <RadianAudio />
+                        <RadianAudio radianText={radianText} />
                     </Grid.Row>
                     <Grid.Row>
-                        <GeorgeLs />
+                        <GeorgeLs georgeText={georgeText} />
                     </Grid.Row>
                     <Grid.Row>
-                        <WeberVST />
+                        <WeberVST weberText={weberText} />
                     </Grid.Row>
                 </Grid>
             </>

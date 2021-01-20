@@ -23,11 +23,7 @@ export default class Audix extends Component {
                         </Grid.Row>
                         <Grid.Row>
                             <Grid.Column width={16}>
-                                <Header id="audix-text" as="h3">
-                                    I've been using Audix mikes for about 6 years. I started with OM5's and OM3's for vocals and D3's for guitar cab miking. 
-                                    I've since added the D6 kick drum mike and SCX1 condensers to my live rig. I became a dealer about 2 years ago because the 
-                                    product has proved itself through countless gigs.
-                                </Header>
+                                <Header id="audix-text" as="h3">{this.props.audixText}</Header>
                             </Grid.Column>
                         </Grid.Row>
                     </Grid>

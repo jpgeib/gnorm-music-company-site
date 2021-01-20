@@ -23,10 +23,7 @@ export default class GeorgeLs extends Component {
                         </Grid.Row>
                         <Grid.Row>
                             <Grid.Column width={16}>
-                                <Header id="george-text" as="h3">
-                                George L's solderless cable is the pro standard for custom-wired pedal boards. 
-                                They recently added solderless speaker cables to the line.
-                                </Header>
+                                <Header id="george-text" as="h3">{this.props.georgeText}</Header>
                             </Grid.Column>
                         </Grid.Row>
                     </Grid>

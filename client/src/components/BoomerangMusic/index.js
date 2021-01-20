@@ -6,7 +6,7 @@ import "./style.css";
 
 export default class BoomerangMusic extends Component {
     render() {
-        return(
+        return (
             <>
                 <Grid.Column width={8}>
                     <Image size="medium" src={BoomerangImage} />
@@ -23,11 +23,7 @@ export default class BoomerangMusic extends Component {
                         </Grid.Row>
                         <Grid.Row>
                             <Grid.Column width={16}>
-                                <Header id="boomerang-text" as="h3">
-                                    The Boomerang is a foot-operated real-time looper. I use it to lay down tracks for myself 
-                                    when I'm learning songs or developing parts for new compositions. It can also be used live 
-                                    as a digital delay with two speeds.
-                                </Header>
+                                <Header id="boomerang-text" as="h3">{this.props.boomerangText}</Header>
                             </Grid.Column>
                         </Grid.Row>
                     </Grid>
