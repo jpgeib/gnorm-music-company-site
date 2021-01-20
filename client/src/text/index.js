@@ -19,3 +19,7 @@ export const georgeText = "George L's solderless cable is the pro standard for c
 export const guytronText = "I have been using Guytron amps and cabs almost exclusively since November of 1998. Every now and than I try something else, only to go back to the Guytron, wondering why I bothered. One of my heads was run over by a truck during load-in. The box wascrushed and splintered, but I straightened up the tubes and did the gig. Guy Hedrick, the genius behind the amp, is a smoking player, as well as a friend.";
 export const radianText = "Radian makes great coaxial speakers. The most notable is the Microwedge line. High power handling and 90º conical dispersion. I use RMW-1108's, RPX-108P-V's, and RPX-112P-V's.";
 export const weberText = "Weber not only makes great speakers, they also make a full line of power attenuators, an ohm-matching box, and other interesting things. I particularly like their Blue Dog and Blue Pup speakers. The Blue Pup is the only 10-inch speaker I'm aware of that nails that Celestion Blue tone.";
+
+//Shows page text
+
+export const showsSubheader = "To view available showdates, click on the Calendly link below:";
