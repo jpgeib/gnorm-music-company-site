@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Grid, Image, Header } from "semantic-ui-react";
 import HomeList from "../../components/HomeList";
 import GnormProfile from "../../assets/images/GnormProfile.jpg";
+import { placeholderText } from "../../text";
 
 import "./style.css";
 
@@ -34,32 +35,17 @@ class Home extends Component {
                             <Grid>
                                 <Grid.Row>
                                     <Grid.Column width={16}>
-                                        <Header as="h3">
-                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Expedita cupiditate temporibus dicta hic atque amet cum 
-                                            molestiae dolor praesentium quos obcaecati earum adipisci, 
-                                            eius, consequuntur suscipit ex illum sed modi.
-                                        </Header>
+                                        <Header as="h3">{placeholderText}</Header>
                                     </Grid.Column>
                                 </Grid.Row>
                                 <Grid.Row>
                                     <Grid.Column width={16}>
-                                        <Header as="h3">
-                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Expedita cupiditate temporibus dicta hic atque amet cum 
-                                            molestiae dolor praesentium quos obcaecati earum adipisci, 
-                                            eius, consequuntur suscipit ex illum sed modi.
-                                        </Header>
+                                        <Header as="h3">{placeholderText}</Header>
                                     </Grid.Column>
                                 </Grid.Row>
                                 <Grid.Row>
                                     <Grid.Column width={16}>
-                                        <Header as="h3">
-                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Expedita cupiditate temporibus dicta hic atque amet cum 
-                                            molestiae dolor praesentium quos obcaecati earum adipisci, 
-                                            eius, consequuntur suscipit ex illum sed modi.
-                                        </Header>
+                                        <Header as="h3">{placeholderText}</Header>
                                     </Grid.Column>
                                 </Grid.Row>
                             </Grid>

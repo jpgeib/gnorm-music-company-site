@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import { Menu } from "semantic-ui-react";
+import { Menu, Image } from "semantic-ui-react";
 import { Link } from "react-router-dom";
+import GnormMusicBanner from "../../assets/images/gnorm-banner1.jpg";
 
 import "./style.css";
 
@@ -15,6 +16,8 @@ export default class Navbar extends Component {
         const { activeItem } = this.state;
 
         return (
+        <>
+            <Image id="gnorm-banner" src={GnormMusicBanner} />
             <Menu id="navbar" secondary>
                 <Menu.Item
                     as={Link}
@@ -67,6 +70,7 @@ export default class Navbar extends Component {
                     Contact
                 </Menu.Item>
             </Menu>
+        </>
         );
     }
 
