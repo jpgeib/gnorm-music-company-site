@@ -23,14 +23,14 @@ class ProGear extends Component {
     render() {
         return(
             <>
-                <Grid id="progear-header-container">
+                {/* <Grid id="progear-header-container">
                     <Grid.Column width={16}>
                         <Header id="progear-header" as="h1">{progearHeader}</Header>
                     </Grid.Column>
                     <Grid.Column width={16}>
                         <Header id="progear-subheader" as="h3">{progearSubheader}</Header>
                     </Grid.Column>
-                </Grid>
+                </Grid> */}
                 <Grid id="progear-container">
                     <Grid.Row>
                         <Audix audixText={audixText} />

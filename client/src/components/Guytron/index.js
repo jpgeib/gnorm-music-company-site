@@ -14,10 +14,10 @@ export default class Guytron extends Component {
                 <Grid.Column width={8}>
                     <Grid id="guytron-container">
                         <Grid.Row>
-                            <Grid.Column width={8}>
+                            <Grid.Column width={16}>
                                 <Header id="guytron-header" as="h2">Guytron</Header>
                             </Grid.Column>
-                            <Grid.Column width={8}>
+                            <Grid.Column width={16}>
                                 <Header as="h2"><a id="guytron-link" href="https://www.guytron.com/" target=":blank">https://www.guytron.com/</a></Header>
                             </Grid.Column>
                         </Grid.Row>

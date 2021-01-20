@@ -14,10 +14,10 @@ export default class WeberVST extends Component {
                 <Grid.Column width={8}>
                     <Grid id="weber-container">
                         <Grid.Row>
-                            <Grid.Column width={8}>
+                            <Grid.Column width={16}>
                                 <Header id="weber-header" as="h2">Weber VST</Header>
                             </Grid.Column>
-                            <Grid.Column width={8}>
+                            <Grid.Column width={16}>
                                 <Header as="h2"><a id="weber-link" href="https://tedweber.com/" target=":blank">https://tedweber.com/</a></Header>
                             </Grid.Column>
                         </Grid.Row>

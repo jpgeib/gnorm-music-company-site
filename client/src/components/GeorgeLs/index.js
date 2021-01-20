@@ -14,10 +14,10 @@ export default class GeorgeLs extends Component {
                 <Grid.Column width={8}>
                     <Grid id="george-container">
                         <Grid.Row>
-                            <Grid.Column width={8}>
+                            <Grid.Column width={16}>
                                 <Header id="george-header" as="h2">George L's</Header>
                             </Grid.Column>
-                            <Grid.Column width={8}>
+                            <Grid.Column width={16}>
                                 <Header as="h2"><a id="george-link" href="https://georgelsstore.com/" target=":blank">https://georgelsstore.com/</a></Header>
                             </Grid.Column>
                         </Grid.Row>

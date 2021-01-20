@@ -14,10 +14,10 @@ export default class BoomerangMusic extends Component {
                 <Grid.Column width={8}>
                     <Grid id="boomerang-container">
                         <Grid.Row>
-                            <Grid.Column width={8}>
+                            <Grid.Column width={16}>
                                 <Header id="boomerang-header" as="h2">Boomerang Music</Header>
                             </Grid.Column>
-                            <Grid.Column width={8}>
+                            <Grid.Column width={16}>
                                 <Header as="h2"><a id="boomerang-link" href="https://boomeranglooper.com/" target=":blank">https://boomeranglooper.com/</a></Header>
                             </Grid.Column>
                         </Grid.Row>
