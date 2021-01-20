@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import { Grid, Header } from "semantic-ui-react";
+import { Grid, Header, Image } from "semantic-ui-react";
+import GuitarFooter from "../../assets/images/bottom3.jpg";
 
 import "./style.css";
 
@@ -7,6 +8,7 @@ export default class Footer extends Component {
     render() {
         return (
             <>
+                <Image id="guitar-footer" src={GuitarFooter}/>
                 <Grid id="footer-container">
                     <Grid.Row>
                         <Grid.Column width={16}>

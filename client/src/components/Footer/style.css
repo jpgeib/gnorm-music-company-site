@@ -1,7 +1,13 @@
 #footer-container {
+    margin-top: 4.5%;
     background-color:  #3d413f;
 }
 
 #company-copyright, #designer-copyright {
     color: white;
+    margin-left: 1%;
+}
+
+#guitar-footer {
+    margin: 0 auto;
 }
