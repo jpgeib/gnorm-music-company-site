@@ -11,6 +11,10 @@
     margin-bottom: 8.1%;
 }
 
+#live-header {
+    color: white;
+}
+
 #oc-header, #dnr-header, #fed-header, #shell-header {
     color: white;
 }
