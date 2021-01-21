@@ -21,7 +21,6 @@ class Contact extends Component {
                             <ContactInfo />
                         </Grid.Column>
                     </Grid.Row>
-
                 </Grid>
             </>
         );

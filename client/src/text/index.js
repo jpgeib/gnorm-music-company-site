@@ -22,4 +22,4 @@ export const weberText = "Weber not only makes great speakers, they also make a 
 
 //Shows page text
 
-export const showsSubheader = "To view available showdates, click on the Calendly link below:";
+export const showsSubheader = "To view available show dates, click on the Calendly link below:";
