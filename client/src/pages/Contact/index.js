@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Header, Image } from "semantic-ui-react";
+import ContactInfo from "../../components/ContactInfo";
 import Telecast from "../../assets/images/img_gnfl.jpg";
 
 import "./style.css";
@@ -17,9 +18,7 @@ class Contact extends Component {
                             <Image id="contact-image" src={Telecast} />
                         </Grid.Column>
                         <Grid.Column width={8}>
-                            <Header as="h3">Gnorm (The 'G' is silent, I'm not...)</Header>
-                            <Header as="h3">Gnorm Music, LLC</Header>
-                            
+                            <ContactInfo />
                         </Grid.Column>
                     </Grid.Row>
 
