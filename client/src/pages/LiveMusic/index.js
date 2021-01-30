@@ -5,7 +5,7 @@ import OutsideChance from "../../assets/images/336_OutsideChance1.JPG";
 import DNR from "../../assets/images/DNR-group.jpg";
 import Federation from "../../assets/images/fedpb.jpg";
 import Placeholder from "../../assets/images/Dethklokband.png";
-// import { livemusicHeader } from "../../text";
+// import { livemusicText } from "../../text";
 
 import "./style.css";
 
@@ -15,7 +15,7 @@ class LiveMusic extends Component {
             <>
                 {/* <Grid id="live-header-container">
                     <Grid.Column width={16}>
-                        <Header id="live-header" as="h1">{livemusicHeader}</Header>
+                        <Header id="live-header" as="h1">{livemusicText.header}</Header>
                     </Grid.Column>
                 </Grid> */}
                 <Grid id="live-container">

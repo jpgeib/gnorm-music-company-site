@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Header, Image } from "semantic-ui-react";
-import { showsSubheader } from "../../text";
+import { showsText } from "../../text";
 import LiveShow from "../../assets/images/img_band_red.jpg";
 
 import "./style.css";
@@ -23,7 +23,7 @@ class Shows extends Component {
                             <Grid id="shows-subcontainer">
                                 <Grid.Row>
                                     <Grid.Column width={16}>
-                                        <Header id="shows-subheader" as="h3">{showsSubheader}</Header>
+                                        <Header id="shows-subheader" as="h3">{showsText.subheader}</Header>
                                     </Grid.Column>
                                 </Grid.Row>
                                 <Grid.Row>

@@ -23,7 +23,7 @@ export default class GeorgeLs extends Component {
                         </Grid.Row>
                         <Grid.Row>
                             <Grid.Column width={16}>
-                                <Header id="george-text" as="h3">{this.props.georgeText}</Header>
+                                <Header id="george-text" as="h3">{this.props.georgeLsText}</Header>
                             </Grid.Column>
                         </Grid.Row>
                     </Grid>
