@@ -11,6 +11,12 @@ import ProGear from "../../pages/ProGear";
 import Shows from "../../pages/Shows";
 import Contact from "../../pages/Contact";
 import Footer from "../../components/Footer";
+import Audix from "../../components/Audix";
+import Guytron from "../../components/Guytron";
+import BoomerangMusic from "../../components/BoomerangMusic";
+import RadianAudio from "../../components/RadianAudio";
+import GeorgeLs from "../../components/GeorgeLs";
+import WeberVST from "../../components/WeberVST";
 
 class App extends Component {
   
@@ -25,6 +31,12 @@ class App extends Component {
         <Route exact path="/livemusic/dnr" component={DNR} />
         <Route exact path="/livemusic/shellshockt" component={ShellShockt} />
         <Route exact path="/progear" component={ProGear} />
+        <Route exact path="/progear/audix" component={Audix} />
+        <Route exact path="/progear/guytron" component={Guytron} />
+        <Route exact path="/progear/boomerang" component={BoomerangMusic} />
+        <Route exact path="/progear/radian" component={RadianAudio} />
+        <Route exact path="/progear/georgeLs" component={GeorgeLs} />
+        <Route exact path="/progear/weber" component={WeberVST} />
         <Route exact path="/shows" component={Shows} />
         <Route exact path="/contact" component={Contact} />
         <Footer />
