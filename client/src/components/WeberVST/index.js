@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Grid, Header, Image } from "semantic-ui-react";
 import ProGearNavbar from "../../containers/ProGearNavbar";
 import WeberImage from "../../assets/images/img_weber.jpg";
+import { progearText } from "../../text";
 
 import "./style.css";
 
@@ -27,7 +28,7 @@ export default class WeberVST extends Component {
                                 </Grid.Row>
                                 <Grid.Row>
                                     <Grid.Column width={16}>
-                                        <Header id="weber-text" as="h3">{this.props.weberText}</Header>
+                                        <Header id="weber-text" as="h3">{progearText.weber}</Header>
                                     </Grid.Column>
                                 </Grid.Row>
                             </Grid>

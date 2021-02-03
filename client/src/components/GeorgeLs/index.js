@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Grid, Header, Image } from "semantic-ui-react";
 import ProGearNavbar from "../../containers/ProGearNavbar";
 import GeorgeLsImage from "../../assets/images/img_george.jpg";
+import { progearText } from "../../text";
 
 import "./style.css";
 
@@ -27,7 +28,7 @@ export default class GeorgeLs extends Component {
                                 </Grid.Row>
                                 <Grid.Row>
                                     <Grid.Column width={16}>
-                                        <Header id="george-text" as="h3">{this.props.georgeLsText}</Header>
+                                        <Header id="george-text" as="h3">{progearText.georgeLs}</Header>
                                     </Grid.Column>
                                 </Grid.Row>
                             </Grid>

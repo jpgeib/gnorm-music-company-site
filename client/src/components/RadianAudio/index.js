@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Grid, Header, Image } from "semantic-ui-react";
 import ProGearNavbar from "../../containers/ProGearNavbar";
 import RadianImage from "../../assets/images/img_radian.jpg";
+import { progearText } from "../../text";
 
 import "./style.css";
 
@@ -27,7 +28,7 @@ export default class RadianAudio extends Component {
                                 </Grid.Row>
                                 <Grid.Row>
                                     <Grid.Column width={16}>
-                                        <Header id="radian-text" as="h3">{this.props.radianText}</Header>
+                                        <Header id="radian-text" as="h3">{progearText.radian}</Header>
                                     </Grid.Column>
                                 </Grid.Row>
                             </Grid>

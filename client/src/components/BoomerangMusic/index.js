@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Grid, Header, Image } from "semantic-ui-react";
 import ProGearNavbar from "../../containers/ProGearNavbar";
 import BoomerangImage from "../../assets/images/img_boomerang.jpg";
+import { progearText } from "../../text";
 
 import "./style.css";
 
@@ -27,7 +28,7 @@ export default class BoomerangMusic extends Component {
                                 </Grid.Row>
                                 <Grid.Row>
                                     <Grid.Column width={16}>
-                                        <Header id="boomerang-text" as="h3">{this.props.boomerangText}</Header>
+                                        <Header id="boomerang-text" as="h3">{progearText.boomerang}</Header>
                                     </Grid.Column>
                                 </Grid.Row>
                             </Grid>

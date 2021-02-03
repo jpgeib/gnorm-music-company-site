@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Header } from "semantic-ui-react";
+import Guitars from "../../assets/images/img_guitars.jpg";
 import ProGearNavbar from "../../containers/ProGearNavbar";
 
 import "./style.css";
