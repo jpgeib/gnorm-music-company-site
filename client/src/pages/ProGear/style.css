@@ -1,9 +1,3 @@
-/* #progear-header-container {
-    margin: 0 auto;
-    width: 80%;
-    margin-top: 1%;
-} */
-
 #progear-container {
     margin: 0 auto;
     width: 754px;
@@ -12,6 +6,6 @@
     max-height: 580px;
 }
 
-#progear-header, #progear-subheader {
-    color: white;
+#progear-header, #progear-text {
+    color: black;
 }
