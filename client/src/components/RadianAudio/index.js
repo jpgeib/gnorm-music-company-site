@@ -8,26 +8,30 @@ export default class RadianAudio extends Component {
     render() {
         return (
             <>
-                <Grid.Column width={8}>
-                    <Image size="medium" src={RadianImage} />
-                </Grid.Column>
-                <Grid.Column width={8}>
-                    <Grid id="radian-container">
-                        <Grid.Row>
-                            <Grid.Column width={16}>
-                                <Header id="radian-header" as="h2">Radian Audio</Header>
-                            </Grid.Column>
-                            <Grid.Column width={16}>
-                                <Header as="h2"><a id="radian-link" href="https://radianaudio.com/" target=":blank">https://radianaudio.com/</a></Header>
-                            </Grid.Column>
-                        </Grid.Row>
-                        <Grid.Row>
-                            <Grid.Column width={16}>
-                                <Header id="radian-text" as="h3">{this.props.radianText}</Header>
-                            </Grid.Column>
-                        </Grid.Row>
-                    </Grid>
-                </Grid.Column>
+                <Grid id="radian-container">
+                    <Grid.Row>
+                        <Grid.Column width={8}>
+                            <Image size="medium" src={RadianImage} />
+                        </Grid.Column>
+                        <Grid.Column width={8}>
+                            <Grid>
+                                <Grid.Row>
+                                    <Grid.Column width={16}>
+                                        <Header id="radian-header" as="h2">Radian Audio</Header>
+                                    </Grid.Column>
+                                    <Grid.Column width={16}>
+                                        <Header as="h2"><a id="radian-link" href="https://radianaudio.com/" target=":blank">https://radianaudio.com/</a></Header>
+                                    </Grid.Column>
+                                </Grid.Row>
+                                <Grid.Row>
+                                    <Grid.Column width={16}>
+                                        <Header id="radian-text" as="h3">{this.props.radianText}</Header>
+                                    </Grid.Column>
+                                </Grid.Row>
+                            </Grid>
+                        </Grid.Column>
+                    </Grid.Row>
+                </Grid>
             </>
         );
     }
