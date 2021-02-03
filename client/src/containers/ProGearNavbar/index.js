@@ -6,19 +6,17 @@ import "./style.css";
 
 export default class ProGearNavbar extends Component {
     state = {
-        activeItem: "audix"
+        // activeItem: "audix"
     }
 
-    handleItemClick = (e, { name }) => {
-        this.setState({ activeItem: name });
-    }
+    handleItemClick = (e, { name }) => this.setState({ activeItem: name });
 
     render() {
 
         const { activeItem } = this.state;
 
         return (
-            <Menu tabular>
+            <Menu text>
                 <Menu.Item
                     as={Link}
                     to="/progear/audix"

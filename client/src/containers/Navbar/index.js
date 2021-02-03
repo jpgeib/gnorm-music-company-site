@@ -9,7 +9,7 @@ export default class Navbar extends Component {
 
     state = {}
 
-    handleItemClick = (e, { name }) => this.setState({ activeItem: name })
+    handleItemClick = (e, { name }) => this.setState({ activeItem: name });
 
     render() {
 
