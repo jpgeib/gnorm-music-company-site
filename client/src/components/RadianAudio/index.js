@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Header, Image } from "semantic-ui-react";
+import ProGearNavbar from "../../containers/ProGearNavbar";
 import RadianImage from "../../assets/images/img_radian.jpg";
 
 import "./style.css";
@@ -9,6 +10,7 @@ export default class RadianAudio extends Component {
         return (
             <>
                 <Grid id="radian-container">
+                    <ProGearNavbar />
                     <Grid.Row>
                         <Grid.Column width={8}>
                             <Image size="medium" src={RadianImage} />

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Header, Image } from "semantic-ui-react";
+import ProGearNavbar from "../../containers/ProGearNavbar";
 import BoomerangImage from "../../assets/images/img_boomerang.jpg";
 
 import "./style.css";
@@ -9,6 +10,7 @@ export default class BoomerangMusic extends Component {
         return (
             <>
                 <Grid id="boomerang-container">
+                    <ProGearNavbar />
                     <Grid.Row>
                         <Grid.Column width={8}>
                             <Image size="medium" src={BoomerangImage} />

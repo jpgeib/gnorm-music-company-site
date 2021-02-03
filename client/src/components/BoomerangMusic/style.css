@@ -2,6 +2,14 @@
     color: black;
 }
 
+#boomerang-container {
+    margin: 0 auto;
+    width: 754px;
+    background-color: white;
+    overflow-y: auto;
+    max-height: 580px;
+}
+
 #boomerang-link {
     color: black;
     text-decoration: underline;

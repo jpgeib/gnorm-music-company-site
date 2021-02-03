@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Header, Image } from "semantic-ui-react";
+import ProGearNavbar from "../../containers/ProGearNavbar";
 import WeberImage from "../../assets/images/img_weber.jpg";
 
 import "./style.css";
@@ -9,6 +10,7 @@ export default class WeberVST extends Component {
         return (
             <>
                 <Grid id="weber-container">
+                    <ProGearNavbar />
                     <Grid.Row>
                         <Grid.Column width={8}>
                             <Image size="medium" src={WeberImage} />

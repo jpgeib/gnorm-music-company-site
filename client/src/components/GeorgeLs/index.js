@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Header, Image } from "semantic-ui-react";
+import ProGearNavbar from "../../containers/ProGearNavbar";
 import GeorgeLsImage from "../../assets/images/img_george.jpg";
 
 import "./style.css";
@@ -9,6 +10,7 @@ export default class GeorgeLs extends Component {
         return (
             <>
                 <Grid id="george-container">
+                    <ProGearNavbar />
                     <Grid.Row>
                         <Grid.Column width={8}>
                             <Image size="medium" src={GeorgeLsImage} />
