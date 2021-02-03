@@ -10,13 +10,6 @@ class ProGear extends Component {
     render() {
         return (
             <>
-                {/* <Grid id="progear-header-container">
-                    
-                    <Grid.Column width={16}>
-                        <Header id="progear-subheader" as="h3">{progearSubheader}</Header>
-                    </Grid.Column>
-                </Grid> */}
-
                 <Grid id="progear-container">
                     <ProGearNavbar />
                     <Grid.Row>
