@@ -15,7 +15,8 @@ class LandingPage extends Component {
                             <Image id="img-top" src={GuitarTop} />
                         </Grid.Column>
                         <Grid.Column width={8}>
-                            <Header id="landing-header" as="h2">live MUSIC</Header>
+                            <Header id="landing-header1" as="h2">live MUSIC</Header>
+                            <Header id="landing-header2" as="h2">and PRO GEAR</Header>
                         </Grid.Column>
                     </Grid.Row>
                     <Grid.Row>

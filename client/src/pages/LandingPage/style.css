@@ -3,3 +3,24 @@
     width: 754px;
     background-color: white;
 }
+
+#img-top {
+    margin-bottom: -8%;
+    margin-left: -1.8%;
+}
+
+#img-bottom {
+    margin-bottom: -2%;
+}
+
+#landing-header1, #landing-header2 {
+    text-align: center;
+}
+
+/* #landing-header1 {
+    margin-top: -8%;
+} */
+
+#landing-header2 {
+    margin-top: -3%;
+}
