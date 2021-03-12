@@ -21,7 +21,7 @@ export default class Navbar extends Component {
             <Menu id="navbar" secondary>
                 <Menu.Item
                     as={Link}
-                    to="/"
+                    to="/home"
                     id="home"
                     name="home"
                     active={activeItem === "home"}
