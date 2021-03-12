@@ -24,7 +24,8 @@ class App extends Component {
     return (
       <>
         <Navbar />
-        <Route exact path="/" component={Home} />
+        
+        <Route exact path="/home" component={Home} />
         <Route exact path="/livemusic" component={LiveMusic} />
         <Route exact path="/livemusic/outsidechance" component={OutsideChance} />
         <Route exact path="/livemusic/federation" component={Federation} />
