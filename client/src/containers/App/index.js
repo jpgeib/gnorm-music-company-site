@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Route } from "react-router-dom";
+import { Route, withRouter } from "react-router-dom";
 import Navbar from "../Navbar";
 import Home from "../../pages/Home";
 import LiveMusic from "../../pages/LiveMusic";
@@ -17,6 +17,7 @@ import BoomerangMusic from "../../components/BoomerangMusic";
 import RadianAudio from "../../components/RadianAudio";
 import GeorgeLs from "../../components/GeorgeLs";
 import WeberVST from "../../components/WeberVST";
+import LandingPage from '../../pages/LandingPage';
 
 class App extends Component {
   
@@ -24,7 +25,7 @@ class App extends Component {
     return (
       <>
         <Navbar />
-        
+        <Route exact path="/" component={LandingPage} />
         <Route exact path="/home" component={Home} />
         <Route exact path="/livemusic" component={LiveMusic} />
         <Route exact path="/livemusic/outsidechance" component={OutsideChance} />
@@ -40,10 +41,10 @@ class App extends Component {
         <Route exact path="/progear/weber" component={WeberVST} />
         <Route exact path="/shows" component={Shows} />
         <Route exact path="/contact" component={Contact} />
-        <Footer />
+        {this.props.history.location.pathname !== "/" && <Footer />}
       </>
     )
   }
 }
 
-export default App;
+export default withRouter(App);
