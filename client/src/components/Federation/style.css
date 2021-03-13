@@ -1,0 +1,11 @@
+#fed-container {
+    margin: 0 auto;
+    width: 754px;
+    background-color: white;
+    overflow-y: auto;
+    max-height: 480px;
+}
+
+#fed-header {
+    margin-left: 2%;
+}
