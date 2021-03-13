@@ -6,6 +6,7 @@ import VolumeDial from "../../assets/gifs/dial_bullet.gif";
 import "./style.css";
 
 export default class ProGearNavbar extends Component {
+    
     state = {
         activeItem: ""
     }
