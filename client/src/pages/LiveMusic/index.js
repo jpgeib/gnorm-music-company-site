@@ -5,6 +5,7 @@ import OutsideChance from "../../assets/images/336_OutsideChance1.JPG";
 import DNR from "../../assets/images/DNR-group.jpg";
 import Federation from "../../assets/images/fedpb.jpg";
 import Placeholder from "../../assets/images/Dethklokband.png";
+import LiveMusicNavbar from "../../containers/LiveMusicNavbar";
 
 import "./style.css";
 
@@ -13,6 +14,7 @@ class LiveMusic extends Component {
         return (
             <>
                 <Grid id="live-container">
+                    <LiveMusicNavbar />
                     <Grid.Row>
                         <Grid.Column width={8}>
                             <Image as={Link} to="/livemusic/outsidechance" size="medium" src={OutsideChance} />

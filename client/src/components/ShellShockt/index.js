@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Header } from "semantic-ui-react";
+import LiveMusicNavbar from "../../containers/LiveMusicNavbar";
 
 import "./style.css";
 
@@ -8,6 +9,7 @@ class ShellShockt extends Component {
         return (
             <>
                 <Grid>
+                    <LiveMusicNavbar />
                     <Header as="h1">ShellShockt</Header>
                 </Grid>
             </>
