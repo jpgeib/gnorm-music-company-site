@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Grid, Header, Image } from "semantic-ui-react";
 import PlaceholderImg from "../../assets/images/fl_remys.jpg";
 import { placeholderText } from "../../text";
-import LiveMusicNavbar from "../../containers/LiveMusicNavbar";
+import OutsideChanceNavbar from "../../containers/OutsideChanceNavbar";
 
 import "./style.css";
 
@@ -11,7 +11,7 @@ class OutsideChance extends Component {
         return (
             <>
                 <Grid id="oc-container">
-                    <LiveMusicNavbar />
+                    <OutsideChanceNavbar />
                     <Grid.Row>
                         <Header id="oc-header" as="h1">Outside Chance</Header>
                     </Grid.Row>

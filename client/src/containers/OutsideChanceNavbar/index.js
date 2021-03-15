@@ -18,7 +18,7 @@ class OutsideChanceNavbar extends Component {
         const { activeItem } = this.state;
 
         return (
-            <Menu>
+            <Menu text>
                 <Menu.Item
                     as={Link}
                     to="/livemusic"

@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import { Route, withRouter } from "react-router-dom";
 import Navbar from "../Navbar";
+import LandingPage from '../../pages/LandingPage';
 import Home from "../../pages/Home";
 import LiveMusic from "../../pages/LiveMusic";
 import OutsideChance from "../../components/OutsideChance";
+import OutsideChanceVideo from '../../components/OutsideChanceVideo';
 import DNR from "../../components/DNR";
 import Federation from "../../components/Federation";
 import ShellShockt from "../../components/ShellShockt"; 
@@ -17,7 +19,6 @@ import BoomerangMusic from "../../components/BoomerangMusic";
 import RadianAudio from "../../components/RadianAudio";
 import GeorgeLs from "../../components/GeorgeLs";
 import WeberVST from "../../components/WeberVST";
-import LandingPage from '../../pages/LandingPage';
 
 class App extends Component {
   
@@ -29,7 +30,7 @@ class App extends Component {
         <Route exact path="/home" component={Home} />
         <Route exact path="/livemusic" component={LiveMusic} />
         <Route exact path="/livemusic/outsidechance" component={OutsideChance} />
-        <Route exact path="/livemusic/outsidechance/videos" />
+        <Route exact path="/livemusic/outsidechance/videos" component={OutsideChanceVideo} />
         <Route exact path="/livemusic/federation" component={Federation} />
         <Route exact path="/livemusic/dnr" component={DNR} />
         <Route exact path="/livemusic/shellshockt" component={ShellShockt} />
