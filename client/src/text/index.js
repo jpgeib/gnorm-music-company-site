@@ -5,7 +5,7 @@ export const placeholderText = "Lorem, ipsum dolor sit amet consectetur adipisic
 //LiveMusic page text
 
 export const livemusicText = {
-    header: "These are the bands I work with most. Between them, we cover everything from Heavy Metal to Frank Sinatra."
+    main: "These are the bands I work with most. Between them, we cover everything from Heavy Metal to Frank Sinatra."
 };
 
 //ProGear page text
