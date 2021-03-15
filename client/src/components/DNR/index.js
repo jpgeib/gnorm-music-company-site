@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Grid, Header, Image } from "semantic-ui-react";
 import PlaceholderImg from "../../assets/images/fl_remys.jpg";
 import { placeholderText } from "../../text";
-import LiveMusicNavbar from "../../containers/LiveMusicNavbar";
+import BandNavbar from "../../containers/BandNavbar";
 
 import "./style.css";
 
@@ -11,7 +11,7 @@ class DNR extends Component {
         return (
             <>
                 <Grid id="dnr-container">
-                    <LiveMusicNavbar />
+                    <BandNavbar />
                     <Grid.Row>
                         <Header id="dnr-header" as="h1">DNR</Header>
                     </Grid.Row>
