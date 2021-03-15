@@ -29,6 +29,7 @@ class App extends Component {
         <Route exact path="/home" component={Home} />
         <Route exact path="/livemusic" component={LiveMusic} />
         <Route exact path="/livemusic/outsidechance" component={OutsideChance} />
+        <Route exact path="/livemusic/outsidechance/videos" />
         <Route exact path="/livemusic/federation" component={Federation} />
         <Route exact path="/livemusic/dnr" component={DNR} />
         <Route exact path="/livemusic/shellshockt" component={ShellShockt} />
