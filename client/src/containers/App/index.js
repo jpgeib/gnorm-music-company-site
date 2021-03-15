@@ -8,6 +8,7 @@ import OutsideChance from "../../components/OutsideChance";
 import OutsideChanceVideo from '../../components/OutsideChanceVideo';
 import DNR from "../../components/DNR";
 import Federation from "../../components/Federation";
+import FederationVideo from '../../components/FederationVideo';
 import ShellShockt from "../../components/ShellShockt"; 
 import ProGear from "../../pages/ProGear";
 import Shows from "../../pages/Shows";
@@ -19,6 +20,7 @@ import BoomerangMusic from "../../components/BoomerangMusic";
 import RadianAudio from "../../components/RadianAudio";
 import GeorgeLs from "../../components/GeorgeLs";
 import WeberVST from "../../components/WeberVST";
+
 
 class App extends Component {
   
@@ -32,6 +34,7 @@ class App extends Component {
         <Route exact path="/livemusic/outsidechance" component={OutsideChance} />
         <Route exact path="/livemusic/outsidechance/videos" component={OutsideChanceVideo} />
         <Route exact path="/livemusic/federation" component={Federation} />
+        <Route exact path="/livemusic/federation/videos" component={FederationVideo} />
         <Route exact path="/livemusic/dnr" component={DNR} />
         <Route exact path="/livemusic/shellshockt" component={ShellShockt} />
         <Route exact path="/progear" component={ProGear} />
