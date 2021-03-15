@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Grid, Header, Image } from "semantic-ui-react";
 import PlaceholderImg from "../../assets/images/fl_remys.jpg";
 import { placeholderText } from "../../text";
-import FederationNavbar from "../../containers/FederationNavbar";
+import BandNavbar from "../../containers/BandNavbar";
 
 import "./style.css";
 
@@ -11,7 +11,7 @@ class Federation extends Component {
         return (
             <>
                  <Grid id="fed-container">
-                    <FederationNavbar />
+                    <BandNavbar />
                     <Grid.Row>
                         <Header id="fed-header" as="h1">The Federation</Header>
                     </Grid.Row>
