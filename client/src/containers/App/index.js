@@ -37,6 +37,7 @@ class App extends Component {
         <Route exact path="/livemusic/federation/videos" component={FederationVideo} />
         <Route exact path="/livemusic/dnr" component={DNR} />
         <Route exact path="/livemusic/shellshockt" component={ShellShockt} />
+        <Route exact path="/livemusic/cutouts" />
         <Route exact path="/progear" component={ProGear} />
         <Route exact path="/progear/audix" component={Audix} />
         <Route exact path="/progear/guytron" component={Guytron} />
