@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Header } from "semantic-ui-react";
-import FederationNavbar from "../../containers/FederationNavbar";
+import BandNavbar from "../../containers/BandNavbar";
 
 import "./style.css";
 
@@ -9,7 +9,7 @@ class FederationVideo extends Component {
         return (
             <>
                 <Grid id="fed-video-container">
-                    <FederationNavbar />
+                    <BandNavbar />
                     <Header id="fed-video-header" as="h1">The Federation Videos</Header>
                 </Grid>
             </>
