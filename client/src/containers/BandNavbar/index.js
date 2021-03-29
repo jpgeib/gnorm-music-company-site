@@ -51,6 +51,28 @@ class BandNavbar extends Component {
                         <Image size="mini" src={VolumeDial} />
                         Videos
                     </Menu.Item>}
+                {this.props.history.location.pathname === "/livemusic/outsidechance/videos" &&
+                    <Menu.Item
+                        as={Link}
+                        to="/livemusic/outsidechance"
+                        name="oc"
+                        active={activeItem === "oc"}
+                        onClick={this.handleItemClick}
+                    >
+                        <Image size="mini" src={VolumeDial} />
+                        Band Members
+                    </Menu.Item>}
+                {this.props.history.location.pathname === "/livemusic/outsidechance/videos" && 
+                    <Menu.Item
+                        as={Link}
+                        to="/livemusic/outsidechance/videos"
+                        name="ocVideos"
+                        active={activeItem === "ocVideos"}
+                        onClick={this.handleItemClick}
+                    >
+                        <Image size="mini" src={VolumeDial} />
+                        Videos
+                    </Menu.Item>}
                 {this.props.history.location.pathname === "/livemusic/federation" &&
                     <Menu.Item
                         as={Link}
@@ -63,6 +85,28 @@ class BandNavbar extends Component {
                         Band Members
                     </Menu.Item>}
                 {this.props.history.location.pathname === "/livemusic/federation" &&
+                    <Menu.Item
+                        as={Link}
+                        to="/livemusic/federation/videos"
+                        name="fedVideos"
+                        active={activeItem === "fedVideos"}
+                        onClick={this.handleItemClick}
+                    >
+                        <Image size="mini" src={VolumeDial} />
+                        Videos
+                    </Menu.Item>}
+                {this.props.history.location.pathname === "/livemusic/federation/videos" &&
+                    <Menu.Item
+                        as={Link}
+                        to="/livemusic/federation"
+                        name="fed"
+                        active={activeItem === "fed"}
+                        onClick={this.handleItemClick}
+                    >
+                        <Image size="mini" src={VolumeDial} />
+                        Band Members
+                    </Menu.Item>}
+                {this.props.history.location.pathname === "/livemusic/federation/videos" &&
                     <Menu.Item
                         as={Link}
                         to="/livemusic/federation/videos"
