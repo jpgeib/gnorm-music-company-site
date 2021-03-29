@@ -60,6 +60,16 @@ class LiveMusicNavbar extends Component {
                         <Image size="mini" src={VolumeDial} />
                         ShellShockt
                     </Menu.Item>
+                    <Menu.Item
+                        as={Link}
+                        to="/livemusic/cutouts"
+                        name="cut"
+                        active={activeItem === "cut"}
+                        onClick={this.handleItemClick}
+                    >
+                        <Image size="mini" src={VolumeDial} />
+                        The Cutouts
+                    </Menu.Item>
                 </Menu>
             </>
         );
