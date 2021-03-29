@@ -23,7 +23,7 @@ class ShellShockt extends Component {
                             <Grid>
                                 <Grid.Row>
                                     <Grid.Column width={16}>
-                                        <Header as="h2">[Insert Name Here]</Header>
+                                        <Header as="h2">Shelly</Header>
                                     </Grid.Column>
                                 </Grid.Row>
                                 <Grid.Row>
@@ -42,7 +42,7 @@ class ShellShockt extends Component {
                             <Grid>
                                 <Grid.Row>
                                     <Grid.Column width={16}>
-                                        <Header as="h2">[Insert Name Here]</Header>
+                                        <Header as="h2">Ron</Header>
                                     </Grid.Column>
                                 </Grid.Row>
                                 <Grid.Row>
@@ -61,7 +61,7 @@ class ShellShockt extends Component {
                             <Grid>
                                 <Grid.Row>
                                     <Grid.Column width={16}>
-                                        <Header as="h2">[Insert Name Here]</Header>
+                                        <Header as="h2">Hans</Header>
                                     </Grid.Column>
                                 </Grid.Row>
                                 <Grid.Row>
@@ -80,26 +80,7 @@ class ShellShockt extends Component {
                             <Grid>
                                 <Grid.Row>
                                     <Grid.Column width={16}>
-                                        <Header as="h2">[Insert Name Here]</Header>
-                                    </Grid.Column>
-                                </Grid.Row>
-                                <Grid.Row>
-                                    <Grid.Column width={16}>
-                                        <Header as="h3">{placeholderText}</Header>
-                                    </Grid.Column>
-                                </Grid.Row>
-                            </Grid>
-                        </Grid.Column>
-                    </Grid.Row>
-                    <Grid.Row>
-                        <Grid.Column width={8}>
-                            <Image size="medium" src={PlaceholderImg} />
-                        </Grid.Column>
-                        <Grid.Column width={8}>
-                            <Grid>
-                                <Grid.Row>
-                                    <Grid.Column width={16}>
-                                        <Header as="h2">[Insert Name Here]</Header>
+                                        <Header as="h2">Jay</Header>
                                     </Grid.Column>
                                 </Grid.Row>
                                 <Grid.Row>
