@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Header } from "semantic-ui-react";
+import { bios } from "../../text";
 import JeffBio from "./JeffBio";
 import PegBio from "./PegBio";
 import MikeBio from "./MikeBio";
@@ -18,16 +19,16 @@ class OutsideChance extends Component {
                         <Header id="oc-header" as="h1">Outside Chance</Header>
                     </Grid.Row>
                     <Grid.Row>
-                        <JeffBio />
+                        <JeffBio jeff={bios.oc.jeff} />
                     </Grid.Row>
                     <Grid.Row>
-                        <PegBio />
+                        <PegBio peg={bios.oc.peg} />
                     </Grid.Row>
                     <Grid.Row>
-                        <MikeBio />
+                        <MikeBio mike={bios.oc.mike}/>
                     </Grid.Row>
                     <Grid.Row>
-                        <JimBio />
+                        <JimBio jim={bios.fed.jim} />
                     </Grid.Row>
                 </Grid>
             </>
