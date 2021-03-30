@@ -25,3 +25,35 @@ export const progearText = {
 export const showsText = {
     subheader: "To view available show dates, click on the Calendly link below:"
 };
+
+//Band Member Bios
+
+export const bios = {
+    oc: {
+        peg: "Discovered 7 years ago by the Harmony Incorporated band at a friend’s party, Peggy sang one song and they immediately recognized her talent and persuaded her to join the band. Now with Outside Chance - Peggy brings a fresh outlook with her ability to pick great songs that people love to hear.  Not only is she a great lead singer but she brings her own style to each song she sings and makes them her own.  Her infectious energy always gets the crowd going!",
+        jeff: "The founder of Outside Chance. On lead guitar and keyboards (will cymbals between his knees be next?) Jeff has been playing since he first stole his father’s guitar at the age of 3. A familiar face on the Connecticut coverband scene, Jeff played for 15 years with Take Five and 8 years with Harmony Inc. He can also be found lurking about at open mic nights and area music stores! A true Beatles fanatic – his roots are in rock and roll in all its facets.  His later influences include; Terry Kath, Jeff Beck and Frank Zappa.   With a demand for excellence – he believes there is no reason a wrong chord should ever be played. Counseling may help!",
+        mike: "Mike lays down the beat with his outstanding bass playing. His passion is Yes music along with Rush. A huge Chris Squire fan Mike loves to throw bass runs from some of his favorite Yes songs throughout our music.  And it always works. (no - he's not related to Danny DeVito!!)"
+    },
+    dnr: {
+        lynn: "",
+        fred: "",
+        bob: "",
+        andrew: "",
+        kevin: "",
+        rich: ""
+    },
+    fed: {
+        joel: "",
+        jim: "Jim has been playing music for his entire life, providing a strong and powerful backbeat along with a technical ability developed at a young age. His great sense of musicality is also prevalent in his playing as well because of his exposure to many different genres that he listened to growing up. He credits the British Invasion and pop music from the early sixties as his first exposure to music, however, he was also influenced by jazz and big band music from his father, who also was a drummer. His approach to playing drums changed drastically while he was eight years old when his older sister came home with a 45 recording of Immigrant Song by Led Zeppelin. Shortly thereafter, he was introduced by his older cousin to the music of Frank Zappa. Needless to say, he was never the same again. Jim has been playing in clubs around the tri-state area since he was 15 years old, obviously not old enough to be in a night club so his dad was more than happy to load Jim’s drums in his pick up truck, and take him to the gig. Jim’s first performance at a club came at the ripe old age of nine, sitting in with his drum teachers band at a local club. Jim continues to play with many bands in the area. Over the years of performing in bands and recording, Jim also plays guitar and keyboards and has been slowly building his home studio and writing music, most recently he has become interested in electronic music."
+    },
+    shell: {
+        shelly: "",
+        ron: "",
+        hans: "",
+        jay: ""
+    },
+    cut: {
+        daria: "",
+        dave: ""
+    }
+};
