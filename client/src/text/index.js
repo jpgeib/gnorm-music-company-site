@@ -35,12 +35,12 @@ export const bios = {
         mike: "Mike lays down the beat with his outstanding bass playing. His passion is Yes music along with Rush. A huge Chris Squire fan Mike loves to throw bass runs from some of his favorite Yes songs throughout our music.  And it always works. (no - he's not related to Danny DeVito!!)"
     },
     dnr: {
-        lynn: "",
-        fred: "",
-        bob: "",
-        andrew: "",
-        kevin: "",
-        rich: ""
+        lynn: "My earliest musical memories are entertaining my enraptured grandparents with vocal renditions of my favorite songs. My sister and I would alternate, waiting impatiently for the other to finish, so we could have our moment in the sun. I loved to sing and to be a singer (apparently along with the rest of the world!). I occasionally followed my dream—I sang in a girl band in grade school and briefly in my college’s classic rock band.",
+        fred: "I grew up in a house where music was everywhere. My father ran a classical radio station in Washington DC and then a rock and roll station in Boston during the 60s and 70s. My mother was a piano teacher. I started off taking piano lessons from my mother, which lasted all of a couple of months.",
+        bob: "Growing up in NYC, a child of the sixties, the sound of rock and roll filled the Altbaum household. To me, it was the music of my generation but that sound was destined to be classic rock. It would be thirty five more years till I would have the opportunity to play it. I started taking classical piano lessons at age eight but after 3 years became disenchanted with the regimentation of classical training. A three year hiatus was followed by one year of popular music lessons and then I felt ready to launch my music career.",
+        andrew: "When it comes to performing, Andrew is very diversified.  His past endeavors include musical theater, singing telegrams, improv-style murder mystery dinner theater, and now DNR. He has played with bands throughout High School, College, Medical School and Residency.",
+        kevin: "Representing the 'almost' of 'Fairfield County's Almost All Physician Band' is drummer Kevin J. Fox, who could have been a doctor if it weren't for that science thing. He has performed with all types of groups, from jazz and rock combos to concert orchestras. Kevin is thrilled to be a member of DNR. 'I would rather be with the members of this band, than with the finest people on earth'.",
+        rich: "Representing the entire horn section of DNR is no small task.  It is certainly made easier when Gnorm turns up my mic (so if you can't hear me please nudge him to do so!). My sax career began when my older brother left home and left his sax behind; I gladly gave up the clarinet and got hooked on jazz.  Dexter Gordon, Wayne Shorter and of course John Coltrane are my icons."
     },
     fed: {
         joel: "",
