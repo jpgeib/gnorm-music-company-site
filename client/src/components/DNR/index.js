@@ -1,12 +1,17 @@
 import React, { Component } from "react";
-import { Grid, Header, Image } from "semantic-ui-react";
-import PlaceholderImg from "../../assets/images/fl_remys.jpg";
+import { Grid, Header } from "semantic-ui-react";
+import { bios } from "../../text";
 import LynnBio from "./LynnBio";
 import AndrewBio from "./AndrewBio";
-import { bios } from "../../text";
+import FredBio from "./FredBio";
+import BobBio from "./BobBio";
+import KevinBio from "./KevinBio";
+import RichBio from "./RichBio";
 import BandNavbar from "../../containers/BandNavbar";
 
 import "./style.css";
+
+
 
 
 
@@ -23,83 +28,19 @@ class DNR extends Component {
                         <LynnBio lynn={bios.dnr.lynn} />
                     </Grid.Row>
                     <Grid.Row>
-                        <Grid.Column width={8}>
-                            <Image size="medium" src={PlaceholderImg} />
-                        </Grid.Column>
-                        <Grid.Column width={8}>
-                            <Grid>
-                                <Grid.Row>
-                                    <Grid.Column width={16}>
-                                        <Header as="h2">Fred</Header>
-                                    </Grid.Column>
-                                </Grid.Row>
-                                <Grid.Row>
-                                    <Grid.Column width={16}>
-                                        <Header as="h3">{}</Header>
-                                    </Grid.Column>
-                                </Grid.Row>
-                            </Grid>
-                        </Grid.Column>
+                        <FredBio fred={bios.dnr.fred} />
                     </Grid.Row>
                     <Grid.Row>
-                        <Grid.Column width={8}>
-                            <Image size="medium" src={PlaceholderImg} />
-                        </Grid.Column>
-                        <Grid.Column width={8}>
-                            <Grid>
-                                <Grid.Row>
-                                    <Grid.Column width={16}>
-                                        <Header as="h2">Bob</Header>
-                                    </Grid.Column>
-                                </Grid.Row>
-                                <Grid.Row>
-                                    <Grid.Column width={16}>
-                                        <Header as="h3">{}</Header>
-                                    </Grid.Column>
-                                </Grid.Row>
-                            </Grid>
-                        </Grid.Column>
+                        <BobBio bob={bios.dnr.bob} />
                     </Grid.Row>
                     <Grid.Row>
                         <AndrewBio andrew={bios.dnr.andrew} />
                     </Grid.Row>
                     <Grid.Row>
-                        <Grid.Column width={8}>
-                            <Image size="medium" src={PlaceholderImg} />
-                        </Grid.Column>
-                        <Grid.Column width={8}>
-                            <Grid>
-                                <Grid.Row>
-                                    <Grid.Column width={16}>
-                                        <Header as="h2">Kevin</Header>
-                                    </Grid.Column>
-                                </Grid.Row>
-                                <Grid.Row>
-                                    <Grid.Column width={16}>
-                                        <Header as="h3">{}</Header>
-                                    </Grid.Column>
-                                </Grid.Row>
-                            </Grid>
-                        </Grid.Column>
+                        <KevinBio kevin={bios.dnr.kevin} />
                     </Grid.Row>
                     <Grid.Row>
-                        <Grid.Column width={8}>
-                            <Image size="medium" src={PlaceholderImg} />
-                        </Grid.Column>
-                        <Grid.Column width={8}>
-                            <Grid>
-                                <Grid.Row>
-                                    <Grid.Column width={16}>
-                                        <Header as="h2">Rich</Header>
-                                    </Grid.Column>
-                                </Grid.Row>
-                                <Grid.Row>
-                                    <Grid.Column width={16}>
-                                        <Header as="h3">{}</Header>
-                                    </Grid.Column>
-                                </Grid.Row>
-                            </Grid>
-                        </Grid.Column>
+                        <RichBio rich={bios.dnr.rich} />
                     </Grid.Row>
                 </Grid>
             </>
