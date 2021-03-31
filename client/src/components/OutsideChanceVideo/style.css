@@ -9,3 +9,9 @@
 #oc-video-header {
     text-align: center;
 }
+
+#footloose, #signed,
+#cant-get {
+    width: 300px;
+    height: 200px;
+}
