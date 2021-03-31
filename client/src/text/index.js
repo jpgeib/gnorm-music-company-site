@@ -43,17 +43,17 @@ export const bios = {
         rich: "Representing the entire horn section of DNR is no small task.  It is certainly made easier when Gnorm turns up my mic (so if you can't hear me please nudge him to do so!). My sax career began when my older brother left home and left his sax behind; I gladly gave up the clarinet and got hooked on jazz.  Dexter Gordon, Wayne Shorter and of course John Coltrane are my icons."
     },
     fed: {
-        joel: "",
+        joel: "This will be where Joel's bio is placed once it is made.",
         jim: "Jim has been playing music for his entire life, providing a strong and powerful backbeat along with a technical ability developed at a young age. His great sense of musicality is also prevalent in his playing as well because of his exposure to many different genres that he listened to growing up. He credits the British Invasion and pop music from the early sixties as his first exposure to music, however, he was also influenced by jazz and big band music from his father, who also was a drummer."
     },
     shell: {
-        shelly: "",
-        ron: "",
-        hans: "",
-        jay: ""
+        shelly: "This will be where Shelly's bio is placed once it is made.",
+        ron: "This will be where Ron's bio is placed once it is made.",
+        hans: "This will be where Hans' bio is placed once it is made.",
+        jay: "This will be where Jay's bio is placed once it is made."
     },
     cut: {
-        daria: "",
-        dave: ""
+        daria: "This will be where Daria's bio is placed once it is made.",
+        dave: "This will be where Dave's bio is placed once it is made."
     }
 };
