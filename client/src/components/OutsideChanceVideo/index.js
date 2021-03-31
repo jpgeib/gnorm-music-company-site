@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import { Grid, Header } from "semantic-ui-react";
 import BandNavbar from "../../containers/BandNavbar";
+import CantGetEnough from "./CantGetEnough";
+import FootLoose from "./FootLoose";
+import SignedSealed from "./SignedSealed";
 
 import "./style.css";
 
@@ -16,20 +19,13 @@ class OutsideChanceVideo extends Component {
                         </Grid.Column>
                     </Grid.Row>
                     <Grid.Row>
-                        <Grid.Column width={8}>
-                            <iframe id="footloose" src="https://www.youtube.com/embed/p4Vpk2xuP74" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                        </Grid.Column>
-                        <Grid.Column width={8}>
-                            <iframe id="signed" src="https://www.youtube.com/embed/JKv7CCX9wJc" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                        </Grid.Column>
+                        <FootLoose />
                     </Grid.Row>
                     <Grid.Row>
-                        <Grid.Column width={8}>
-                            <iframe id="cant-get" src="https://www.youtube.com/embed/RgCdaZiXcUY" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                        </Grid.Column>
-                        <Grid.Column width={8}>
-
-                        </Grid.Column>
+                        <SignedSealed />
+                    </Grid.Row>
+                    <Grid.Row>
+                        <CantGetEnough />
                     </Grid.Row>
                 </Grid>
             </>
