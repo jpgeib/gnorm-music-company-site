@@ -6,9 +6,9 @@
     max-height: 480px;
 }
 
-#oc-video-header {
-    text-align: center;
-}
+/* #oc-video-header {
+    margin-left: 1%;
+} */
 
 #footloose, #signed,
 #cant-get {
