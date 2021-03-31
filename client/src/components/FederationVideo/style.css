@@ -7,5 +7,12 @@
 }
 
 #fed-video-header {
-    margin-left: 2%;
+    text-align: center;
+}
+
+#miss-queen, #ziggy-star,
+#flirtin, #cant-help {
+    width: 300px;
+    height: 200px;
+    margin-left: 6.5%;
 }
