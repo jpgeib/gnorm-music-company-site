@@ -11,7 +11,9 @@ class OutsideChanceVideo extends Component {
                 <Grid id="oc-video-container">
                     <BandNavbar />
                     <Grid.Row>
-                        <Header id="oc-video-header" as="h1">Outside Chance Videos</Header>
+                        <Grid.Column width={16}>
+                            <Header id="oc-video-header" as="h1">Outside Chance Videos</Header>
+                        </Grid.Column>
                     </Grid.Row>
                     <Grid.Row>
                         <Grid.Column width={8}>
