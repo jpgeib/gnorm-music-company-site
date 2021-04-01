@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { List, Image } from "semantic-ui-react";
-import VolumeDial from "../../assets/gifs/dial_bullet.gif";
+import VolumeDial from "../../assets/images/volume-dial.png";
 
 import "./style.css";
 
