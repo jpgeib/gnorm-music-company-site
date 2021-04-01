@@ -19,7 +19,7 @@ class LiveMusicNavbar extends Component {
 
         return (
             <>
-                <Menu text>
+                <Menu id="livemusic-navbar" text>
                     <Menu.Item
                         as={Link}
                         to="/livemusic/outsidechance"

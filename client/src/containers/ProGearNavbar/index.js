@@ -1,15 +1,23 @@
 import React, { Component } from "react";
 import { Menu, Image } from "semantic-ui-react";
-import { Link } from "react-router-dom";
+import { Link, withRouter } from "react-router-dom";
 import VolumeDial from "../../assets/gifs/dial_bullet.gif";
 
 import "./style.css";
 
-export default class ProGearNavbar extends Component {
+class ProGearNavbar extends Component {
     
     state = {
         activeItem: ""
     }
+
+    // componentDidMount() {
+    //     if(this.props.history.location.pathname === "/progear/audix") {
+    //         this.setState({ navbarStyle: "5%" });
+    //     } else if (this.props.history.location.pathname === "/progear/guytron") {
+    //         this.setState({ navbarStyle: "10%" });
+    //     }
+    // }
 
     handleItemClick = (e, { name }) => this.setState({ activeItem: name });
 
@@ -18,7 +26,7 @@ export default class ProGearNavbar extends Component {
         const { activeItem } = this.state;
 
         return (
-            <Menu text>
+            <Menu id="progear-navbar" text>
                 <Menu.Item
                     as={Link}
                     to="/progear/audix"
@@ -83,3 +91,5 @@ export default class ProGearNavbar extends Component {
         );
     }
 };
+
+export default withRouter(ProGearNavbar);
