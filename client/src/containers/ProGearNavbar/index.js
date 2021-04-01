@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Menu, Image } from "semantic-ui-react";
 import { Link, withRouter } from "react-router-dom";
-import VolumeDial from "../../assets/gifs/dial_bullet.gif";
+import VolumeDial from "../../assets/images/volume-dial.png";
 
 import "./style.css";
 
