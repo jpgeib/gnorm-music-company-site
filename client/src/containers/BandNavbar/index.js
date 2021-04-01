@@ -18,7 +18,7 @@ class BandNavbar extends Component {
         const { activeItem } = this.state;
 
         return (
-            <Menu text>
+            <Menu id="band-navbar" text>
                 <Menu.Item
                     as={Link}
                     to="/livemusic"
