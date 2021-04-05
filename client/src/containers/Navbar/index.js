@@ -2,8 +2,7 @@ import React, { Component } from "react";
 import { Menu, Image } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 import GnormMusicBanner from "../../assets/images/gnorm-banner1.jpg";
-
-import "./style.css";
+import { mainNavStyle } from "../../styles";
 
 export default class Navbar extends Component {
 
@@ -14,15 +13,16 @@ export default class Navbar extends Component {
     render() {
 
         const { activeItem } = this.state;
+        const { navbar, gnormBanner, navItem } = mainNavStyle;
 
         return (
         <>
-            <Image id="gnorm-banner" src={GnormMusicBanner} />
-            <Menu id="navbar" secondary>
+            <Image style={gnormBanner} src={GnormMusicBanner} />
+            <Menu style={navbar} secondary>
                 <Menu.Item
                     as={Link}
                     to="/home"
-                    id="home"
+                    style={navItem}
                     name="home"
                     active={activeItem === "home"}
                     onClick={this.handleItemClick}
@@ -32,7 +32,7 @@ export default class Navbar extends Component {
                 <Menu.Item
                     as={Link}
                     to="/livemusic"
-                    id="livemusic"
+                    style={navItem}
                     name="livemusic"
                     active={activeItem === "livemusic"}
                     onClick={this.handleItemClick}
@@ -42,7 +42,7 @@ export default class Navbar extends Component {
                 <Menu.Item
                     as={Link}
                     to="/progear"
-                    id="progear"
+                    style={navItem}
                     name="progear"
                     active={activeItem === "progear"}
                     onClick={this.handleItemClick}
@@ -52,7 +52,7 @@ export default class Navbar extends Component {
                 <Menu.Item
                     as={Link}
                     to="/shows"
-                    id="shows"
+                    style={navItem}
                     name="shows"
                     active={activeItem === "shows"}
                     onClick={this.handleItemClick}
@@ -62,7 +62,7 @@ export default class Navbar extends Component {
                 <Menu.Item
                     as={Link}
                     to="/contact"
-                    id="contact"
+                    style={navItem}
                     name="contact"
                     active={activeItem === "contact"}
                     onClick={this.handleItemClick}
