@@ -3,8 +3,6 @@ import { Menu, Image } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 import VolumeDial from "../../assets/images/volume-dial.png";
 
-import "./style.css";
-
 class LiveMusicNavbar extends Component {
     
     state = {
@@ -19,7 +17,7 @@ class LiveMusicNavbar extends Component {
 
         return (
             <>
-                <Menu id="livemusic-navbar" text>
+                <Menu style={this.props.style} text>
                     <Menu.Item
                         as={Link}
                         to="/livemusic/outsidechance"

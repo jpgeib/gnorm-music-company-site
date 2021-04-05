@@ -1,3 +1,5 @@
+import SubNavImage from "../assets/images/brass-metallic.jpg";
+
 // Main Navbar Styling
 
 export const mainNavStyle = {
@@ -13,4 +15,10 @@ export const mainNavStyle = {
     navItem: {
         color: "white"
     }
+};
+
+export const subNavStyle = {
+    backgroundImage: `url(${SubNavImage})`,
+    margin: "2%",
+    borderRadius: "20px"
 };

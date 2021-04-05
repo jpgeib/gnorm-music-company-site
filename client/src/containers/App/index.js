@@ -22,7 +22,7 @@ import RadianAudio from "../../components/RadianAudio";
 import GeorgeLs from "../../components/GeorgeLs";
 import WeberVST from "../../components/WeberVST";
 
-
+import { subNavStyle } from "../../styles";
 
 class App extends Component {
   
@@ -32,7 +32,7 @@ class App extends Component {
         <Navbar />
         <Route exact path="/" component={LandingPage} />
         <Route exact path="/home" component={Home} />
-        <Route exact path="/livemusic" component={LiveMusic} />
+        <Route exact path="/livemusic" render={ () => <LiveMusic style={subNavStyle} /> } />
         <Route exact path="/livemusic/outsidechance" component={OutsideChance} />
         <Route exact path="/livemusic/outsidechance/videos" component={OutsideChanceVideo} />
         <Route exact path="/livemusic/federation" component={Federation} />
