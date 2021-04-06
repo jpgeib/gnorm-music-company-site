@@ -33,13 +33,13 @@ class App extends Component {
         <Route exact path="/" component={LandingPage} />
         <Route exact path="/home" component={Home} />
         <Route exact path="/livemusic" render={ () => <LiveMusic subNav={subNavStyle} /> } />
-        <Route exact path="/livemusic/outsidechance" component={OutsideChance} />
-        <Route exact path="/livemusic/outsidechance/videos" component={OutsideChanceVideo} />
-        <Route exact path="/livemusic/federation" component={Federation} />
-        <Route exact path="/livemusic/federation/videos" component={FederationVideo} />
-        <Route exact path="/livemusic/dnr" component={DNR} />
-        <Route exact path="/livemusic/shellshockt" component={ShellShockt} />
-        <Route exact path="/livemusic/cutouts" component={Cutouts} />
+        <Route exact path="/livemusic/outsidechance" render={ () => <OutsideChance subNav={subNavStyle} /> } />
+        <Route exact path="/livemusic/outsidechance/videos" render={ () => <OutsideChanceVideo subNav={subNavStyle} /> } />
+        <Route exact path="/livemusic/federation" render={ () => <Federation subNav={subNavStyle} /> } />
+        <Route exact path="/livemusic/federation/videos" render={ () => <FederationVideo subNav={subNavStyle} /> } />
+        <Route exact path="/livemusic/dnr" render={ () => <DNR subNav={subNavStyle} /> } />
+        <Route exact path="/livemusic/shellshockt" render={ () => <ShellShockt subNav={subNavStyle} /> } />
+        <Route exact path="/livemusic/cutouts" render={ () => <Cutouts subNav={subNavStyle} /> } />
         <Route exact path="/progear" component={ProGear} />
         <Route exact path="/progear/audix" component={Audix} />
         <Route exact path="/progear/guytron" component={Guytron} />

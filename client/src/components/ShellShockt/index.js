@@ -14,7 +14,7 @@ class ShellShockt extends Component {
         return (
             <>
                 <Grid id="shell-container">
-                    <LiveMusicNavbar />
+                    <LiveMusicNavbar subNav={this.props.subNav} />
                     <Grid.Row>
                         <Header id="shell-header" as="h1">ShellShockt</Header>
                     </Grid.Row>

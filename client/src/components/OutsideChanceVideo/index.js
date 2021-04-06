@@ -12,7 +12,7 @@ class OutsideChanceVideo extends Component {
         return (
             <>
                 <Grid id="oc-video-container">
-                    <LiveMusicNavbar />
+                    <LiveMusicNavbar subNav={this.props.subNav} />
                     <Grid.Row>
                         <Grid.Column width={16}>
                             <Header id="oc-video-header" as="h1">Outside Chance Videos</Header>

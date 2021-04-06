@@ -13,7 +13,7 @@ class FederationVideo extends Component {
         return (
             <>
                 <Grid id="fed-video-container">
-                    <LiveMusicNavbar />
+                    <LiveMusicNavbar subNav={this.props.subNav} />
                     <Grid.Row>
                         <Grid.Column width={16}>
                             <Header id="fed-video-header" as="h1">The Federation Videos</Header>

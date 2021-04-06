@@ -14,7 +14,7 @@ class OutsideChance extends Component {
         return (
             <>
                 <Grid id="oc-container">
-                    <LiveMusicNavbar />
+                    <LiveMusicNavbar subNav={this.props.subNav} />
                     <Grid.Row>
                         <Header id="oc-header" as="h1">Outside Chance</Header>
                     </Grid.Row>

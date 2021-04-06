@@ -11,16 +11,12 @@ import LiveMusicNavbar from "../../containers/LiveMusicNavbar";
 
 import "./style.css";
 
-
-
-
-
 class DNR extends Component {
     render() {
         return (
             <>
                 <Grid id="dnr-container">
-                    <LiveMusicNavbar />
+                    <LiveMusicNavbar subNav={this.props.subNav} />
                     <Grid.Row>
                         <Header id="dnr-header" as="h1">DNR</Header>
                     </Grid.Row>
