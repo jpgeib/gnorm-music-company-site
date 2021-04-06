@@ -17,7 +17,7 @@ class LiveMusicNavbar extends Component {
 
         return (
             <>
-                <Menu style={this.props.style} text>
+                <Menu style={this.props.subNav} text>
                     <Menu.Item
                         as={Link}
                         to="/livemusic/outsidechance"

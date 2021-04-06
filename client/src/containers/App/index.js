@@ -32,7 +32,7 @@ class App extends Component {
         <Navbar />
         <Route exact path="/" component={LandingPage} />
         <Route exact path="/home" component={Home} />
-        <Route exact path="/livemusic" render={ () => <LiveMusic style={subNavStyle} /> } />
+        <Route exact path="/livemusic" render={ () => <LiveMusic subNav={subNavStyle} /> } />
         <Route exact path="/livemusic/outsidechance" component={OutsideChance} />
         <Route exact path="/livemusic/outsidechance/videos" component={OutsideChanceVideo} />
         <Route exact path="/livemusic/federation" component={Federation} />
