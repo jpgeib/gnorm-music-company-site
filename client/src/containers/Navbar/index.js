@@ -6,7 +6,9 @@ import { mainNavStyle } from "../../styles";
 
 export default class Navbar extends Component {
 
-    state = {}
+    state = {
+        activeItem: ""
+    }
 
     handleItemClick = (e, { name }) => this.setState({ activeItem: name });
 

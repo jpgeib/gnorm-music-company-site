@@ -11,7 +11,7 @@ class ProGear extends Component {
         return (
             <>
                 <Grid id="progear-container">
-                    <ProGearNavbar />
+                    <ProGearNavbar subNav={this.props.subNav} />
                     <Grid.Row>
                         <Grid.Column width={8}>
                             <Image size="medium" src={Guitars} />

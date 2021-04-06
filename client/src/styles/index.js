@@ -17,6 +17,8 @@ export const mainNavStyle = {
     }
 };
 
+//Sub Navbar Styling
+
 export const subNavStyle = {
     backgroundImage: `url(${SubNavImage})`,
     margin: "2%",

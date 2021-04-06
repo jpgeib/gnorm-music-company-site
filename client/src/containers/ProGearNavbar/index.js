@@ -3,8 +3,6 @@ import { Menu, Image } from "semantic-ui-react";
 import { Link, withRouter } from "react-router-dom";
 import VolumeDial from "../../assets/images/volume-dial.png";
 
-import "./style.css";
-
 class ProGearNavbar extends Component {
     
     state = {
@@ -26,7 +24,7 @@ class ProGearNavbar extends Component {
         const { activeItem } = this.state;
 
         return (
-            <Menu id="progear-navbar" text>
+            <Menu style={this.props.subNav} text>
                 <Menu.Item
                     as={Link}
                     to="/progear/audix"

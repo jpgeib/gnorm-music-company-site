@@ -40,7 +40,7 @@ class App extends Component {
         <Route exact path="/livemusic/dnr" render={ () => <DNR subNav={subNavStyle} /> } />
         <Route exact path="/livemusic/shellshockt" render={ () => <ShellShockt subNav={subNavStyle} /> } />
         <Route exact path="/livemusic/cutouts" render={ () => <Cutouts subNav={subNavStyle} /> } />
-        <Route exact path="/progear" component={ProGear} />
+        <Route exact path="/progear" render={ () => <ProGear subNav={subNavStyle} /> } />
         <Route exact path="/progear/audix" component={Audix} />
         <Route exact path="/progear/guytron" component={Guytron} />
         <Route exact path="/progear/boomerang" component={BoomerangMusic} />
