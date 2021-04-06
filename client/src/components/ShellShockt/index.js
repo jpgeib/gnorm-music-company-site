@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Grid, Header } from "semantic-ui-react";
 import { bios } from "../../text";
-import BandNavbar from "../../containers/BandNavbar";
+import LiveMusicNavbar from "../../containers/LiveMusicNavbar";
 import ShellyBio from "./ShellyBio";
 import RonBio from "./RonBio";
 import HansBio from "./HansBio";
@@ -14,7 +14,7 @@ class ShellShockt extends Component {
         return (
             <>
                 <Grid id="shell-container">
-                    <BandNavbar />
+                    <LiveMusicNavbar />
                     <Grid.Row>
                         <Header id="shell-header" as="h1">ShellShockt</Header>
                     </Grid.Row>

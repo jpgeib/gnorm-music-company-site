@@ -5,7 +5,7 @@ import JeffBio from "./JeffBio";
 import PegBio from "./PegBio";
 import MikeBio from "./MikeBio";
 import JimBio from "../Federation/JimBio";
-import BandNavbar from "../../containers/BandNavbar";
+import LiveMusicNavbar from "../../containers/LiveMusicNavbar";
 
 import "./style.css";
 
@@ -14,7 +14,7 @@ class OutsideChance extends Component {
         return (
             <>
                 <Grid id="oc-container">
-                    <BandNavbar />
+                    <LiveMusicNavbar />
                     <Grid.Row>
                         <Header id="oc-header" as="h1">Outside Chance</Header>
                     </Grid.Row>

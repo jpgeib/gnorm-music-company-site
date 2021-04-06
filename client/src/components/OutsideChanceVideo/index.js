@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Header } from "semantic-ui-react";
-import BandNavbar from "../../containers/BandNavbar";
+import LiveMusicNavbar from "../../containers/LiveMusicNavbar";
 import CantGetEnough from "./CantGetEnough";
 import FootLoose from "./FootLoose";
 import SignedSealed from "./SignedSealed";
@@ -12,7 +12,7 @@ class OutsideChanceVideo extends Component {
         return (
             <>
                 <Grid id="oc-video-container">
-                    <BandNavbar />
+                    <LiveMusicNavbar />
                     <Grid.Row>
                         <Grid.Column width={16}>
                             <Header id="oc-video-header" as="h1">Outside Chance Videos</Header>

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Grid, Header } from "semantic-ui-react";
 import { bios } from "../../text";
-import BandNavbar from "../../containers/BandNavbar";
+import LiveMusicNavbar from "../../containers/LiveMusicNavbar";
 import DariaBio from "./DariaBio";
 import DaveBio from "./DaveBio";
 import JimBio from "../Federation/JimBio";
@@ -14,7 +14,7 @@ class Cutouts extends Component {
         return (
             <>
                 <Grid id="cut-container">
-                    <BandNavbar />
+                    <LiveMusicNavbar />
                     <Grid.Row>
                         <Header id="cut-header" as="h1">The Cutouts</Header>
                     </Grid.Row>

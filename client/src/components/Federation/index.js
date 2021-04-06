@@ -3,7 +3,7 @@ import { Grid, Header } from "semantic-ui-react";
 import { bios } from "../../text";
 import JoelBio from "./JoelBio";
 import JimBio from "./JimBio";
-import BandNavbar from "../../containers/BandNavbar";
+import LiveMusicNavbar from "../../containers/LiveMusicNavbar";
 
 import "./style.css";
 
@@ -12,7 +12,7 @@ class Federation extends Component {
         return (
             <>
                  <Grid id="fed-container">
-                    <BandNavbar />
+                    <LiveMusicNavbar />
                     <Grid.Row>
                         <Header id="fed-header" as="h1">The Federation</Header>
                     </Grid.Row>

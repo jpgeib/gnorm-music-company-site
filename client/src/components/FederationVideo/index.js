@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Header } from "semantic-ui-react";
-import BandNavbar from "../../containers/BandNavbar";
+import LiveMusicNavbar from "../../containers/LiveMusicNavbar";
 import MississippiQueen from "./MississippiQueen";
 import ZiggyStardust from "./ZiggyStardust";
 import FlirtinDisaster from "./FlirtinDisaster";
@@ -13,7 +13,7 @@ class FederationVideo extends Component {
         return (
             <>
                 <Grid id="fed-video-container">
-                    <BandNavbar />
+                    <LiveMusicNavbar />
                     <Grid.Row>
                         <Grid.Column width={16}>
                             <Header id="fed-video-header" as="h1">The Federation Videos</Header>

@@ -7,7 +7,7 @@ import FredBio from "./FredBio";
 import BobBio from "./BobBio";
 import KevinBio from "./KevinBio";
 import RichBio from "./RichBio";
-import BandNavbar from "../../containers/BandNavbar";
+import LiveMusicNavbar from "../../containers/LiveMusicNavbar";
 
 import "./style.css";
 
@@ -20,7 +20,7 @@ class DNR extends Component {
         return (
             <>
                 <Grid id="dnr-container">
-                    <BandNavbar />
+                    <LiveMusicNavbar />
                     <Grid.Row>
                         <Header id="dnr-header" as="h1">DNR</Header>
                     </Grid.Row>
