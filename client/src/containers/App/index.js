@@ -41,12 +41,12 @@ class App extends Component {
         <Route exact path="/livemusic/shellshockt" render={ () => <ShellShockt subNav={subNavStyle} /> } />
         <Route exact path="/livemusic/cutouts" render={ () => <Cutouts subNav={subNavStyle} /> } />
         <Route exact path="/progear" render={ () => <ProGear subNav={subNavStyle} /> } />
-        <Route exact path="/progear/audix" component={Audix} />
-        <Route exact path="/progear/guytron" component={Guytron} />
-        <Route exact path="/progear/boomerang" component={BoomerangMusic} />
-        <Route exact path="/progear/radian" component={RadianAudio} />
-        <Route exact path="/progear/georgeLs" component={GeorgeLs} />
-        <Route exact path="/progear/weber" component={WeberVST} />
+        <Route exact path="/progear/audix" render={ () => <Audix subNav={subNavStyle} /> } />
+        <Route exact path="/progear/guytron" render={ () => <Guytron subNav={subNavStyle} /> } />
+        <Route exact path="/progear/boomerang" render={ () => <BoomerangMusic subNav={subNavStyle} /> } />
+        <Route exact path="/progear/radian" render={ () => <RadianAudio subNav={subNavStyle} /> } />
+        <Route exact path="/progear/georgeLs" render={ () => <GeorgeLs subNav={subNavStyle} /> } />
+        <Route exact path="/progear/weber" render={ () => <WeberVST subNav={subNavStyle} /> } />
         <Route exact path="/shows" component={Shows} />
         <Route exact path="/contact" component={Contact} />
         {this.props.history.location.pathname !== "/" && <Footer />}

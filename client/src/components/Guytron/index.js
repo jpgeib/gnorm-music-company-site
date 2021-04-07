@@ -11,7 +11,7 @@ export default class Guytron extends Component {
         return (
             <>
                 <Grid id="guytron-container">
-                    <ProGearNavbar />
+                    <ProGearNavbar subNav={this.props.subNav} />
                     <Grid.Row>
                         <Grid.Column width={8}>
                             <Image size="medium" src={GuytronImage} />

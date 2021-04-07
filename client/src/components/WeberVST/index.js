@@ -11,7 +11,7 @@ export default class WeberVST extends Component {
         return (
             <>
                 <Grid id="weber-container">
-                    <ProGearNavbar />
+                    <ProGearNavbar subNav={this.props.subNav} />
                     <Grid.Row>
                         <Grid.Column width={8}>
                             <Image size="medium" src={WeberImage} />

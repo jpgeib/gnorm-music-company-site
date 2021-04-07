@@ -12,7 +12,7 @@ export default class Audix extends Component {
             <>
                 
                 <Grid id="audix-container">
-                    <ProGearNavbar />
+                    <ProGearNavbar subNav={this.props.subNav} />
                     <Grid.Row>
                         <Grid.Column width={8}>
                             <Image size="medium" src={AudixImage} />
