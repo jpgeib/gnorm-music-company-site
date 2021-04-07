@@ -22,7 +22,7 @@ import RadianAudio from "../../components/RadianAudio";
 import GeorgeLs from "../../components/GeorgeLs";
 import WeberVST from "../../components/WeberVST";
 
-import { subNavStyle } from "../../styles";
+import { subNavStyle, contactInfoStyle } from "../../styles";
 import "./style.css";
 
 class App extends Component {
@@ -49,7 +49,7 @@ class App extends Component {
         <Route exact path="/progear/georgeLs" render={ () => <GeorgeLs subNav={subNavStyle} /> } />
         <Route exact path="/progear/weber" render={ () => <WeberVST subNav={subNavStyle} /> } />
         <Route exact path="/shows" component={Shows} />
-        <Route exact path="/contact" component={Contact} />
+        <Route exact path="/contact" render={ () => <Contact contactInfo={contactInfoStyle} /> } />
         {this.props.history.location.pathname !== "/" && <Footer />}
       </>
     )

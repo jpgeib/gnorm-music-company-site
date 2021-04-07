@@ -24,3 +24,19 @@ export const subNavStyle = {
     margin: "2%",
     borderRadius: "20px"
 };
+
+//Contact Page Styling
+
+export const contactPageStyle = {
+
+};
+
+export const contactInfoStyle = {
+    header: {
+        marginBottom: "-7%"
+    },
+    emailLink: {
+        textDecorationLine: "underline",
+        color: "#670001"
+    }
+};

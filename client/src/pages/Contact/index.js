@@ -18,7 +18,7 @@ class Contact extends Component {
                             <Image id="contact-image" src={Telecast} />
                         </Grid.Column>
                         <Grid.Column width={8}>
-                            <ContactInfo />
+                            <ContactInfo contactInfo={this.props.contactInfo} />
                         </Grid.Column>
                     </Grid.Row>
                 </Grid>
