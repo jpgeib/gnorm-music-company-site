@@ -23,6 +23,7 @@ import GeorgeLs from "../../components/GeorgeLs";
 import WeberVST from "../../components/WeberVST";
 
 import { subNavStyle } from "../../styles";
+import "./style.css";
 
 class App extends Component {
   
