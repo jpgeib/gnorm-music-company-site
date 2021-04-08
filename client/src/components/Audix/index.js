@@ -4,8 +4,6 @@ import ProGearNavbar from "../../containers/ProGearNavbar";
 import AudixImage from "../../assets/images/img_audix.jpg";
 import { progearText } from "../../text";
 
-import "./style.css";
-
 export default class Audix extends Component {
     render() {
         return (
