@@ -41,7 +41,7 @@ export const contactInfoStyle = {
     }
 };
 
-// ProGear Page Styling
+// Pro Gear Page Styling
 
 export const progearPageStyle = {
 
@@ -58,5 +58,24 @@ export const progearEntryStyle = {
     link: {
         textDecorationLine: "underline",
         color: "#670001"
+    }
+};
+
+// Live Music Page Styling
+
+export const livemusicPageStyle = {
+
+};
+
+export const bandPageStyle = {
+    container: {
+        margin: "0 auto",
+        width: "754px",
+        backgroundColor: "white",
+        overflowY: "auto",
+        maxHeight: "480px"
+    },
+    header: {
+        marginLeft: "2%"
     }
 };
