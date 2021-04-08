@@ -40,3 +40,23 @@ export const contactInfoStyle = {
         color: "#670001"
     }
 };
+
+// ProGear Page Styling
+
+export const progearPageStyle = {
+
+};
+
+export const progearEntryStyle = {
+    container: {
+        margin: "0 auto",
+        width: "754px",
+        backgroundColor: "white",
+        overflowY: "auto",
+        maxHeight: "580px"
+    },
+    link: {
+        textDecorationLine: "underline",
+        color: "#670001"
+    }
+};

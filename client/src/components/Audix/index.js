@@ -10,8 +10,7 @@ export default class Audix extends Component {
     render() {
         return (
             <>
-                
-                <Grid id="audix-container">
+                <Grid style={this.props.entry.container}>
                     <ProGearNavbar subNav={this.props.subNav} />
                     <Grid.Row>
                         <Grid.Column width={8}>
@@ -21,15 +20,15 @@ export default class Audix extends Component {
                             <Grid>
                                 <Grid.Row>
                                     <Grid.Column width={16}>
-                                        <Header id="audix-header" as="h2">Audix</Header>
+                                        <Header as="h2">Audix</Header>
                                     </Grid.Column>
                                     <Grid.Column width={16}>
-                                        <Header as="h2"><a id="audix-link" href="https://audixusa.com/" target=":blank">https://audixusa.com/</a></Header>
+                                        <Header as="h2"><a style={this.props.entry.link} href="https://audixusa.com/" target=":blank">https://audixusa.com/</a></Header>
                                     </Grid.Column>
                                 </Grid.Row>
                                 <Grid.Row>
                                     <Grid.Column width={16}>
-                                        <Header id="audix-text" as="h3">{progearText.audix}</Header>
+                                        <Header as="h3">{progearText.audix}</Header>
                                     </Grid.Column>
                                 </Grid.Row>
                             </Grid>

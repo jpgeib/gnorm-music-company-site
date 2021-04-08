@@ -22,7 +22,7 @@ import RadianAudio from "../../components/RadianAudio";
 import GeorgeLs from "../../components/GeorgeLs";
 import WeberVST from "../../components/WeberVST";
 
-import { subNavStyle, contactInfoStyle } from "../../styles";
+import { subNavStyle, contactInfoStyle, progearEntryStyle } from "../../styles";
 import "./style.css";
 
 class App extends Component {
@@ -42,7 +42,7 @@ class App extends Component {
         <Route exact path="/livemusic/shellshockt" render={ () => <ShellShockt subNav={subNavStyle} /> } />
         <Route exact path="/livemusic/cutouts" render={ () => <Cutouts subNav={subNavStyle} /> } />
         <Route exact path="/progear" render={ () => <ProGear subNav={subNavStyle} /> } />
-        <Route exact path="/progear/audix" render={ () => <Audix subNav={subNavStyle} /> } />
+        <Route exact path="/progear/audix" render={ () => <Audix entry={progearEntryStyle} subNav={subNavStyle} /> } />
         <Route exact path="/progear/guytron" render={ () => <Guytron subNav={subNavStyle} /> } />
         <Route exact path="/progear/boomerang" render={ () => <BoomerangMusic subNav={subNavStyle} /> } />
         <Route exact path="/progear/radian" render={ () => <RadianAudio subNav={subNavStyle} /> } />
