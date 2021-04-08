@@ -43,11 +43,11 @@ class App extends Component {
         <Route exact path="/livemusic/cutouts" render={ () => <Cutouts subNav={subNavStyle} /> } />
         <Route exact path="/progear" render={ () => <ProGear subNav={subNavStyle} /> } />
         <Route exact path="/progear/audix" render={ () => <Audix entry={progearEntryStyle} subNav={subNavStyle} /> } />
-        <Route exact path="/progear/guytron" render={ () => <Guytron subNav={subNavStyle} /> } />
-        <Route exact path="/progear/boomerang" render={ () => <BoomerangMusic subNav={subNavStyle} /> } />
-        <Route exact path="/progear/radian" render={ () => <RadianAudio subNav={subNavStyle} /> } />
-        <Route exact path="/progear/georgeLs" render={ () => <GeorgeLs subNav={subNavStyle} /> } />
-        <Route exact path="/progear/weber" render={ () => <WeberVST subNav={subNavStyle} /> } />
+        <Route exact path="/progear/guytron" render={ () => <Guytron entry={progearEntryStyle} subNav={subNavStyle} /> } />
+        <Route exact path="/progear/boomerang" render={ () => <BoomerangMusic entry={progearEntryStyle} subNav={subNavStyle} /> } />
+        <Route exact path="/progear/radian" render={ () => <RadianAudio entry={progearEntryStyle} subNav={subNavStyle} /> } />
+        <Route exact path="/progear/georgeLs" render={ () => <GeorgeLs entry={progearEntryStyle} subNav={subNavStyle} /> } />
+        <Route exact path="/progear/weber" render={ () => <WeberVST entry={progearEntryStyle} subNav={subNavStyle} /> } />
         <Route exact path="/shows" component={Shows} />
         <Route exact path="/contact" render={ () => <Contact contactInfo={contactInfoStyle} /> } />
         {this.props.history.location.pathname !== "/" && <Footer />}
