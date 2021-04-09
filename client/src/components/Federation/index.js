@@ -12,7 +12,9 @@ class Federation extends Component {
                  <Grid style={this.props.band.container}>
                     <LiveMusicNavbar subNav={this.props.subNav} />
                     <Grid.Row>
-                        <Header style={this.props.band.header} as="h1">The Federation</Header>
+                        <Grid.Column>
+                            <Header as="h1">The Federation</Header>
+                        </Grid.Column>
                     </Grid.Row>
                     <Grid.Row>
                         <JoelBio joel={bios.fed.joel} />

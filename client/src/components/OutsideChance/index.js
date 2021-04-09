@@ -14,7 +14,9 @@ class OutsideChance extends Component {
                 <Grid style={this.props.band.container}>
                     <LiveMusicNavbar subNav={this.props.subNav} />
                     <Grid.Row>
-                        <Header style={this.props.band.header} as="h1">Outside Chance</Header>
+                        <Grid.Column>
+                            <Header as="h1">Outside Chance</Header>
+                        </Grid.Column>
                     </Grid.Row>
                     <Grid.Row>
                         <JeffBio jeff={bios.oc.jeff} />

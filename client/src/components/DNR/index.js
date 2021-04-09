@@ -9,16 +9,16 @@ import KevinBio from "./KevinBio";
 import RichBio from "./RichBio";
 import LiveMusicNavbar from "../../containers/LiveMusicNavbar";
 
-import "./style.css";
-
 class DNR extends Component {
     render() {
         return (
             <>
-                <Grid id="dnr-container">
+                <Grid style={this.props.band.container}>
                     <LiveMusicNavbar subNav={this.props.subNav} />
                     <Grid.Row>
-                        <Header id="dnr-header" as="h1">DNR</Header>
+                        <Grid.Column>
+                           <Header as="h1">DNR</Header> 
+                        </Grid.Column>
                     </Grid.Row>
                     <Grid.Row>
                         <LynnBio lynn={bios.dnr.lynn} />
