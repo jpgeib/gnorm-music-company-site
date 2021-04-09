@@ -77,5 +77,9 @@ export const bandPageStyle = {
     },
     header: {
         marginLeft: "2%"
+    },
+    video: {
+        width: "300px",
+        height: "200px"
     }
 };

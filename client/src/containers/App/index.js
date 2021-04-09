@@ -22,7 +22,7 @@ import RadianAudio from "../../components/RadianAudio";
 import GeorgeLs from "../../components/GeorgeLs";
 import WeberVST from "../../components/WeberVST";
 
-import { subNavStyle, contactInfoStyle, progearEntryStyle } from "../../styles";
+import { subNavStyle, contactInfoStyle, progearEntryStyle, bandPageStyle } from "../../styles";
 import "./style.css";
 
 class App extends Component {
@@ -34,8 +34,8 @@ class App extends Component {
         <Route exact path="/" component={LandingPage} />
         <Route exact path="/home" component={Home} />
         <Route exact path="/livemusic" render={ () => <LiveMusic subNav={subNavStyle} /> } />
-        <Route exact path="/livemusic/outsidechance" render={ () => <OutsideChance subNav={subNavStyle} /> } />
-        <Route exact path="/livemusic/outsidechance/videos" render={ () => <OutsideChanceVideo subNav={subNavStyle} /> } />
+        <Route exact path="/livemusic/outsidechance" render={ () => <OutsideChance band={bandPageStyle} subNav={subNavStyle} /> } />
+        <Route exact path="/livemusic/outsidechance/videos" render={ () => <OutsideChanceVideo band={bandPageStyle} subNav={subNavStyle} /> } />
         <Route exact path="/livemusic/federation" render={ () => <Federation subNav={subNavStyle} /> } />
         <Route exact path="/livemusic/federation/videos" render={ () => <FederationVideo subNav={subNavStyle} /> } />
         <Route exact path="/livemusic/dnr" render={ () => <DNR subNav={subNavStyle} /> } />

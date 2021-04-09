@@ -5,27 +5,25 @@ import CantGetEnough from "./CantGetEnough";
 import FootLoose from "./FootLoose";
 import SignedSealed from "./SignedSealed";
 
-import "./style.css";
-
 class OutsideChanceVideo extends Component {
     render() {
         return (
             <>
-                <Grid id="oc-video-container">
+                <Grid style={this.props.band.container}>
                     <LiveMusicNavbar subNav={this.props.subNav} />
                     <Grid.Row>
                         <Grid.Column width={16}>
-                            <Header id="oc-video-header" as="h1">Outside Chance Videos</Header>
+                            <Header as="h1">Outside Chance Videos</Header>
                         </Grid.Column>
                     </Grid.Row>
                     <Grid.Row>
-                        <FootLoose />
+                        <FootLoose video={this.props.band.video} />
                     </Grid.Row>
                     <Grid.Row>
-                        <SignedSealed />
+                        <SignedSealed video={this.props.band.video} />
                     </Grid.Row>
                     <Grid.Row>
-                        <CantGetEnough />
+                        <CantGetEnough video={this.props.band.video} />
                     </Grid.Row>
                 </Grid>
             </>

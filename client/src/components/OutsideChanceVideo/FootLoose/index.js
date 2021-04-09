@@ -1,12 +1,12 @@
 import React from "react";
 import { Grid, Header } from "semantic-ui-react";
 
-export default () => {
+export default (props) => {
     return (
         <>
             <Grid.Column width={8}>
                 <iframe 
-                    id="footloose" 
+                    style={props.video} 
                     src="https://www.youtube.com/embed/p4Vpk2xuP74" 
                     title="YouTube video player" 
                     frameBorder="0" 

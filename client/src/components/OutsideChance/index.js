@@ -7,16 +7,14 @@ import MikeBio from "./MikeBio";
 import JimBio from "../Federation/JimBio";
 import LiveMusicNavbar from "../../containers/LiveMusicNavbar";
 
-import "./style.css";
-
 class OutsideChance extends Component {
     render() {
         return (
             <>
-                <Grid id="oc-container">
+                <Grid style={this.props.band.container}>
                     <LiveMusicNavbar subNav={this.props.subNav} />
                     <Grid.Row>
-                        <Header id="oc-header" as="h1">Outside Chance</Header>
+                        <Header style={this.props.band.header} as="h1">Outside Chance</Header>
                     </Grid.Row>
                     <Grid.Row>
                         <JeffBio jeff={bios.oc.jeff} />
