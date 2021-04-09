@@ -6,30 +6,28 @@ import ZiggyStardust from "./ZiggyStardust";
 import FlirtinDisaster from "./FlirtinDisaster";
 import CantHelpFalling from "./CantHelpFalling";
 
-import "./style.css";
-
 class FederationVideo extends Component {
     render() {
         return (
             <>
-                <Grid id="fed-video-container">
+                <Grid style={this.props.band.container}>
                     <LiveMusicNavbar subNav={this.props.subNav} />
                     <Grid.Row>
                         <Grid.Column width={16}>
-                            <Header id="fed-video-header" as="h1">The Federation Videos</Header>
+                            <Header as="h1">The Federation Videos</Header>
                         </Grid.Column>
                     </Grid.Row>
                     <Grid.Row>
-                        <MississippiQueen />
+                        <MississippiQueen video={this.props.band.video} />
                     </Grid.Row>
                     <Grid.Row>
-                        <ZiggyStardust />
+                        <ZiggyStardust video={this.props.band.video} />
                     </Grid.Row>
                     <Grid.Row>
-                        <FlirtinDisaster />
+                        <FlirtinDisaster video={this.props.band.video} />
                     </Grid.Row>
                     <Grid.Row>
-                        <CantHelpFalling />
+                        <CantHelpFalling video={this.props.band.video} />
                     </Grid.Row>
                 </Grid>
             </>

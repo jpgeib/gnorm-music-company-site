@@ -5,16 +5,14 @@ import JoelBio from "./JoelBio";
 import JimBio from "./JimBio";
 import LiveMusicNavbar from "../../containers/LiveMusicNavbar";
 
-import "./style.css";
-
 class Federation extends Component {
     render() {
         return (
             <>
-                 <Grid id="fed-container">
+                 <Grid style={this.props.band.container}>
                     <LiveMusicNavbar subNav={this.props.subNav} />
                     <Grid.Row>
-                        <Header id="fed-header" as="h1">The Federation</Header>
+                        <Header style={this.props.band.header} as="h1">The Federation</Header>
                     </Grid.Row>
                     <Grid.Row>
                         <JoelBio joel={bios.fed.joel} />

@@ -36,11 +36,11 @@ class App extends Component {
         <Route exact path="/livemusic" render={ () => <LiveMusic subNav={subNavStyle} /> } />
         <Route exact path="/livemusic/outsidechance" render={ () => <OutsideChance band={bandPageStyle} subNav={subNavStyle} /> } />
         <Route exact path="/livemusic/outsidechance/videos" render={ () => <OutsideChanceVideo band={bandPageStyle} subNav={subNavStyle} /> } />
-        <Route exact path="/livemusic/federation" render={ () => <Federation subNav={subNavStyle} /> } />
-        <Route exact path="/livemusic/federation/videos" render={ () => <FederationVideo subNav={subNavStyle} /> } />
-        <Route exact path="/livemusic/dnr" render={ () => <DNR subNav={subNavStyle} /> } />
-        <Route exact path="/livemusic/shellshockt" render={ () => <ShellShockt subNav={subNavStyle} /> } />
-        <Route exact path="/livemusic/cutouts" render={ () => <Cutouts subNav={subNavStyle} /> } />
+        <Route exact path="/livemusic/federation" render={ () => <Federation band={bandPageStyle} subNav={subNavStyle} /> } />
+        <Route exact path="/livemusic/federation/videos" render={ () => <FederationVideo band={bandPageStyle} subNav={subNavStyle} /> } />
+        <Route exact path="/livemusic/dnr" render={ () => <DNR band={bandPageStyle} subNav={subNavStyle} /> } />
+        <Route exact path="/livemusic/shellshockt" render={ () => <ShellShockt band={bandPageStyle} subNav={subNavStyle} /> } />
+        <Route exact path="/livemusic/cutouts" render={ () => <Cutouts band={bandPageStyle} subNav={subNavStyle} /> } />
         <Route exact path="/progear" render={ () => <ProGear subNav={subNavStyle} /> } />
         <Route exact path="/progear/audix" render={ () => <Audix entry={progearEntryStyle} subNav={subNavStyle} /> } />
         <Route exact path="/progear/guytron" render={ () => <Guytron entry={progearEntryStyle} subNav={subNavStyle} /> } />
