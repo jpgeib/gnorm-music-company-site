@@ -25,11 +25,12 @@ class OutsideChance extends Component {
                         <PegBio peg={bios.oc.peg} />
                     </Grid.Row>
                     <Grid.Row>
-                        <MikeBio mike={bios.oc.mike}/>
+                        <MikeBio mike={bios.oc.mike} />
                     </Grid.Row>
                     <Grid.Row>
                         <JimBio jim={bios.fed.jim} />
                     </Grid.Row>
+
                 </Grid>
             </>
         );
