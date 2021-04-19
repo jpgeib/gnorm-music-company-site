@@ -16,7 +16,7 @@ class Cutouts extends Component {
                 <Grid id="cut-container">
                     <LiveMusicNavbar subNav={this.props.subNav} />
                     <Grid.Row>
-                        <Header id="cut-header" as="h1">The Cutouts</Header>
+                        <Header id="cut-header" as="h1">The Cut-Outs</Header>
                     </Grid.Row>
                     <Grid.Row>
                         <DariaBio daria={bios.cut.daria} />

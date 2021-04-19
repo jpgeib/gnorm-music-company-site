@@ -66,7 +66,7 @@ class LiveMusicNavbar extends Component {
                         onClick={this.handleItemClick}
                     >
                         <Image size="mini" src={VolumeDial} />
-                        The Cutouts
+                        The Cut-Outs
                     </Menu.Item>
                 </Menu>}
                 {this.props.history.location.pathname !== "/livemusic" && <Menu style={this.props.subNav} text>
