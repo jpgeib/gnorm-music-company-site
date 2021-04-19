@@ -5,10 +5,10 @@ import PlaceholderImg from "../../../assets/images/fl_remys.jpg";
 export default (props) => {
     return (
         <>
-            <Grid.Column width={8}>
+            <Grid.Column width={5}>
                 <Image size="medium" src={PlaceholderImg} />
             </Grid.Column>
-            <Grid.Column width={8}>
+            <Grid.Column width={11}>
                 <Grid>
                     <Grid.Row>
                         <Grid.Column width={16}>
