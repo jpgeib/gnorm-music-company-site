@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Grid, Image, Header } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 import { livemusicText } from "../../text";
-import OutsideChance from "../../assets/images/336_OutsideChance1.JPG";
+import OutsideChanceImage from "../../assets/images/336_OutsideChance1.JPG";
 import LiveMusicNavbar from "../../containers/LiveMusicNavbar";
 
 import "./style.css";
@@ -15,7 +15,7 @@ class LiveMusic extends Component {
                     <LiveMusicNavbar subNav={this.props.subNav} />
                     <Grid.Row>
                         <Grid.Column width={8}>
-                            <Image as={Link} to="/livemusic/outsidechance" size="medium" src={OutsideChance} />
+                            <Image as={Link} to="/livemusic/outsidechance" size="medium" src={OutsideChanceImage} />
                         </Grid.Column>
                         <Grid.Column width={8}>
                             <Grid>
