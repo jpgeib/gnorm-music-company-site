@@ -3,14 +3,7 @@ import { Route, withRouter } from "react-router-dom";
 import Navbar from "../Navbar";
 import LandingPage from '../../pages/LandingPage';
 import Home from "../../pages/Home";
-import LiveMusic from "../../pages/LiveMusic";
-import OutsideChance from "../../components/OutsideChance";
-import OutsideChanceVideo from '../../components/OutsideChanceVideo';
-import DNR from "../../components/DNR";
-import Federation from "../../components/Federation";
-import FederationVideo from '../../components/FederationVideo';
-import ShellShockt from "../../components/ShellShockt";
-import Cutouts from '../../components/Cutouts'; 
+import LiveMusicRoutes from "../../routes/LiveMusicRoutes";
 import ProGear from "../../pages/ProGear";
 import Shows from "../../pages/Shows";
 import Contact from "../../pages/Contact";
@@ -33,14 +26,7 @@ class App extends Component {
         <Navbar />
         <Route exact path="/" component={LandingPage} />
         <Route exact path="/home" component={Home} />
-        <Route exact path="/livemusic" render={ () => <LiveMusic subNav={subNavStyle} band={bandPageStyle} /> } />
-        <Route exact path="/livemusic/outsidechance" render={ () => <OutsideChance band={bandPageStyle} subNav={subNavStyle} /> } />
-        <Route exact path="/livemusic/outsidechance/videos" render={ () => <OutsideChanceVideo band={bandPageStyle} subNav={subNavStyle} /> } />
-        <Route exact path="/livemusic/federation" render={ () => <Federation band={bandPageStyle} subNav={subNavStyle} /> } />
-        <Route exact path="/livemusic/federation/videos" render={ () => <FederationVideo band={bandPageStyle} subNav={subNavStyle} /> } />
-        <Route exact path="/livemusic/dnr" render={ () => <DNR band={bandPageStyle} subNav={subNavStyle} /> } />
-        <Route exact path="/livemusic/shellshockt" render={ () => <ShellShockt band={bandPageStyle} subNav={subNavStyle} /> } />
-        <Route exact path="/livemusic/cutouts" render={ () => <Cutouts band={bandPageStyle} subNav={subNavStyle} /> } />
+        <LiveMusicRoutes subNav={subNavStyle} band={bandPageStyle} />
         <Route exact path="/progear" render={ () => <ProGear subNav={subNavStyle} /> } />
         <Route exact path="/progear/audix" render={ () => <Audix entry={progearEntryStyle} subNav={subNavStyle} /> } />
         <Route exact path="/progear/guytron" render={ () => <Guytron entry={progearEntryStyle} subNav={subNavStyle} /> } />
