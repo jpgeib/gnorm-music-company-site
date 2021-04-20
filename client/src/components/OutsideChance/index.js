@@ -12,7 +12,11 @@ class OutsideChance extends Component {
         return (
             <>
                 <Grid style={this.props.band.container}>
-                    <LiveMusicNavbar subNav={this.props.subNav} />
+                    <Grid.Row centered>
+                        <Grid.Column width={10}>
+                            <LiveMusicNavbar subNav={this.props.subNav} />
+                        </Grid.Column>
+                    </Grid.Row>
                     <Grid.Row>
                         <Grid.Column>
                             <Header as="h1">Outside Chance</Header>

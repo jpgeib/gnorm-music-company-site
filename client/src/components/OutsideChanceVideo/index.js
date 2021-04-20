@@ -10,7 +10,11 @@ class OutsideChanceVideo extends Component {
         return (
             <>
                 <Grid style={this.props.band.container}>
-                    <LiveMusicNavbar subNav={this.props.subNav} />
+                    <Grid.Row centered>
+                        <Grid.Column width={10}>
+                            <LiveMusicNavbar subNav={this.props.subNav} />
+                        </Grid.Column>
+                    </Grid.Row>
                     <Grid.Row>
                         <Grid.Column width={16}>
                             <Header as="h1">Outside Chance Videos</Header>

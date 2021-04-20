@@ -12,10 +12,14 @@ class LiveMusic extends Component {
         return (
             <>
                 <Grid id="live-container">
-                    <LiveMusicNavbar subNav={this.props.subNav} />
+                    <Grid.Row centered>
+                        <Grid.Column width={15}>
+                            <LiveMusicNavbar subNav={this.props.subNav} />
+                        </Grid.Column>
+                    </Grid.Row>
                     <Grid.Row>
                         <Grid.Column width={8}>
-                            <Image as={Link} to="/livemusic/outsidechance" size="medium" src={OutsideChanceImage} />
+                            <Image size="medium" src={OutsideChanceImage} />
                         </Grid.Column>
                         <Grid.Column width={8}>
                             <Grid>
