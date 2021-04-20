@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Grid } from "semantic-ui-react";
-import { Route } from "react-router-dom";
+import { Route, withRouter } from "react-router-dom";
 import LiveMusicNavbar from "../../containers/LiveMusicNavbar";
 import LiveMusic from "../../pages/LiveMusic";
 import OutsideChance from "../../components/OutsideChance";
@@ -11,7 +11,7 @@ import DNR from "../../components/DNR";
 import ShellShockt from "../../components/ShellShockt";
 import Cutouts from "../../components/Cutouts";
 
-export default class LiveMusicRoutes extends Component {
+class LiveMusicRoutes extends Component {
     render() {
         return (
             <>
@@ -34,3 +34,5 @@ export default class LiveMusicRoutes extends Component {
         )
     }
 };
+
+export default withRouter(LiveMusicRoutes);
