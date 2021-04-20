@@ -26,9 +26,9 @@ export default class LiveMusicRoutes extends Component {
                     <Route exact path="/livemusic/outsidechance/videos" render={() => <OutsideChanceVideo band={this.props.band} />} />
                     <Route exact path="/livemusic/federation" render={() => <Federation />} />
                     <Route exact path="/livemusic/federation/videos" render={() => <FederationVideo band={this.props.band} />} />
-                    {/* <Route exact path="/livemusic/dnr" render={() => <DNR band={this.props.band} subNav={this.props.subNav} />} /> */}
-                    {/* <Route exact path="/livemusic/shellshockt" render={() => <ShellShockt band={this.props.band} subNav={this.props.subNav} />} /> */}
-                    {/* <Route exact path="/livemusic/cutouts" render={() => <Cutouts band={this.props.band} subNav={this.props.subNav} />} /> */}
+                    <Route exact path="/livemusic/dnr" render={() => <DNR />} />
+                    <Route exact path="/livemusic/shellshockt" render={() => <ShellShockt />} />
+                    <Route exact path="/livemusic/cutouts" render={() => <Cutouts />} />
                 </Grid>
             </>
         )
