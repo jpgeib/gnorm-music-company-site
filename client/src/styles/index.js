@@ -43,11 +43,7 @@ export const contactInfoStyle = {
 
 // Pro Gear Page Styling
 
-export const progearPageStyle = {
-
-};
-
-export const progearEntryStyle = {
+export const proGearStyle = {
     container: {
         margin: "0 auto",
         width: "754px",
@@ -63,11 +59,7 @@ export const progearEntryStyle = {
 
 // Live Music Page Styling
 
-export const livemusicPageStyle = {
-
-};
-
-export const bandPageStyle = {
+export const liveMusicStyle = {
     container: {
         margin: "0 auto",
         width: "754px",

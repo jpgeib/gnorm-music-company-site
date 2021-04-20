@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Grid, Image, Header } from "semantic-ui-react";
-import { Link } from "react-router-dom";
 import { livemusicText } from "../../text";
 import OutsideChanceImage from "../../assets/images/336_OutsideChance1.JPG";
 import LiveMusicNavbar from "../../containers/LiveMusicNavbar";

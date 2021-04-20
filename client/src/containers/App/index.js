@@ -8,7 +8,7 @@ import ProGearRoutes from "../../routes/ProGearRoutes";
 import Shows from "../../pages/Shows";
 import Contact from "../../pages/Contact";
 import Footer from "../../components/Footer";
-import { subNavStyle, contactInfoStyle, progearEntryStyle, bandPageStyle } from "../../styles";
+import { subNavStyle, contactInfoStyle, proGearStyle, liveMusicStyle } from "../../styles";
 import "./style.css";
 
 class App extends Component {
@@ -19,8 +19,8 @@ class App extends Component {
         <Navbar />
         <Route exact path="/" component={LandingPage} />
         <Route exact path="/home" component={Home} />
-        <LiveMusicRoutes subNav={subNavStyle} band={bandPageStyle} />
-        <ProGearRoutes entry={progearEntryStyle} subNav={subNavStyle} />
+        <LiveMusicRoutes subNav={subNavStyle} band={liveMusicStyle} />
+        <ProGearRoutes entry={proGearStyle} subNav={subNavStyle} />
         <Route exact path="/shows" component={Shows} />
         <Route exact path="/contact" render={ () => <Contact contactInfo={contactInfoStyle} /> } />
         {this.props.history.location.pathname !== "/" && <Footer />}
