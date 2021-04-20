@@ -21,14 +21,14 @@ export default class LiveMusicRoutes extends Component {
                             <LiveMusicNavbar subNav={this.props.subNav} />
                         </Grid.Column>
                     </Grid.Row>
-                    <Route exact path="/livemusic" render={() => <LiveMusic subNav={this.props.subNav} />} />
-                    {/* <Route exact path="/livemusic/outsidechance" render={() => <OutsideChance band={this.props.band} subNav={this.props.subNav} />} />
-                <Route exact path="/livemusic/outsidechance/videos" render={() => <OutsideChanceVideo band={this.props.band} subNav={this.props.subNav} />} />
-                <Route exact path="/livemusic/federation" render={() => <Federation band={this.props.band} subNav={this.props.subNav} />} />
-                <Route exact path="/livemusic/federation/videos" render={() => <FederationVideo band={this.props.band} subNav={this.props.subNav} />} />
-                <Route exact path="/livemusic/dnr" render={() => <DNR band={this.props.band} subNav={this.props.subNav} />} />
-                <Route exact path="/livemusic/shellshockt" render={() => <ShellShockt band={this.props.band} subNav={this.props.subNav} />} />
-                <Route exact path="/livemusic/cutouts" render={() => <Cutouts band={this.props.band} subNav={this.props.subNav} />} /> */}
+                    <Route exact path="/livemusic" render={() => <LiveMusic />} />
+                    <Route exact path="/livemusic/outsidechance" render={() => <OutsideChance />} />
+                    <Route exact path="/livemusic/outsidechance/videos" render={() => <OutsideChanceVideo band={this.props.band} />} />
+                    <Route exact path="/livemusic/federation" render={() => <Federation />} />
+                    <Route exact path="/livemusic/federation/videos" render={() => <FederationVideo band={this.props.band} />} />
+                    {/* <Route exact path="/livemusic/dnr" render={() => <DNR band={this.props.band} subNav={this.props.subNav} />} /> */}
+                    {/* <Route exact path="/livemusic/shellshockt" render={() => <ShellShockt band={this.props.band} subNav={this.props.subNav} />} /> */}
+                    {/* <Route exact path="/livemusic/cutouts" render={() => <Cutouts band={this.props.band} subNav={this.props.subNav} />} /> */}
                 </Grid>
             </>
         )
