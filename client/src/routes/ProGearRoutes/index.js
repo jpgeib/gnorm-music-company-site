@@ -16,7 +16,7 @@ export default class ProGearRoutes extends Component {
             <>
                 <Grid.Row centered>
                     <Grid.Column width={15}>
-                        <ProGearNavbar subNav={this.props.subNav} />
+                        <ProGearNavbar path={this.props.path} subNav={this.props.subNav} />
                     </Grid.Column>
                 </Grid.Row>
                 <Route exact path="/progear" render={() => <ProGear />} />

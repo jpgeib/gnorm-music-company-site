@@ -13,16 +13,18 @@ import { subNavStyle, contactInfoStyle, proGearStyle, liveMusicStyle } from "../
 import "./style.css";
 
 class App extends Component {
-
   render() {
+
+    const location = this.props.history.location.pathname;
+
     return (
       <>
         <Navbar />
         <Grid style={proGearStyle.container}>
           <Route exact path="/" component={LandingPage} />
           <Route exact path="/home" component={Home} />
-          <LiveMusicRoutes subNav={subNavStyle} band={liveMusicStyle} />
-          <ProGearRoutes entry={proGearStyle} subNav={subNavStyle} />
+          <LiveMusicRoutes subNav={subNavStyle} band={liveMusicStyle} path={location} />
+          <ProGearRoutes entry={proGearStyle} subNav={subNavStyle} path={location} />
           <Route exact path="/shows" component={Shows} />
           <Route exact path="/contact" render={() => <Contact contactInfo={contactInfoStyle} />} />
         </Grid>

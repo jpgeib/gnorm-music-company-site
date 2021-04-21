@@ -63,9 +63,6 @@ export const liveMusicStyle = {
         overflowY: "auto",
         maxHeight: "480px"
     },
-    header: {
-        marginLeft: "2%"
-    },
     video: {
         width: "300px",
         height: "200px"
