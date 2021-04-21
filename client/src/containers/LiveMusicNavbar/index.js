@@ -14,11 +14,11 @@ class LiveMusicNavbar extends Component {
     render() {
 
         const { activeItem } = this.state;
-        const location = this.props.history.location.pathname;
+        const { path, subNav } = this.props;
 
         return (
             <>
-                {location === "/livemusic" && <Menu style={this.props.subNav} text>
+                {path === "/livemusic" && <Menu style={subNav} text>
                     <Menu.Item
                         as={Link}
                         to="/livemusic/outsidechance"
@@ -70,10 +70,10 @@ class LiveMusicNavbar extends Component {
                         The Cut-Outs
                     </Menu.Item>
                 </Menu>}
-                {(location === "/livemusic/outsidechance" || location === "/livemusic/outsidechance/videos"
-                || location === "/livemusic/federation" || location === "/livemusic/federation/videos"
-                || location === "/livemusic/dnr" || location === "/livemusic/shellshockt" ||
-                location === "/livemusic/cutouts") && <Menu style={this.props.subNav} text>
+                {(path === "/livemusic/outsidechance" || path === "/livemusic/outsidechance/videos"
+                || path === "/livemusic/federation" || path === "/livemusic/federation/videos"
+                || path === "/livemusic/dnr" || path === "/livemusic/shellshockt" ||
+                path === "/livemusic/cutouts") && <Menu style={subNav} text>
                     <Menu.Item
                         as={Link}
                         to="/livemusic"
@@ -84,7 +84,7 @@ class LiveMusicNavbar extends Component {
                         <Image size="mini" src={VolumeDial} />
                     Back to Live Music
                 </Menu.Item>
-                    {(location === "/livemusic/outsidechance" || location === "/livemusic/outsidechance/videos") &&
+                    {(path === "/livemusic/outsidechance" || path === "/livemusic/outsidechance/videos") &&
                         <Menu.Item
                             as={Link}
                             to="/livemusic/outsidechance"
@@ -95,7 +95,7 @@ class LiveMusicNavbar extends Component {
                             <Image size="mini" src={VolumeDial} />
                         Band Members
                     </Menu.Item>}
-                    {(location === "/livemusic/outsidechance" || location === "/livemusic/outsidechance/videos") &&
+                    {(path === "/livemusic/outsidechance" || path === "/livemusic/outsidechance/videos") &&
                         <Menu.Item
                             as={Link}
                             to="/livemusic/outsidechance/videos"
@@ -106,7 +106,7 @@ class LiveMusicNavbar extends Component {
                             <Image size="mini" src={VolumeDial} />
                         Videos
                     </Menu.Item>}
-                    {(location === "/livemusic/federation" || location === "/livemusic/federation/videos") &&
+                    {(path === "/livemusic/federation" || path === "/livemusic/federation/videos") &&
                         <Menu.Item
                             as={Link}
                             to="/livemusic/federation"
@@ -117,7 +117,7 @@ class LiveMusicNavbar extends Component {
                             <Image size="mini" src={VolumeDial} />
                         Band Members
                     </Menu.Item>}
-                    {(location === "/livemusic/federation" || location === "/livemusic/federation/videos") &&
+                    {(path === "/livemusic/federation" || path === "/livemusic/federation/videos") &&
                         <Menu.Item
                             as={Link}
                             to="/livemusic/federation/videos"

@@ -28,7 +28,7 @@ class App extends Component {
           <Route exact path="/shows" component={Shows} />
           <Route exact path="/contact" render={() => <Contact contactInfo={contactInfoStyle} />} />
         </Grid>
-        {this.props.history.location.pathname !== "/" && <Footer />}
+        {location !== "/" && <Footer />}
       </>
     )
   }
