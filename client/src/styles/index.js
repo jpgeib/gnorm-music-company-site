@@ -27,10 +27,6 @@ export const subNavStyle = {
 
 //Contact Page Styling
 
-export const contactPageStyle = {
-
-};
-
 export const contactInfoStyle = {
     header: {
         marginBottom: "-7%"

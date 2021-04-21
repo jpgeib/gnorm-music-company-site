@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Route, withRouter } from "react-router-dom";
+import { Grid } from "semantic-ui-react";
 import Navbar from "../Navbar";
 import LandingPage from '../../pages/LandingPage';
 import Home from "../../pages/Home";
@@ -12,17 +13,19 @@ import { subNavStyle, contactInfoStyle, proGearStyle, liveMusicStyle } from "../
 import "./style.css";
 
 class App extends Component {
-  
+
   render() {
     return (
       <>
         <Navbar />
-        <Route exact path="/" component={LandingPage} />
-        <Route exact path="/home" component={Home} />
-        <LiveMusicRoutes subNav={subNavStyle} band={liveMusicStyle} />
-        <ProGearRoutes entry={proGearStyle} subNav={subNavStyle} />
-        <Route exact path="/shows" component={Shows} />
-        <Route exact path="/contact" render={ () => <Contact contactInfo={contactInfoStyle} /> } />
+        <Grid style={proGearStyle.container}>
+          <Route exact path="/" component={LandingPage} />
+          <Route exact path="/home" component={Home} />
+          <LiveMusicRoutes subNav={subNavStyle} band={liveMusicStyle} />
+          <ProGearRoutes entry={proGearStyle} subNav={subNavStyle} />
+          <Route exact path="/shows" component={Shows} />
+          <Route exact path="/contact" render={() => <Contact contactInfo={contactInfoStyle} />} />
+        </Grid>
         {this.props.history.location.pathname !== "/" && <Footer />}
       </>
     )
