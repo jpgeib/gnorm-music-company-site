@@ -22,13 +22,11 @@ class ProGearNavbar extends Component {
     render() {
 
         const { activeItem } = this.state;
-        const { path } = this.props;
+        const { subNav } = this.props;
 
         return (
             <>
-                {(path === "/progear" || path === "/progear/audix" || path === "/progear/guytron"
-                || path === "/progear/radian" || path === "/progear/boomerang" || path === "/progear/georgeLs"
-                || path === "/progear/weber") && <Menu style={this.props.subNav} text>
+                {<Menu style={subNav} text>
                     <Menu.Item
                         as={Link}
                         to="/progear/audix"
