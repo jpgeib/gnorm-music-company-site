@@ -16,7 +16,6 @@ class LiveMusicRoutes extends Component {
 
         const { path, subNav, band } = this.props;
         
-
         return (
             <>
                 {(path === "/livemusic" || path === "/livemusic/outsidechance" ||
