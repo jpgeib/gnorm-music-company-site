@@ -15,6 +15,7 @@ class LiveMusicRoutes extends Component {
     render() {
 
         const { path, subNav, band } = this.props;
+        
 
         return (
             <>

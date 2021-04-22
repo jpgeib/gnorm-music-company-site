@@ -9,14 +9,6 @@ class ProGearNavbar extends Component {
         activeItem: ""
     }
 
-    // componentDidMount() {
-    //     if(this.props.history.location.pathname === "/progear/audix") {
-    //         this.setState({ navbarStyle: "5%" });
-    //     } else if (this.props.history.location.pathname === "/progear/guytron") {
-    //         this.setState({ navbarStyle: "10%" });
-    //     }
-    // }
-
     handleItemClick = (e, { name }) => this.setState({ activeItem: name });
 
     render() {
