@@ -5,6 +5,9 @@ import OutsideChanceImage from "../../assets/images/336_OutsideChance1.JPG";
 
 class LiveMusic extends Component {
     render() {
+
+        const { band } = this.props;
+
         return (
             <>
                 <Grid.Row>
@@ -15,12 +18,12 @@ class LiveMusic extends Component {
                         <Grid>
                             <Grid.Row>
                                 <Grid.Column width={16}>
-                                    <Header id="live-header" as="h2">Live Music</Header>
+                                    <Header style={band.text} id="live-header" as="h2">Live Music</Header>
                                 </Grid.Column>
                             </Grid.Row>
                             <Grid.Row>
                                 <Grid.Column width={16}>
-                                    <Header id="live-text" as="h3">{livemusicText.main}</Header>
+                                    <Header style={band.text} as="h3">{livemusicText.main}</Header>
                                 </Grid.Column>
                             </Grid.Row>
                         </Grid>

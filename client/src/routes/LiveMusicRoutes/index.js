@@ -26,7 +26,7 @@ class LiveMusicRoutes extends Component {
                             <LiveMusicNavbar path={path} subNav={subNav} />
                         </Grid.Column>
                     </Grid.Row>}
-                <Route exact path="/livemusic" render={() => <LiveMusic />} />
+                <Route exact path="/livemusic" render={() => <LiveMusic band={band} />} />
                 <Route exact path="/livemusic/outsidechance" render={() => <OutsideChance />} />
                 <Route exact path="/livemusic/outsidechance/videos" render={() => <OutsideChanceVideo band={band} />} />
                 <Route exact path="/livemusic/federation" render={() => <Federation />} />

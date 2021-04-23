@@ -66,5 +66,8 @@ export const liveMusicStyle = {
     video: {
         width: "300px",
         height: "200px"
+    },
+    text: {
+        fontFamily: "'Noto Sans JP', sans-serif"
     }
 };
