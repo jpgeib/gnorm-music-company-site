@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Grid, Header } from "semantic-ui-react";
-import { bios } from "../../text";
 import LynnBio from "../../../components/LynnBio";
 import AndrewBio from "../../../components/AndrewBio";
 import FredBio from "../../../components/FredBio";

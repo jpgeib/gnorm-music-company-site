@@ -3,12 +3,12 @@ import { Grid } from "semantic-ui-react";
 import { Route, withRouter } from "react-router-dom";
 import LiveMusicNavbar from "../../containers/LiveMusicNavbar";
 import LiveMusic from "../../pages/LiveMusic";
-import OutsideChance from "../../components/OutsideChance";
+import OutsideChance from "../../pages/LiveMusic/OutsideChance";
 import OutsideChanceVideo from "../../pages/LiveMusic/OutsideChanceVideo";
-import Federation from "../../components/Federation";
+import Federation from "../../pages/LiveMusic/Federation";
 import FederationVideo from "../../pages/LiveMusic/FederationVideo";
-import DNR from "../../components/DNR";
-import ShellShockt from "../../components/ShellShockt";
+import DNR from "../../pages/LiveMusic/DNR";
+import ShellShockt from "../../pages/LiveMusic/ShellShockt";
 import Cutouts from "../../pages/LiveMusic/Cutouts";
 
 class LiveMusicRoutes extends Component {

@@ -9,6 +9,7 @@ import ProGearRoutes from "../../routes/ProGearRoutes";
 import Shows from "../../pages/Shows";
 import Contact from "../../pages/Contact";
 import Footer from "../../components/Footer";
+import { placeholderText, livemusicText, progearText, showsText, bios } from "../../text";
 import { subNavStyle, contactInfoStyle, proGearStyle, liveMusicStyle } from "../../styles";
 import "./style.css";
 
@@ -22,10 +23,10 @@ class App extends Component {
         <Navbar />
         <Grid style={proGearStyle.container}>
           <Route exact path="/" component={LandingPage} />
-          <Route exact path="/home" component={Home} />
-          <LiveMusicRoutes subNav={subNavStyle} band={liveMusicStyle} path={location} />
-          <ProGearRoutes entry={proGearStyle} subNav={subNavStyle} path={location} />
-          <Route exact path="/shows" component={Shows} />
+          <Route exact path="/home" render={() => <Home temp={placeholderText} />}  />
+          <LiveMusicRoutes bios={bios} text={livemusicText} subNav={subNavStyle} band={liveMusicStyle} path={location} />
+          <ProGearRoutes text={progearText} entry={proGearStyle} subNav={subNavStyle} path={location} />
+          <Route exact path="/shows" render={() => <Shows text={showsText}/>} />
           <Route exact path="/contact" render={() => <Contact contactInfo={contactInfoStyle} />} />
         </Grid>
         {location !== "/" && <Footer />}

@@ -1,8 +1,5 @@
 import React, { Component } from "react";
 import { Grid, Header } from "semantic-ui-react";
-import { bios } from "../../../text";
-// import DariaBio from "./DariaBio";
-// import DaveBio from "./DaveBio";
 import JimBio from "../../../components/JimBio";
 
 class Cutouts extends Component {

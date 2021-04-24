@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Header } from "semantic-ui-react";
-import MississippiQueen from "./MississippiQueen";
+import MississippiQueen from "../../../components/MississippiQueen";
 import ZiggyStardust from "../../../components/ZiggyStardust";
 import FlirtinDisaster from "../../../components/FlirtinDisaster";
 import CantHelpFalling from "../../../components/CantHelpFalling";
