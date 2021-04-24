@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import { Grid, Header } from "semantic-ui-react";
 import { bios } from "../../text";
-import LynnBio from "./LynnBio";
-import AndrewBio from "./AndrewBio";
-import FredBio from "./FredBio";
-import BobBio from "./BobBio";
-import KevinBio from "./KevinBio";
-import RichBio from "./RichBio";
+import LynnBio from "../../../components/LynnBio";
+import AndrewBio from "../../../components/AndrewBio";
+import FredBio from "../../../components/FredBio";
+import BobBio from "../../../components/BobBio";
+import KevinBio from "../../../components/KevinBio";
+import RichBio from "../../../components/RichBio";
 
 class DNR extends Component {
     render() {

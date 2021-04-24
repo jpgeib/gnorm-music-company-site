@@ -4,12 +4,12 @@ import { Route, withRouter } from "react-router-dom";
 import LiveMusicNavbar from "../../containers/LiveMusicNavbar";
 import LiveMusic from "../../pages/LiveMusic";
 import OutsideChance from "../../components/OutsideChance";
-import OutsideChanceVideo from "../../components/OutsideChanceVideo";
+import OutsideChanceVideo from "../../pages/LiveMusic/OutsideChanceVideo";
 import Federation from "../../components/Federation";
-import FederationVideo from "../../components/FederationVideo";
+import FederationVideo from "../../pages/LiveMusic/FederationVideo";
 import DNR from "../../components/DNR";
 import ShellShockt from "../../components/ShellShockt";
-import Cutouts from "../../components/Cutouts";
+import Cutouts from "../../pages/LiveMusic/Cutouts";
 
 class LiveMusicRoutes extends Component {
     render() {

@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import { Grid, Header } from "semantic-ui-react";
 import { bios } from "../../text";
-import ShellyBio from "./ShellyBio";
-import RonBio from "./RonBio";
-import HansBio from "./HansBio";
-import JayBio from "./JayBio";
+import ShellyBio from "../../../components/ShellyBio";
+import RonBio from "../../../components/RonBio";
+import HansBio from "../../../components/HansBio";
+import JayBio from "../../../components/JayBio";
 
 class ShellShockt extends Component {
     render() {

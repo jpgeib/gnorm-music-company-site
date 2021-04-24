@@ -1,24 +1,20 @@
 import React, { Component } from "react";
 import { Grid, Header } from "semantic-ui-react";
 import { bios } from "../../text";
-import DariaBio from "./DariaBio";
-import DaveBio from "./DaveBio";
-import JimBio from "../Federation/JimBio";
+import JoelBio from "../../../components/JoelBio";
+import JimBio from "../../../components/JimBio";
 
-class Cutouts extends Component {
+class Federation extends Component {
     render() {
         return (
             <>
                 <Grid.Row>
                     <Grid.Column>
-                        <Header as="h1">The Cut-Outs</Header>
+                        <Header as="h1">The Federation</Header>
                     </Grid.Column>
                 </Grid.Row>
                 <Grid.Row>
-                    <DariaBio daria={bios.cut.daria} />
-                </Grid.Row>
-                <Grid.Row>
-                    <DaveBio dave={bios.cut.dave} />
+                    <JoelBio joel={bios.fed.joel} />
                 </Grid.Row>
                 <Grid.Row>
                     <JimBio jim={bios.fed.jim} />
@@ -28,4 +24,4 @@ class Cutouts extends Component {
     }
 };
 
-export default Cutouts;
+export default Federation;

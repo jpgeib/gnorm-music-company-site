@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Grid, Header } from "semantic-ui-react";
-import CantGetEnough from "./CantGetEnough";
-import FootLoose from "./FootLoose";
-import SignedSealed from "./SignedSealed";
+import CantGetEnough from "../../../components/CantGetEnough";
+import FootLoose from "../../../components/FootLoose";
+import SignedSealed from "../../../components/SignedSealed";
 
 class OutsideChanceVideo extends Component {
     render() {

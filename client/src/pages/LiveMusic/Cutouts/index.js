@@ -1,28 +1,24 @@
 import React, { Component } from "react";
 import { Grid, Header } from "semantic-ui-react";
-import { bios } from "../../text";
-import JeffBio from "./JeffBio";
-import PegBio from "./PegBio";
-import MikeBio from "./MikeBio";
-import JimBio from "../Federation/JimBio";
+import { bios } from "../../../text";
+// import DariaBio from "./DariaBio";
+// import DaveBio from "./DaveBio";
+import JimBio from "../../../components/JimBio";
 
-class OutsideChance extends Component {
+class Cutouts extends Component {
     render() {
         return (
             <>
                 <Grid.Row>
                     <Grid.Column>
-                        <Header as="h1">Outside Chance</Header>
+                        <Header as="h1">The Cut-Outs</Header>
                     </Grid.Column>
                 </Grid.Row>
                 <Grid.Row>
-                    <JeffBio jeff={bios.oc.jeff} />
+                    {/* <DariaBio daria={bios.cut.daria} /> */}
                 </Grid.Row>
                 <Grid.Row>
-                    <PegBio peg={bios.oc.peg} />
-                </Grid.Row>
-                <Grid.Row>
-                    <MikeBio mike={bios.oc.mike} />
+                    {/* <DaveBio dave={bios.cut.dave} /> */}
                 </Grid.Row>
                 <Grid.Row>
                     <JimBio jim={bios.fed.jim} />
@@ -32,4 +28,4 @@ class OutsideChance extends Component {
     }
 };
 
-export default OutsideChance;
+export default Cutouts;
