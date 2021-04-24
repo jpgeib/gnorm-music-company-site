@@ -7,6 +7,9 @@ import JayBio from "../../../components/JayBio";
 
 class ShellShockt extends Component {
     render() {
+
+        const { bios } = this.props;
+        
         return (
             <>
                 <Grid.Row>

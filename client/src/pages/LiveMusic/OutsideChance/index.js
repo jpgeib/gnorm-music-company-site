@@ -7,6 +7,9 @@ import JimBio from "../../../components/JimBio";
 
 class OutsideChance extends Component {
     render() {
+
+        const { bios } = this.props;
+
         return (
             <>
                 <Grid.Row>

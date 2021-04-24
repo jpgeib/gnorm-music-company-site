@@ -5,6 +5,9 @@ import JimBio from "../../../components/JimBio";
 
 class Federation extends Component {
     render() {
+        
+        const { bios } = this.props;
+
         return (
             <>
                 <Grid.Row>

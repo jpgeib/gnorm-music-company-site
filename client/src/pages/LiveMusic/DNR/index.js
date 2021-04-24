@@ -9,6 +9,9 @@ import RichBio from "../../../components/RichBio";
 
 class DNR extends Component {
     render() {
+
+        const { bios } = this.props;
+        
         return (
             <>
                 <Grid.Row>

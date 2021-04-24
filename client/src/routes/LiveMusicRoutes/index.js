@@ -14,7 +14,7 @@ import Cutouts from "../../pages/LiveMusic/Cutouts";
 class LiveMusicRoutes extends Component {
     render() {
 
-        const { path, subNav, band } = this.props;
+        const { bios, text, path, subNav, band } = this.props;
         
         return (
             <>
@@ -26,14 +26,14 @@ class LiveMusicRoutes extends Component {
                             <LiveMusicNavbar path={path} subNav={subNav} />
                         </Grid.Column>
                     </Grid.Row>}
-                <Route exact path="/livemusic" render={() => <LiveMusic band={band} />} />
-                <Route exact path="/livemusic/outsidechance" render={() => <OutsideChance />} />
-                <Route exact path="/livemusic/outsidechance/videos" render={() => <OutsideChanceVideo band={band} />} />
-                <Route exact path="/livemusic/federation" render={() => <Federation />} />
-                <Route exact path="/livemusic/federation/videos" render={() => <FederationVideo band={band} />} />
-                <Route exact path="/livemusic/dnr" render={() => <DNR />} />
-                <Route exact path="/livemusic/shellshockt" render={() => <ShellShockt />} />
-                <Route exact path="/livemusic/cutouts" render={() => <Cutouts />} />
+                <Route exact path="/livemusic" render={() => <LiveMusic text={text} band={band} />} />
+                <Route exact path="/livemusic/outsidechance" render={() => <OutsideChance bios={bios} />} />
+                <Route exact path="/livemusic/outsidechance/videos" render={() => <OutsideChanceVideo bios={bios} band={band} />} />
+                <Route exact path="/livemusic/federation" render={() => <Federation bios={bios} />} />
+                <Route exact path="/livemusic/federation/videos" render={() => <FederationVideo bios={bios} band={band} />} />
+                <Route exact path="/livemusic/dnr" render={() => <DNR bios={bios} />} />
+                <Route exact path="/livemusic/shellshockt" render={() => <ShellShockt bios={bios} />} />
+                <Route exact path="/livemusic/cutouts" render={() => <Cutouts bios={bios} />} />
             </>
         )
     }

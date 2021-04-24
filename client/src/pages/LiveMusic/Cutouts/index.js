@@ -4,6 +4,9 @@ import JimBio from "../../../components/JimBio";
 
 class Cutouts extends Component {
     render() {
+
+        const { bios } = this.props;
+        
         return (
             <>
                 <Grid.Row>
