@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Grid, Header } from "semantic-ui-react";
-import JeffBio from "../../../components/JeffBio";
-import PegBio from "../../../components/PegBio";
+import JeffBio from "../../../components/Bios/JeffBio";
+import PegBio from "../../../components/Bios/PegBio";
 import MikeBio from "../../../components/MikeBio";
 import JimBio from "../../../components/JimBio";
 

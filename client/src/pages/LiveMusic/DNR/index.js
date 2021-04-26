@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import { Grid, Header } from "semantic-ui-react";
 import LynnBio from "../../../components/LynnBio";
 import AndrewBio from "../../../components/AndrewBio";
-import FredBio from "../../../components/FredBio";
-import BobBio from "../../../components/BobBio";
+import FredBio from "../../../components/Bios/FredBio";
+import BobBio from "../../../components/Bios/BobBio";
 import KevinBio from "../../../components/KevinBio";
 import RichBio from "../../../components/RichBio";
 

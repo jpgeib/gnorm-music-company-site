@@ -1,6 +1,6 @@
 import React from "react";
 import { Grid, Header, Image } from "semantic-ui-react";
-import PlaceholderImg from "../../assets/images/fl_remys.jpg";
+import PlaceholderImg from "../../../assets/images/fl_remys.jpg";
 
 export default (props) => {
     return (
@@ -12,12 +12,12 @@ export default (props) => {
                 <Grid>
                     <Grid.Row>
                         <Grid.Column width={16}>
-                            <Header as="h2">Joel</Header>
+                            <Header as="h2">Fred</Header>
                         </Grid.Column>
                     </Grid.Row>
                     <Grid.Row>
                         <Grid.Column width={16}>
-                            <Header as="h3">{props.joel}</Header>
+                            <Header as="h3">{props.fred}</Header>
                         </Grid.Column>
                     </Grid.Row>
                 </Grid>
