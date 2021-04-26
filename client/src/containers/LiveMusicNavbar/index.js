@@ -51,16 +51,6 @@ class LiveMusicNavbar extends Component {
                     </Menu.Item>
                     <Menu.Item
                         as={Link}
-                        to="/livemusic/shellshockt"
-                        name="shell"
-                        active={activeItem === "shell"}
-                        onClick={this.handleItemClick}
-                    >
-                        <Image size="mini" src={VolumeDial} />
-                        ShellShockt
-                    </Menu.Item>
-                    <Menu.Item
-                        as={Link}
                         to="/livemusic/cutouts"
                         name="cut"
                         active={activeItem === "cut"}
@@ -72,8 +62,7 @@ class LiveMusicNavbar extends Component {
                 </Menu>}
                 {(path === "/livemusic/outsidechance" || path === "/livemusic/outsidechance/videos"
                 || path === "/livemusic/federation" || path === "/livemusic/federation/videos"
-                || path === "/livemusic/dnr" || path === "/livemusic/shellshockt" ||
-                path === "/livemusic/cutouts") && <Menu style={subNav} text>
+                || path === "/livemusic/dnr" || path === "/livemusic/cutouts") && <Menu style={subNav} text>
                     <Menu.Item
                         as={Link}
                         to="/livemusic"

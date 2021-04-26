@@ -8,7 +8,6 @@ import OutsideChanceVideo from "../../pages/LiveMusic/OutsideChanceVideo";
 import Federation from "../../pages/LiveMusic/Federation";
 import FederationVideo from "../../pages/LiveMusic/FederationVideo";
 import DNR from "../../pages/LiveMusic/DNR";
-import ShellShockt from "../../pages/LiveMusic/ShellShockt";
 import Cutouts from "../../pages/LiveMusic/Cutouts";
 
 class LiveMusicRoutes extends Component {
@@ -32,7 +31,6 @@ class LiveMusicRoutes extends Component {
                 <Route exact path="/livemusic/federation" render={() => <Federation bios={bios} />} />
                 <Route exact path="/livemusic/federation/videos" render={() => <FederationVideo bios={bios} band={band} />} />
                 <Route exact path="/livemusic/dnr" render={() => <DNR bios={bios} />} />
-                <Route exact path="/livemusic/shellshockt" render={() => <ShellShockt bios={bios} />} />
                 <Route exact path="/livemusic/cutouts" render={() => <Cutouts bios={bios} />} />
             </>
         )
