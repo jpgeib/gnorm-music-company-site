@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { Grid, Header } from "semantic-ui-react";
-import MississippiQueen from "../../../components/MississippiQueen";
-import ZiggyStardust from "../../../components/ZiggyStardust";
-import FlirtinDisaster from "../../../components/FlirtinDisaster";
-import CantHelpFalling from "../../../components/CantHelpFalling";
+import MississippiQueen from "../../../components/Videos/MississippiQueen";
+import ZiggyStardust from "../../../components/Videos/ZiggyStardust";
+import FlirtinDisaster from "../../../components/Videos/FlirtinDisaster";
+import CantHelpFalling from "../../../components/Videos/CantHelpFalling";
 
 class FederationVideo extends Component {
     render() {
