@@ -46,12 +46,6 @@ export const bios = {
         joel: "This will be where Joel's bio is placed once it is made.",
         jim: `Jim has been playing drums since he [was knee high to a grasshopper] encouraged by his drummer dad, who introduced Jim to jazz and Big Band music. At age 8, Jim discovered Led Zeppelin and Frank Zappa, and at 9 he sat in with his drum teacher's band performing at a club and was hooked. By 15, Jim was playing in local clubs (with his dad as roadie) and has regularly performed around the tri-state area [music scene] ever since. Jim is the 'go-to' drummer for many local bands, including Outside Chance, the Federation and the Cut-Outs. He also plays guitar, keyboards and electronic music.`
     },
-    shell: {
-        shelly: "This will be where Shelly's bio is placed once it is made.",
-        ron: "This will be where Ron's bio is placed once it is made.",
-        hans: "This will be where Hans' bio is placed once it is made.",
-        jay: "This will be where Jay's bio is placed once it is made."
-    },
     cut: {
         daria: "This will be where Daria's bio is placed once it is made.",
         dave: "This will be where Dave's bio is placed once it is made."
