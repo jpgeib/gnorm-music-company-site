@@ -21,7 +21,7 @@ class LiveMusicRoutes extends Component {
                     path === "/livemusic/outsidechance/videos" || path === "/livemusic/federation"
                     || path === "/livemusic/federation/videos" || path === "/livemusic/dnr"
                     || path === "/livemusic/shellshockt" || path === "/livemusic/cutouts") && <Grid.Row centered>
-                        <Grid.Column width={15}>
+                        <Grid.Column width={12}>
                             <LiveMusicNavbar path={path} subNav={subNav} />
                         </Grid.Column>
                     </Grid.Row>}
