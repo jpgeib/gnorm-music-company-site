@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Grid, Header } from "semantic-ui-react";
-import JoelBio from "../../../components/JoelBio";
-import JimBio from "../../../components/JimBio";
+import JoelBio from "../../../components/Bios/JoelBio";
+import JimBio from "../../../components/Bios/JimBio";
 
 class Federation extends Component {
     render() {

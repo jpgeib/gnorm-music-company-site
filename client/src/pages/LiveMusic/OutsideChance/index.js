@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import { Grid, Header } from "semantic-ui-react";
 import JeffBio from "../../../components/Bios/JeffBio";
 import PegBio from "../../../components/Bios/PegBio";
-import MikeBio from "../../../components/MikeBio";
-import JimBio from "../../../components/JimBio";
+import MikeBio from "../../../components/Bios/MikeBio";
+import JimBio from "../../../components/Bios/JimBio";
 
 class OutsideChance extends Component {
     render() {
