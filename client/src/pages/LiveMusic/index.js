@@ -18,7 +18,7 @@ class LiveMusic extends Component {
                         <Grid>
                             <Grid.Row>
                                 <Grid.Column width={16}>
-                                    <Header style={band.text} id="live-header" as="h2">Live Music</Header>
+                                    <Header style={band.text} as="h2">Live Music</Header>
                                 </Grid.Column>
                             </Grid.Row>
                             <Grid.Row>

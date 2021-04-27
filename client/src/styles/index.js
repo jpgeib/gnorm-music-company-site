@@ -13,7 +13,8 @@ export const mainNavStyle = {
         marginTop: "5%"
     },
     navItem: {
-        color: "white"
+        color: "white",
+        fontFamily: "'Noto Sans JP', sans-serif"
     }
 };
 
@@ -22,7 +23,8 @@ export const mainNavStyle = {
 export const subNavStyle = {
     backgroundImage: `url(${SubNavImage})`,
     margin: "2%",
-    borderRadius: "20px"
+    borderRadius: "20px",
+    fontFamily: "'Noto Sans JP', sans-serif"
 };
 
 //Contact Page Styling
@@ -34,6 +36,9 @@ export const contactInfoStyle = {
     emailLink: {
         textDecorationLine: "underline",
         color: "#670001"
+    },
+    text: {
+        fontFamily: "'Noto Sans JP', sans-serif"
     }
 };
 
@@ -50,6 +55,9 @@ export const proGearStyle = {
     link: {
         textDecorationLine: "underline",
         color: "#670001"
+    },
+    text: {
+        fontFamily: "'Noto Sans JP', sans-serif"
     }
 };
 
