@@ -80,7 +80,7 @@ export const proGearStyle = {
         width: "754px",
         backgroundColor: "white",
         overflowY: "auto",
-        maxHeight: "580px"
+        maxHeight: "480px"
     },
     link: {
         textDecorationLine: "underline",
