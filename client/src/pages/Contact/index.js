@@ -7,6 +7,9 @@ import "./style.css";
 
 class Contact extends Component {
     render() {
+
+        const { contactInfo } = this.props;
+        
         return (
             <>
                 <Grid id="contact-container">
@@ -18,7 +21,7 @@ class Contact extends Component {
                             <Image id="contact-image" src={Telecast} />
                         </Grid.Column>
                         <Grid.Column width={8}>
-                            <ContactInfo contactInfo={this.props.contactInfo} />
+                            <ContactInfo contactInfo={contactInfo} />
                         </Grid.Column>
                     </Grid.Row>
                 </Grid>

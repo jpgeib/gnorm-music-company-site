@@ -27,9 +27,25 @@ export const subNavStyle = {
     fontFamily: "'Noto Sans JP', sans-serif"
 };
 
+//Home Page Styling
+
+export const homeStyle = {
+    text: {
+        fontFamily: "'Noto Sans JP', sans-serif"
+    }
+};
+
+//Shows Styling
+
+export const showStyle = {
+    text: {
+        fontFamily: "'Noto Sans JP', sans-serif"
+    }
+};
+
 //Contact Page Styling
 
-export const contactInfoStyle = {
+export const contactStyle = {
     header: {
         marginBottom: "-7%"
     },
@@ -78,4 +94,8 @@ export const liveMusicStyle = {
     text: {
         fontFamily: "'Noto Sans JP', sans-serif"
     }
+};
+
+export const websiteStyle = {
+
 };

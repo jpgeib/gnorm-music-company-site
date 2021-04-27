@@ -2,12 +2,14 @@ import React, { Component } from "react";
 import { Grid, Image, Header } from "semantic-ui-react";
 import HomeList from "../../components/HomeList";
 import GnormProfile from "../../assets/images/GnormProfile.jpg";
-import { placeholderText } from "../../text";
 
 import "./style.css";
 
 class Home extends Component {
     render() {
+
+        const { temp } = this.props;
+
         return(
             <>
                 <Grid id="home-container">
@@ -30,17 +32,17 @@ class Home extends Component {
                             <Grid>
                                 <Grid.Row>
                                     <Grid.Column width={16}>
-                                        <Header as="h3">{placeholderText}</Header>
+                                        <Header as="h3">{temp}</Header>
                                     </Grid.Column>
                                 </Grid.Row>
                                 <Grid.Row>
                                     <Grid.Column width={16}>
-                                        <Header as="h3">{placeholderText}</Header>
+                                        <Header as="h3">{temp}</Header>
                                     </Grid.Column>
                                 </Grid.Row>
                                 <Grid.Row>
                                     <Grid.Column width={16}>
-                                        <Header as="h3">{placeholderText}</Header>
+                                        <Header as="h3">{temp}</Header>
                                     </Grid.Column>
                                 </Grid.Row>
                             </Grid>
