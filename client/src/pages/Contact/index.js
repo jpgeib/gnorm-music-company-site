@@ -9,22 +9,20 @@ class Contact extends Component {
     render() {
 
         const { contactInfo } = this.props;
-        
+
         return (
             <>
-                <Grid id="contact-container">
-                    <Grid.Row>
-                        <Header id="contact-header" as="h1">Contact</Header>
-                    </Grid.Row>
-                    <Grid.Row>
-                        <Grid.Column width={8}>
-                            <Image id="contact-image" src={Telecast} />
-                        </Grid.Column>
-                        <Grid.Column width={8}>
-                            <ContactInfo contactInfo={contactInfo} />
-                        </Grid.Column>
-                    </Grid.Row>
-                </Grid>
+                <Grid.Row>
+                    <Header id="contact-header" as="h1">Contact</Header>
+                </Grid.Row>
+                <Grid.Row>
+                    <Grid.Column width={8}>
+                        <Image id="contact-image" src={Telecast} />
+                    </Grid.Column>
+                    <Grid.Column width={8}>
+                        <ContactInfo contactInfo={contactInfo} />
+                    </Grid.Column>
+                </Grid.Row>
             </>
         );
     }
