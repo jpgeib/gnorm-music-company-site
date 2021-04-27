@@ -27,7 +27,7 @@ class App extends Component {
           <LiveMusicRoutes bios={bios} text={livemusicText} subNav={subNavStyle} band={liveMusicStyle} path={location} />
           <ProGearRoutes text={progearText} entry={proGearStyle} subNav={subNavStyle} path={location} />
           <Route exact path="/shows" render={() => <Shows shows={showStyle} text={showsText}/>} />
-          <Route exact path="/contact" render={() => <Contact contactInfo={contactStyle} />} />
+          <Route exact path="/contact" render={() => <Contact contact={contactStyle} />} />
         </Grid>
         {location !== "/" && <Footer />}
       </>

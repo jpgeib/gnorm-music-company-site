@@ -59,11 +59,13 @@ export const showStyle = {
 
 export const contactStyle = {
     header: {
-        marginBottom: "-7%"
+        marginBottom: "-7%",
+        fontFamily: "'Noto Sans JP', sans-serif"
     },
     emailLink: {
         textDecorationLine: "underline",
-        color: "#670001"
+        color: "#670001",
+        fontFamily: "'Noto Sans JP', sans-serif"
     },
     text: {
         fontFamily: "'Noto Sans JP', sans-serif"

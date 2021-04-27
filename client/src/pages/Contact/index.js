@@ -3,24 +3,24 @@ import { Grid, Header, Image } from "semantic-ui-react";
 import ContactInfo from "../../components/ContactInfo";
 import Telecast from "../../assets/images/img_gnfl.jpg";
 
-import "./style.css";
-
 class Contact extends Component {
     render() {
 
-        const { contactInfo } = this.props;
+        const { contact } = this.props;
 
         return (
             <>
                 <Grid.Row>
-                    <Header id="contact-header" as="h1">Contact</Header>
+                    <Grid.Column>
+                        <Header style={contact.text} as="h1">Contact</Header>
+                    </Grid.Column>
                 </Grid.Row>
                 <Grid.Row>
                     <Grid.Column width={8}>
-                        <Image id="contact-image" src={Telecast} />
+                        <Image src={Telecast} />
                     </Grid.Column>
                     <Grid.Column width={8}>
-                        <ContactInfo contactInfo={contactInfo} />
+                        <ContactInfo contactInfo={contact} />
                     </Grid.Column>
                 </Grid.Row>
             </>
