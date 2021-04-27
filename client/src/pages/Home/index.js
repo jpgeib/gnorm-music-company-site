@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import { Grid, Image, Header } from "semantic-ui-react";
+import { Grid, Image } from "semantic-ui-react";
 import HomeList from "../../components/HomeList";
+import GnormBio from "../../components/Bios/GnormBio";
 import GnormProfile from "../../assets/images/GnormProfile.jpg";
 
 class Home extends Component {
@@ -26,23 +27,7 @@ class Home extends Component {
                         </Grid>
                     </Grid.Column>
                     <Grid.Column width={11}>
-                        <Grid>
-                            <Grid.Row>
-                                <Grid.Column width={16}>
-                                    <Header style={home.text} as="h3">{temp}</Header>
-                                </Grid.Column>
-                            </Grid.Row>
-                            <Grid.Row>
-                                <Grid.Column width={16}>
-                                    <Header style={home.text} as="h3">{temp}</Header>
-                                </Grid.Column>
-                            </Grid.Row>
-                            <Grid.Row>
-                                <Grid.Column width={16}>
-                                    <Header style={home.text} as="h3">{temp}</Header>
-                                </Grid.Column>
-                            </Grid.Row>
-                        </Grid>
+                        <GnormBio home={home} temp={temp} />
                     </Grid.Column>
                 </Grid.Row>
             </>
