@@ -10,7 +10,7 @@ import Shows from "../../pages/Shows";
 import Contact from "../../pages/Contact";
 import Footer from "../../components/Footer";
 import { placeholderText, livemusicText, progearText, showsText, bios } from "../../text";
-import { subNavStyle, contactStyle, proGearStyle, liveMusicStyle, showStyle, homeStyle } from "../../styles";
+import { mainNavStyle, subNavStyle, contactStyle, proGearStyle, liveMusicStyle, showStyle, homeStyle } from "../../styles";
 import "./style.css";
 
 class App extends Component {
@@ -20,7 +20,7 @@ class App extends Component {
 
     return (
       <>
-        <Navbar />
+        <Navbar nav={mainNavStyle} />
         <Grid style={proGearStyle.container}>
           <Route exact path="/" component={LandingPage} />
           <Route exact path="/home" render={() => <Home home={homeStyle} temp={placeholderText} />}  />

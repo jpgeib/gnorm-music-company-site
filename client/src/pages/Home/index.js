@@ -20,7 +20,7 @@ class Home extends Component {
                             </Grid.Row>
                             <Grid.Row>
                                 <Grid.Column width={16}>
-                                    <HomeList />
+                                    <HomeList list={home} />
                                 </Grid.Column>
                             </Grid.Row>
                         </Grid>

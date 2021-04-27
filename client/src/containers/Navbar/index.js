@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { Menu, Image } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 import GnormMusicBanner from "../../assets/images/gnorm-banner1.jpg";
-import { mainNavStyle } from "../../styles";
 
 export default class Navbar extends Component {
 
@@ -15,7 +14,7 @@ export default class Navbar extends Component {
     render() {
 
         const { activeItem } = this.state;
-        const { navbar, gnormBanner, navItem } = mainNavStyle;
+        const { navbar, gnormBanner, navItem } = this.props.nav;
 
         return (
         <>
@@ -75,5 +74,4 @@ export default class Navbar extends Component {
         </>
         );
     }
-
 }
