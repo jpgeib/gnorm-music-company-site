@@ -40,6 +40,16 @@ export const homeStyle = {
 export const showStyle = {
     text: {
         fontFamily: "'Noto Sans JP', sans-serif"
+    },
+    subheader: {
+        fontFamily: "'Noto Sans JP', sans-serif",
+        textAlign: "center"
+    },
+    link: {
+        fontFamily: "'Noto Sans JP', sans-serif",
+        textAlign: "center",
+        textDecorationLine: "underline",
+        color: "#670001"
     }
 };
 

@@ -1,14 +1,3 @@
-/* #shows-header-container {
-    margin: 0 auto;
-    width: 80%;
-    margin-top: 1%;
-} */
-
-#shows-subheader, #calendly-link {
-    color: black;
-    text-align: center;
-}
-
 #shows-container {
     margin: 0 auto;
     width: 754px;
