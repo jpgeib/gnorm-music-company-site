@@ -27,6 +27,12 @@ export const subNavStyle = {
     fontFamily: "'Noto Sans JP', sans-serif"
 };
 
+// Landing Page Styling
+
+export const landingStyle = {
+
+};
+
 //Home Page Styling
 
 export const homeStyle = {
@@ -141,5 +147,6 @@ export const websiteStyle = {
     liveMusicStyle,
     proGearStyle,
     contactStyle,
-    footerStyle
+    footerStyle, 
+    landingStyle
 };
