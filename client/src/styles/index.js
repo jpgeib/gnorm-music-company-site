@@ -128,6 +128,8 @@ export const footerStyle = {
     }
 }
 
+//Aggregate Styling
+
 export const websiteStyle = {
     mainNavStyle,
     subNavStyle,

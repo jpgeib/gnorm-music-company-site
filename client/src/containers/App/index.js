@@ -10,16 +10,7 @@ import Shows from "../../pages/Shows";
 import Contact from "../../pages/Contact";
 import Footer from "../../components/Footer";
 import { placeholderText, livemusicText, progearText, showsText, bios } from "../../text";
-import { 
-  mainNavStyle, 
-  subNavStyle, 
-  contactStyle, 
-  proGearStyle, 
-  liveMusicStyle, 
-  showStyle, 
-  homeStyle,
-  footerStyle 
-} from "../../styles";
+import { websiteStyle } from "../../styles";
 import "./style.css";
 
 class App extends Component {
@@ -29,16 +20,16 @@ class App extends Component {
 
     return (
       <>
-        <Navbar nav={mainNavStyle} />
-        <Grid style={proGearStyle.container}>
+        <Navbar nav={websiteStyle.mainNavStyle} />
+        <Grid style={websiteStyle.proGearStyle.container}>
           <Route exact path="/" component={LandingPage} />
-          <Route exact path="/home" render={() => <Home home={homeStyle} temp={placeholderText} />}  />
-          <LiveMusicRoutes bios={bios} text={livemusicText} subNav={subNavStyle} band={liveMusicStyle} path={location} />
-          <ProGearRoutes text={progearText} entry={proGearStyle} subNav={subNavStyle} path={location} />
-          <Route exact path="/shows" render={() => <Shows shows={showStyle} text={showsText}/>} />
-          <Route exact path="/contact" render={() => <Contact contact={contactStyle} />} />
+          <Route exact path="/home" render={() => <Home home={websiteStyle.homeStyle} temp={placeholderText} />}  />
+          <LiveMusicRoutes bios={bios} text={livemusicText} subNav={websiteStyle.subNavStyle} band={websiteStyle.liveMusicStyle} path={location} />
+          <ProGearRoutes text={progearText} entry={websiteStyle.proGearStyle} subNav={websiteStyle.subNavStyle} path={location} />
+          <Route exact path="/shows" render={() => <Shows shows={websiteStyle.showStyle} text={showsText}/>} />
+          <Route exact path="/contact" render={() => <Contact contact={websiteStyle.contactStyle} />} />
         </Grid>
-        {location !== "/" && <Footer footer={footerStyle} />}
+        {location !== "/" && <Footer footer={websiteStyle.footerStyle} />}
       </>
     )
   }
