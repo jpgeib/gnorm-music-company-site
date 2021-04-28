@@ -1,11 +1,13 @@
 import React, { Component } from "react";
 import { Grid, Header } from "semantic-ui-react";
 import JimBio from "../../../components/Bios/JimBio";
+import DariaBio from "../../../components/Bios/DariaBio";
+import DaveBio from "../../../components/Bios/DaveBio";
 
 class Cutouts extends Component {
     render() {
 
-        const { bios } = this.props;
+        const { cut, fed } = this.props.bios;
         
         return (
             <>
@@ -15,13 +17,13 @@ class Cutouts extends Component {
                     </Grid.Column>
                 </Grid.Row>
                 <Grid.Row>
-                    {/* <DariaBio daria={bios.cut.daria} /> */}
+                    <DariaBio daria={cut.daria} />
                 </Grid.Row>
                 <Grid.Row>
-                    {/* <DaveBio dave={bios.cut.dave} /> */}
+                    <DaveBio dave={cut.dave} />
                 </Grid.Row>
                 <Grid.Row>
-                    <JimBio jim={bios.fed.jim} />
+                    <JimBio jim={fed.jim} />
                 </Grid.Row>
             </>
         );
