@@ -6,7 +6,7 @@ import JimBio from "../../../components/Bios/JimBio";
 class Federation extends Component {
     render() {
         
-        const { bios } = this.props;
+        const { bios, band } = this.props;
 
         return (
             <>
@@ -16,10 +16,10 @@ class Federation extends Component {
                     </Grid.Column>
                 </Grid.Row>
                 <Grid.Row>
-                    <JoelBio joel={bios.fed.joel} />
+                    <JoelBio fed={band} joel={bios.fed.joel} />
                 </Grid.Row>
                 <Grid.Row>
-                    <JimBio jim={bios.fed.jim} />
+                    <JimBio fed={band} jim={bios.fed.jim} />
                 </Grid.Row>
             </>
         );
