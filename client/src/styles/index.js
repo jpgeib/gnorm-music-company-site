@@ -84,7 +84,8 @@ export const proGearStyle = {
     },
     link: {
         textDecorationLine: "underline",
-        color: "#670001"
+        color: "#670001",
+        fontFamily: "'Noto Sans JP', sans-serif"
     },
     text: {
         fontFamily: "'Noto Sans JP', sans-serif"
@@ -110,6 +111,30 @@ export const liveMusicStyle = {
     }
 };
 
-export const websiteStyle = {
+//Footer Styling
 
+export const footerStyle = {
+    container: {
+        marginTop: "4.5%",
+        backgroundColor: "#3d413f"
+    },
+    copyright: {
+        color: "white",
+        marginLeft: "2%",
+        fontFamily: "'Noto Sans JP', sans-serif"
+    },
+    guitar: {
+        margin: "0 auto"
+    }
+}
+
+export const websiteStyle = {
+    mainNavStyle,
+    subNavStyle,
+    homeStyle,
+    showStyle,
+    liveMusicStyle,
+    proGearStyle,
+    contactStyle,
+    footerStyle
 };

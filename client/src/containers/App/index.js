@@ -10,7 +10,16 @@ import Shows from "../../pages/Shows";
 import Contact from "../../pages/Contact";
 import Footer from "../../components/Footer";
 import { placeholderText, livemusicText, progearText, showsText, bios } from "../../text";
-import { mainNavStyle, subNavStyle, contactStyle, proGearStyle, liveMusicStyle, showStyle, homeStyle } from "../../styles";
+import { 
+  mainNavStyle, 
+  subNavStyle, 
+  contactStyle, 
+  proGearStyle, 
+  liveMusicStyle, 
+  showStyle, 
+  homeStyle,
+  footerStyle 
+} from "../../styles";
 import "./style.css";
 
 class App extends Component {
@@ -29,7 +38,7 @@ class App extends Component {
           <Route exact path="/shows" render={() => <Shows shows={showStyle} text={showsText}/>} />
           <Route exact path="/contact" render={() => <Contact contact={contactStyle} />} />
         </Grid>
-        {location !== "/" && <Footer />}
+        {location !== "/" && <Footer footer={footerStyle} />}
       </>
     )
   }
