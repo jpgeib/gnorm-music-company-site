@@ -30,7 +30,20 @@ export const subNavStyle = {
 // Landing Page Styling
 
 export const landingStyle = {
-
+    imgTop: {
+        marginBottom: "-8%",
+        marginLeft: "-1.8%"
+    },
+    imgBottom: {
+        marginBottom: "-2%"
+    },
+    header1: {
+        textAlign: "center"
+    },
+    header2: {
+        textAlign: "center",
+        marginTop: "-3%"
+    }
 };
 
 //Home Page Styling
