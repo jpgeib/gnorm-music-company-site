@@ -32,6 +32,9 @@ export const subNavStyle = {
 export const homeStyle = {
     text: {
         fontFamily: "'Noto Sans JP', sans-serif"
+    },
+    item: {
+        fontSize: "24px"
     }
 };
 
