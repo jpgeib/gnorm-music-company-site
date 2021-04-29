@@ -16,10 +16,10 @@ class Federation extends Component {
                     </Grid.Column>
                 </Grid.Row>
                 <Grid.Row>
-                    <JoelBio fed={band} joel={bios.fed.joel} />
+                    <JoelBio font={band} joel={bios.fed.joel} />
                 </Grid.Row>
                 <Grid.Row>
-                    <JimBio fed={band} jim={bios.fed.jim} />
+                    <JimBio font={band} jim={bios.fed.jim} />
                 </Grid.Row>
             </>
         );
