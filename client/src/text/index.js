@@ -2,6 +2,12 @@
 
 export const placeholderText = "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita cupiditate temporibus dicta hic atque amet cum molestiae dolor praesentium quos obcaecati earum adipisci, eius, consequuntur suscipit ex illum sed modi.";
 
+//Home page text
+
+export const homeText = {
+    gnorm: ""
+};
+
 //LiveMusic page text
 
 export const livemusicText = {
@@ -57,6 +63,3 @@ export const websiteText = {
     progearText,
     showsText
 };
-
-
-
