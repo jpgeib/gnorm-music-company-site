@@ -4,9 +4,27 @@ import { livemusicText } from "../../text";
 import OutsideChanceImage from "../../assets/images/336_OutsideChance1.JPG";
 
 class LiveMusic extends Component {
+
+    state = {
+        windowHeight: window.innerHeight
+    }
+
+    handleResize = (e) => {
+        this.setState({ windowHeight: window.innerHeight });
+    }
+
+    componentDidMount() {
+        window.addEventListener("resize", this.handleResize);
+    }
+
+    componentWillUnmount() {
+        window.addEventListener("resize", this.handleResize);
+    }
+
     render() {
 
         const { band } = this.props;
+        const { windowHeight } = this.state;
 
         return (
             <>
@@ -24,6 +42,7 @@ class LiveMusic extends Component {
                             <Grid.Row>
                                 <Grid.Column width={16}>
                                     <Header style={band.text} as="h3">{livemusicText.main}</Header>
+                                    <div>Current window height: {windowHeight}</div>
                                 </Grid.Column>
                             </Grid.Row>
                         </Grid>

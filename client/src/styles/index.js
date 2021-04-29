@@ -137,8 +137,20 @@ export const liveMusicStyle = {
 
 export const footerStyle = {
     container: {
-        marginTop: "4.5%",
-        backgroundColor: "#3d413f"
+        computer: {
+            marginTop: "4.5%",
+            backgroundColor: "#3d413f"
+        },
+        largescreen: {
+            marginTop: "6%",
+            backgroundColor: "#3d413f",
+            height: "180px"
+        },
+        widescreen: {
+            marginTop: "9%",
+            backgroundColor: "#3d413f",
+            height: "200px"
+        }
     },
     copyright: {
         color: "white",
@@ -160,6 +172,6 @@ export const websiteStyle = {
     liveMusicStyle,
     proGearStyle,
     contactStyle,
-    footerStyle, 
+    footerStyle,
     landingStyle
 };
