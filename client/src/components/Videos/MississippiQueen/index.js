@@ -2,6 +2,9 @@ import React from "react";
 import { Grid, Header } from "semantic-ui-react";
 
 export default (props) => {
+
+    const { font } = props;
+
     return (
         <>
             <Grid.Column width={8}>
@@ -17,10 +20,10 @@ export default (props) => {
             <Grid.Column width={8}>
                 <Grid>
                     <Grid.Row>
-                        <Header as="h3">Live at The Shack Party - May 28, 2017</Header>
+                        <Header style={font} as="h3">Live at The Shack Party - May 28, 2017</Header>
                     </Grid.Row>
                     <Grid.Row>
-                        <Header as="h3">Cover of "Mississippi Queen" by Mountain</Header>
+                        <Header style={font} as="h3">Cover of "Mississippi Queen" by Mountain</Header>
                     </Grid.Row>
                 </Grid>
             </Grid.Column>
