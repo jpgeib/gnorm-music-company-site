@@ -49,7 +49,14 @@ export const showsText = {
     subheader: "To view available show dates, click on the Calendly link below:"
 };
 
-//Band Member Bios
+//Aggregate Text
+
+export const websiteText = {
+    placeholderText,
+    livemusicText,
+    progearText,
+    showsText
+};
 
 
 

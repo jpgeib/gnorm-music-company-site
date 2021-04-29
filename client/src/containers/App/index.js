@@ -9,7 +9,7 @@ import ProGearRoutes from "../../routes/ProGearRoutes";
 import Shows from "../../pages/Shows";
 import Contact from "../../pages/Contact";
 import Footer from "../../components/Footer";
-import { placeholderText, livemusicText, progearText, showsText } from "../../text";
+import { websiteText } from "../../text";
 import { websiteStyle } from "../../styles";
 import "./style.css";
 
@@ -23,10 +23,10 @@ class App extends Component {
         <Navbar nav={websiteStyle.mainNavStyle} />
         <Grid style={websiteStyle.proGearStyle.container}>
           <Route exact path="/" render={() => <LandingPage land={websiteStyle.landingStyle} />} />
-          <Route exact path="/home" render={() => <Home home={websiteStyle.homeStyle} temp={placeholderText} />}  />
-          <LiveMusicRoutes text={livemusicText} subNav={websiteStyle.subNavStyle} band={websiteStyle.liveMusicStyle} path={location} />
-          <ProGearRoutes text={progearText} entry={websiteStyle.proGearStyle} subNav={websiteStyle.subNavStyle} path={location} />
-          <Route exact path="/shows" render={() => <Shows shows={websiteStyle.showStyle} text={showsText}/>} />
+          <Route exact path="/home" render={() => <Home home={websiteStyle.homeStyle} temp={websiteText.placeholderText} />}  />
+          <LiveMusicRoutes text={websiteText.livemusicText} subNav={websiteStyle.subNavStyle} band={websiteStyle.liveMusicStyle} path={location} />
+          <ProGearRoutes text={websiteText.progearText} entry={websiteStyle.proGearStyle} subNav={websiteStyle.subNavStyle} path={location} />
+          <Route exact path="/shows" render={() => <Shows shows={websiteStyle.showStyle} text={websiteText.showsText}/>} />
           <Route exact path="/contact" render={() => <Contact contact={websiteStyle.contactStyle} />} />
         </Grid>
         {location !== "/" && <Footer footer={websiteStyle.footerStyle} />}
