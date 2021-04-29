@@ -25,8 +25,8 @@ export const livemusicText = {
             jim: `Jim has been playing drums since he [was knee high to a grasshopper] encouraged by his drummer dad, who introduced Jim to jazz and Big Band music. At age 8, Jim discovered Led Zeppelin and Frank Zappa, and at 9 he sat in with his drum teacher's band performing at a club and was hooked. By 15, Jim was playing in local clubs (with his dad as roadie) and has regularly performed around the tri-state area [music scene] ever since. Jim is the 'go-to' drummer for many local bands, including Outside Chance, the Federation and the Cut-Outs. He also plays guitar, keyboards and electronic music.`
         },
         cut: {
-            daria: "This will be where Daria's bio is placed once it is made.",
-            dave: "This will be where Dave's bio is placed once it is made."
+            daria: "Daria is the lead vocalist and rhythm guitarist for the The Cut-Outs. Her musical influences include the likes of singers Mary Chapin Carpenter, K.D. Lang, and Bonnie Raitt. Initially starting her singing career with simple church choir work, she went on to provide lead vocals for local bands such as Daria and the Dreamers, and Metro alongside future Cut-Outs bassist, Dave. You’d be hard-pressed to find a better vocalist than Daria.",
+            dave: "Dave is the electric/acoustic bass player for The Cut-Outs, and also provides vocals when necessary. His main musical influence is none other than Bryan Setzer, most notable for his work in Stray Cats, and the Bryan Setzer Orchestra. Dave has been around the block when it comes to the local band scene; he’s played in local groups such as Metro and Limelight prior to the Cut-Outs."
         }
     }
 };
