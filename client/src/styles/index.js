@@ -142,9 +142,9 @@ export const footerStyle = {
             backgroundColor: "#3d413f"
         },
         largescreen: {
-            marginTop: "6%",
+            marginTop: "8%",
             backgroundColor: "#3d413f",
-            height: "180px"
+            height: "210px"
         },
         widescreen: {
             marginTop: "9%",
