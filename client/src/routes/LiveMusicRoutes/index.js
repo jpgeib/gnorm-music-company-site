@@ -30,7 +30,7 @@ class LiveMusicRoutes extends Component {
                 <Route exact path="/livemusic/outsidechance/videos" render={() => <OutsideChanceVideo bios={text.bios} band={band} />} />
                 <Route exact path="/livemusic/federation" render={() => <Federation band={band} bios={text.bios} />} />
                 <Route exact path="/livemusic/federation/videos" render={() => <FederationVideo bios={text.bios} band={band} />} />
-                <Route exact path="/livemusic/dnr" render={() => <DNR bios={text.bios} />} />
+                <Route exact path="/livemusic/dnr" render={() => <DNR band={band} bios={text.bios} />} />
                 <Route exact path="/livemusic/cutouts" render={() => <Cutouts bios={text.bios} />} />
             </>
         )
