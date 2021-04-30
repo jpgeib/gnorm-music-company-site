@@ -3,6 +3,8 @@ import { Grid, Header, Image } from "semantic-ui-react";
 import PlaceholderImg from "../../../assets/images/fl_remys.jpg";
 
 export default (props) => {
+    
+    const { font, mike } = props;
     return (
         <>
             <Grid.Column width={5}>
@@ -12,12 +14,12 @@ export default (props) => {
                 <Grid>
                     <Grid.Row>
                         <Grid.Column width={16}>
-                            <Header as="h2">Mike "Juice"</Header>
+                            <Header style={font.text} as="h2">Mike "Juice"</Header>
                         </Grid.Column>
                     </Grid.Row>
                     <Grid.Row>
                         <Grid.Column width={16}>
-                            <Header as="h3">{props.mike}</Header>
+                            <Header style={font.text} as="h3">{mike}</Header>
                         </Grid.Column>
                     </Grid.Row>
                 </Grid>

@@ -12,7 +12,7 @@ class Federation extends Component {
             <>
                 <Grid.Row>
                     <Grid.Column>
-                        <Header as="h1">The Federation</Header>
+                        <Header style={band.text} as="h1">The Federation</Header>
                     </Grid.Column>
                 </Grid.Row>
                 <Grid.Row>

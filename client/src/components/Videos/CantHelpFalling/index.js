@@ -3,13 +3,13 @@ import { Grid, Header } from "semantic-ui-react";
 
 export default (props) => {
 
-    const { font } = props;
+    const { font, video } = props;
 
     return (
         <>
             <Grid.Column width={8}>
                 <iframe 
-                    style={props.video}
+                    style={video}
                     src="https://www.youtube.com/embed/Eo9zzy0rZEg" 
                     title="YouTube video player" 
                     frameBorder="0" 

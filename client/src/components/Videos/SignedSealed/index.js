@@ -2,11 +2,14 @@ import React from "react";
 import { Grid, Header } from "semantic-ui-react";
 
 export default (props) => {
+
+    const { font, video } = props;
+
     return (
         <>
             <Grid.Column width={8}>
                 <iframe 
-                    style={props.video} 
+                    style={video} 
                     src="https://www.youtube.com/embed/JKv7CCX9wJc" 
                     title="YouTube video player" 
                     frameBorder="0" 
@@ -17,10 +20,10 @@ export default (props) => {
             <Grid.Column width={8}>
                 <Grid>
                     <Grid.Row>
-                        <Header as="h3">Live at Milford Oyster Festival - August 16, 2014</Header>
+                        <Header style={font} as="h3">Live at Milford Oyster Festival - August 16, 2014</Header>
                     </Grid.Row>
                     <Grid.Row>
-                        <Header as="h3">Cover of "Signed, Sealed, Delivered" by Stevie Wonder</Header>
+                        <Header style={font} as="h3">Cover of "Signed, Sealed, Delivered" by Stevie Wonder</Header>
                     </Grid.Row>
                 </Grid>
             </Grid.Column>
