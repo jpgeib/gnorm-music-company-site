@@ -8,22 +8,23 @@ class Cutouts extends Component {
     render() {
 
         const { cut, fed } = this.props.bios;
+        const { band } = this.props;
         
         return (
             <>
                 <Grid.Row>
                     <Grid.Column>
-                        <Header as="h1">The Cut-Outs</Header>
+                        <Header style={band.text} as="h1">The Cut-Outs</Header>
                     </Grid.Column>
                 </Grid.Row>
                 <Grid.Row>
-                    <DariaBio daria={cut.daria} />
+                    <DariaBio font={band} daria={cut.daria} />
                 </Grid.Row>
                 <Grid.Row>
-                    <DaveBio dave={cut.dave} />
+                    <DaveBio font={band} dave={cut.dave} />
                 </Grid.Row>
                 <Grid.Row>
-                    <JimBio jim={fed.jim} />
+                    <JimBio font={band} jim={fed.jim} />
                 </Grid.Row>
             </>
         );
