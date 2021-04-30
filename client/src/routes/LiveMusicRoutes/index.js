@@ -27,9 +27,9 @@ class LiveMusicRoutes extends Component {
                     </Grid.Row>}
                 <Route exact path="/livemusic" render={() => <LiveMusic text={text} band={band} />} />
                 <Route exact path="/livemusic/outsidechance" render={() => <OutsideChance band={band} bios={text.bios} />} />
-                <Route exact path="/livemusic/outsidechance/videos" render={() => <OutsideChanceVideo bios={text.bios} band={band} />} />
+                <Route exact path="/livemusic/outsidechance/videos" render={() => <OutsideChanceVideo band={band} />} />
                 <Route exact path="/livemusic/federation" render={() => <Federation band={band} bios={text.bios} />} />
-                <Route exact path="/livemusic/federation/videos" render={() => <FederationVideo bios={text.bios} band={band} />} />
+                <Route exact path="/livemusic/federation/videos" render={() => <FederationVideo band={band} />} />
                 <Route exact path="/livemusic/dnr" render={() => <DNR band={band} bios={text.bios} />} />
                 <Route exact path="/livemusic/cutouts" render={() => <Cutouts band={band} bios={text.bios} />} />
             </>
