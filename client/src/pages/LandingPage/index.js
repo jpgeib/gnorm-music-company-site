@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Grid, Header, Image } from "semantic-ui-react";
+import { Grid, Header, Image, Divider } from "semantic-ui-react";
 import GuitarTop from "../../assets/images/SP_guita_1.jpg";
 import GuitarBottom from "../../assets/images/SP_guitar_2.jpg";
 
@@ -16,7 +16,8 @@ class LandingPage extends Component {
                     </Grid.Column>
                     <Grid.Column width={8}>
                         <Header style={header1} as="h2">live MUSIC</Header>
-                        <Header style={header2} as="h2">and PRO GEAR</Header>
+                        <Divider horizontal content="and" />
+                        <Header style={header2} as="h2">pro GEAR</Header>
                     </Grid.Column>
                 </Grid.Row>
                 <Grid.Row>

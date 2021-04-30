@@ -31,18 +31,21 @@ export const subNavStyle = {
 
 export const landingStyle = {
     imgTop: {
-        marginBottom: "-8%",
-        marginLeft: "-1.8%"
+        marginLeft: "-1.8%",
+        // marginTop: "-3%"
     },
     imgBottom: {
-        marginBottom: "-2%"
+        marginBottom: "-2%",
+        marginTop: "-3.85%"
     },
     header1: {
-        textAlign: "center"
+        textAlign: "center",
+        fontFamily: "'Noto Sans JP', sans-serif"
     },
     header2: {
         textAlign: "center",
-        marginTop: "-3%"
+        marginTop: "-3%",
+        fontFamily: "'Noto Sans JP', sans-serif"
     }
 };
 
