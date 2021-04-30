@@ -53,7 +53,8 @@ export const homeStyle = {
         fontFamily: "'Noto Sans JP', sans-serif"
     },
     item: {
-        fontSize: "24px"
+        fontSize: "24px",
+        fontFamily: "'Noto Sans JP', sans-serif"
     }
 };
 

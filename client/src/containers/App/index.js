@@ -18,7 +18,8 @@ class App extends Component {
 
     const location = this.props.history.location.pathname;
     const { placeholderText, progearText, livemusicText, showsText } = websiteText;
-    const { mainNavStyle, homeStyle, landingStyle, proGearStyle, liveMusicStyle, subNavStyle, showStyle, contactStyle } = websiteStyle;
+    const { mainNavStyle, homeStyle, landingStyle, proGearStyle, liveMusicStyle, 
+            subNavStyle, showStyle, contactStyle, footerStyle } = websiteStyle;
 
     return (
       <>
@@ -31,9 +32,9 @@ class App extends Component {
           <Route exact path="/shows" render={() => <Shows shows={showStyle} text={showsText}/>} />
           <Route exact path="/contact" render={() => <Contact contact={contactStyle} />} />
         </Grid>
-        {location !== "/" && <Footer footer={websiteStyle.footerStyle} />}
+        {location !== "/" && <Footer footer={footerStyle} />}
       </>
-    )
+    );
   }
 }
 
