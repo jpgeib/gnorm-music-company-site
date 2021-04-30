@@ -13,7 +13,7 @@ import WeberVST from "../../components/WeberVST";
 class ProGearRoutes extends Component {
     render() {
         
-        const { path, entry, subNav } = this.props;
+        const { text, path, entry, subNav } = this.props;
 
         return (
             <>
@@ -24,13 +24,13 @@ class ProGearRoutes extends Component {
                         <ProGearNavbar path={path} subNav={subNav} />
                     </Grid.Column>
                 </Grid.Row>}
-                <Route exact path="/progear" render={() => <ProGear />} />
-                <Route exact path="/progear/audix" render={() => <Audix entry={entry} />} />
-                <Route exact path="/progear/guytron" render={() => <Guytron entry={entry} />} />
-                <Route exact path="/progear/boomerang" render={() => <BoomerangMusic entry={entry} />} />
-                <Route exact path="/progear/radian" render={() => <RadianAudio entry={entry} />} />
-                <Route exact path="/progear/georgeLs" render={() => <GeorgeLs entry={entry} />} />
-                <Route exact path="/progear/weber" render={() => <WeberVST entry={entry} />} />
+                <Route exact path="/progear" render={() => <ProGear text={text} font={entry} />} />
+                <Route exact path="/progear/audix" render={() => <Audix text={text} entry={entry} />} />
+                <Route exact path="/progear/guytron" render={() => <Guytron text={text} entry={entry} />} />
+                <Route exact path="/progear/boomerang" render={() => <BoomerangMusic text={text} entry={entry} />} />
+                <Route exact path="/progear/radian" render={() => <RadianAudio text={text} entry={entry} />} />
+                <Route exact path="/progear/georgeLs" render={() => <GeorgeLs text={text} entry={entry} />} />
+                <Route exact path="/progear/weber" render={() => <WeberVST text={text} entry={entry} />} />
             </>
         )
     }
