@@ -14,17 +14,18 @@ class LiveMusicRoutes extends Component {
     render() {
 
         const { text, path, subNav, band } = this.props;
-        
+        const livePaths = (path === "/livemusic" || path === "/livemusic/outsidechance" ||
+            path === "/livemusic/outsidechance/videos" || path === "/livemusic/federation"
+            || path === "/livemusic/federation/videos" || path === "/livemusic/dnr"
+            || path === "/livemusic/shellshockt" || path === "/livemusic/cutouts");
+
         return (
             <>
-                {(path === "/livemusic" || path === "/livemusic/outsidechance" ||
-                    path === "/livemusic/outsidechance/videos" || path === "/livemusic/federation"
-                    || path === "/livemusic/federation/videos" || path === "/livemusic/dnr"
-                    || path === "/livemusic/shellshockt" || path === "/livemusic/cutouts") && <Grid.Row centered>
-                        <Grid.Column width={12}>
-                            <LiveMusicNavbar path={path} subNav={subNav} />
-                        </Grid.Column>
-                    </Grid.Row>}
+                {livePaths && <Grid.Row centered>
+                    <Grid.Column width={12}>
+                        <LiveMusicNavbar path={path} subNav={subNav} />
+                    </Grid.Column>
+                </Grid.Row>}
                 <Route exact path="/livemusic" render={() => <LiveMusic text={text} band={band} />} />
                 <Route exact path="/livemusic/outsidechance" render={() => <OutsideChance band={band} bios={text.bios} />} />
                 <Route exact path="/livemusic/outsidechance/videos" render={() => <OutsideChanceVideo band={band} />} />

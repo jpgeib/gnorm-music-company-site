@@ -14,12 +14,13 @@ class ProGearRoutes extends Component {
     render() {
         
         const { text, path, entry, subNav } = this.props;
+        const gearPaths = (path === "/progear" || path === "/progear/audix" || path === "/progear/guytron"
+        || path === "/progear/radian" || path === "/progear/boomerang" || path === "/progear/georgeLs"
+        || path === "/progear/weber");
 
         return (
             <>
-                {(path === "/progear" || path === "/progear/audix" || path === "/progear/guytron"
-                || path === "/progear/radian" || path === "/progear/boomerang" || path === "/progear/georgeLs"
-                || path === "/progear/weber") && <Grid.Row centered>
+                {gearPaths && <Grid.Row centered>
                     <Grid.Column width={15}>
                         <ProGearNavbar path={path} subNav={subNav} />
                     </Grid.Column>

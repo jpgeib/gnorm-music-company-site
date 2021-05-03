@@ -15,6 +15,11 @@ class LiveMusicNavbar extends Component {
 
         const { activeItem } = this.state;
         const { path, subNav } = this.props;
+        const bandPaths = (path === "/livemusic/outsidechance" || path === "/livemusic/outsidechance/videos"
+            || path === "/livemusic/federation" || path === "/livemusic/federation/videos"
+            || path === "/livemusic/dnr" || path === "/livemusic/cutouts");
+        const ocPaths = (path === "/livemusic/outsidechance" || path === "/livemusic/outsidechance/videos");
+        const fedPaths = (path === "/livemusic/federation" || path === "/livemusic/federation/videos");
 
         return (
             <>
@@ -60,9 +65,7 @@ class LiveMusicNavbar extends Component {
                         The Cut-Outs
                     </Menu.Item>
                 </Menu>}
-                {(path === "/livemusic/outsidechance" || path === "/livemusic/outsidechance/videos"
-                || path === "/livemusic/federation" || path === "/livemusic/federation/videos"
-                || path === "/livemusic/dnr" || path === "/livemusic/cutouts") && <Menu style={subNav} text>
+                {bandPaths && <Menu style={subNav} text>
                     <Menu.Item
                         as={Link}
                         to="/livemusic"
@@ -73,7 +76,7 @@ class LiveMusicNavbar extends Component {
                         <Image size="mini" src={VolumeDial} />
                     Back to Live Music
                 </Menu.Item>
-                    {(path === "/livemusic/outsidechance" || path === "/livemusic/outsidechance/videos") &&
+                    {ocPaths &&
                         <Menu.Item
                             as={Link}
                             to="/livemusic/outsidechance"
@@ -84,7 +87,7 @@ class LiveMusicNavbar extends Component {
                             <Image size="mini" src={VolumeDial} />
                         Band Members
                     </Menu.Item>}
-                    {(path === "/livemusic/outsidechance" || path === "/livemusic/outsidechance/videos") &&
+                    {ocPaths &&
                         <Menu.Item
                             as={Link}
                             to="/livemusic/outsidechance/videos"
@@ -95,7 +98,7 @@ class LiveMusicNavbar extends Component {
                             <Image size="mini" src={VolumeDial} />
                         Videos
                     </Menu.Item>}
-                    {(path === "/livemusic/federation" || path === "/livemusic/federation/videos") &&
+                    {fedPaths &&
                         <Menu.Item
                             as={Link}
                             to="/livemusic/federation"
@@ -106,7 +109,7 @@ class LiveMusicNavbar extends Component {
                             <Image size="mini" src={VolumeDial} />
                         Band Members
                     </Menu.Item>}
-                    {(path === "/livemusic/federation" || path === "/livemusic/federation/videos") &&
+                    {fedPaths &&
                         <Menu.Item
                             as={Link}
                             to="/livemusic/federation/videos"
