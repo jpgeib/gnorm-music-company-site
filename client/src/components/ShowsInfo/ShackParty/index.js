@@ -9,8 +9,8 @@ export default () => {
             </Grid.Column>
             <Grid.Column width={8}>
                 <Header as="h1">Shack Party - Private Event</Header>
-                <Header as="h2">The Federation</Header>
-                <Header as="h2">5/30 - 6 PM</Header>
+                <Header as="h3">The Federation</Header>
+                <Header as="h3">5/30 - 6 PM</Header>
             </Grid.Column>
         </>
     );

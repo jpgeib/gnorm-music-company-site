@@ -10,8 +10,8 @@ export default () => {
             </Grid.Column>
             <Grid.Column width={8}>
                 <Header as="h1">Maria V's - Shelton, CT</Header>
-                <Header as="h2">Outside Chance</Header>
-                <Header as="h2">5/14 - 7:30 PM</Header>
+                <Header as="h3">Outside Chance</Header>
+                <Header as="h3">5/14 - 7:30 PM</Header>
             </Grid.Column>
         </>
     );
