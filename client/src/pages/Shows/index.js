@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 import { Grid, Header } from "semantic-ui-react";
-import ShowsInfo from "../../components/ShowsInfo";
+import ShowsDates from "../../components/ShowsDates";
 
 class Shows extends Component {
     render() {
+        
         const { text, shows } = this.props;
 
         return (
@@ -15,10 +16,10 @@ class Shows extends Component {
                 </Grid.Row>
                 <Grid.Row>
                     <Grid.Column>
-                        <Header as="h3">{text.subheader}</Header>
+                        <Header style={shows.text.subheader} as="h3">{text.subheader}</Header>
                     </Grid.Column>
                 </Grid.Row>
-                <ShowsInfo />
+                <ShowsDates shows={shows} />
             </>
         );
     }

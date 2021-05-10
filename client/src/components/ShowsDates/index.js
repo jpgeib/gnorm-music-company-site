@@ -6,18 +6,21 @@ import ShackParty from "./ShackParty";
 
 class ShowsInfo extends Component {
     render() {
+
+        const { text } = this.props.shows;
+
         return (
             <>
                 <Grid.Row>
-                    <MariaVs />
+                    <MariaVs font={text} />
                 </Grid.Row>
                 <Divider />
                 <Grid.Row>
-                    <Bistro />
+                    <Bistro font={text} />
                 </Grid.Row>
                 <Divider />
                 <Grid.Row>
-                    <ShackParty />
+                    <ShackParty font={text} />
                 </Grid.Row>
             </>
         );
