@@ -18,9 +18,7 @@ class Shows extends Component {
                         <Header as="h3">{text.subheader}</Header>
                     </Grid.Column>
                 </Grid.Row>
-                <Grid.Row>
-                    <ShowsInfo />
-                </Grid.Row>
+                <ShowsInfo />
             </>
         );
     }
