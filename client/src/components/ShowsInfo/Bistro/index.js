@@ -11,7 +11,7 @@ export default () => {
             <Grid.Column width={8}>
                 <Header as="h1">Bistro 143 - Oxford, CT</Header>
                 <Header as="h2">Starving Artists</Header>
-                <Header as="h2">7 PM</Header>
+                <Header as="h2">5/29 - 7 PM</Header>
             </Grid.Column>
         </>
     );
