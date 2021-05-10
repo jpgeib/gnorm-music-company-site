@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import { Grid, Header, Image } from "semantic-ui-react";
-import LiveShow from "../../assets/images/img_band_red.jpg";
+import { Grid, Header } from "semantic-ui-react";
+import ShowsInfo from "../../components/ShowsInfo";
 
 class Shows extends Component {
     render() {
@@ -14,23 +14,7 @@ class Shows extends Component {
                     </Grid.Column>
                 </Grid.Row>
                 <Grid.Row>
-                    <Grid.Column width={7}>
-                        <Image src={LiveShow} />
-                    </Grid.Column>
-                    <Grid.Column width={8}>
-                        <Grid>
-                            <Grid.Row>
-                                <Grid.Column width={16}>
-                                    <Header style={shows.text.subheader} as="h3">{text.subheader}</Header>
-                                </Grid.Column>
-                            </Grid.Row>
-                            <Grid.Row>
-                                <Grid.Column width={16}>
-                                    <Header style={shows.text.link} as="h3">[Link to Calendly]</Header>
-                                </Grid.Column>
-                            </Grid.Row>
-                        </Grid>
-                    </Grid.Column>
+                    <ShowsInfo />
                 </Grid.Row>
             </>
         );
