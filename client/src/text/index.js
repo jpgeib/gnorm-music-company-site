@@ -52,7 +52,7 @@ export const progearText = {
 //Shows page text
 
 export const showsText = {
-    subheader: "To view available show dates, click on the Calendly link below:"
+    subheader: "These are the current show dates for May 2021."
 };
 
 //Aggregate Text

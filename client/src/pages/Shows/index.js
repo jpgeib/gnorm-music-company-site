@@ -9,8 +9,13 @@ class Shows extends Component {
         return (
             <>
                 <Grid.Row>
-                    <Grid.Column width={16}>
+                    <Grid.Column>
                         <Header style={shows.text.header} as="h1">Show Dates</Header>
+                    </Grid.Column>
+                </Grid.Row>
+                <Grid.Row>
+                    <Grid.Column>
+                        <Header as="h3">{text.subheader}</Header>
                     </Grid.Column>
                 </Grid.Row>
                 <Grid.Row>
