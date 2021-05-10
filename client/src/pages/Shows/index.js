@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Header } from "semantic-ui-react";
-import ShowsDates from "../../components/ShowsDates";
+import ShowDates from "../../components/ShowDates";
 
 class Shows extends Component {
     render() {
@@ -19,7 +19,7 @@ class Shows extends Component {
                         <Header style={shows.text.subheader} as="h3">{text.subheader}</Header>
                     </Grid.Column>
                 </Grid.Row>
-                <ShowsDates shows={shows} />
+                <ShowDates shows={shows} />
             </>
         );
     }
