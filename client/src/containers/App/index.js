@@ -8,7 +8,7 @@ import LiveMusicRoutes from "../../routes/LiveMusicRoutes";
 import ProGearRoutes from "../../routes/ProGearRoutes";
 import Shows from "../../pages/Shows";
 import Contact from "../../pages/Contact";
-import Footer from "../../components/Footer";
+import Footer from "../../containers/Footer";
 import { websiteText } from "../../text";
 import { websiteStyle } from "../../styles";
 import "./style.css";
