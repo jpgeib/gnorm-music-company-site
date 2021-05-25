@@ -3,6 +3,7 @@ import { Grid, Header, Image } from "semantic-ui-react";
 import GuitarFooter from "../../assets/images/bottom3.jpg";
 
 export default class Footer extends Component {
+    
     state = {
         windowHeight: window.innerHeight
     }
