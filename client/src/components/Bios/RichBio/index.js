@@ -15,7 +15,7 @@ export default (props) => {
                 <Grid>
                     <Grid.Row>
                         <Grid.Column width={16}>
-                            <Header style={font.text} as="h2">Rich</Header>
+                            <Header style={font.text} as="h2">Rich - Saxophone</Header>
                         </Grid.Column>
                     </Grid.Row>
                     <Grid.Row>

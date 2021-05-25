@@ -15,7 +15,7 @@ export default (props) => {
                 <Grid>
                     <Grid.Row>
                         <Grid.Column width={16}>
-                            <Header style={font.text} as="h2">Daria</Header>
+                            <Header style={font.text} as="h2">Daria - Lead Vocals, Rhythm Guitar</Header>
                         </Grid.Column>
                     </Grid.Row>
                     <Grid.Row>

@@ -11,6 +11,7 @@ import Contact from "../../pages/Contact";
 import Footer from "../../containers/Footer";
 import { websiteText } from "../../text";
 import { websiteStyle } from "../../styles";
+
 import "./style.css";
 
 class App extends Component {
