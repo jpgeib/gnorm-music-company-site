@@ -1,4 +1,4 @@
-// Placeholder text
+//Placeholder text
 
 export const placeholderText = "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita cupiditate temporibus dicta hic atque amet cum molestiae dolor praesentium quos obcaecati earum adipisci, eius, consequuntur suscipit ex illum sed modi.";
 
@@ -27,7 +27,7 @@ export const livemusicText = {
             rich: "Representing the entire horn section of DNR is no small task.  It is certainly made easier when Gnorm turns up my mic (so if you can't hear me please nudge him to do so!). My sax career began when my older brother left home and left his sax behind; I gladly gave up the clarinet and got hooked on jazz.  Dexter Gordon, Wayne Shorter and of course John Coltrane are my icons."
         },
         fed: {
-            joel: "Joel is the Federation’s lead bass player and co-vocalist. He has been playing bass for many years, initially starting on the upright variation, then moving onto bass guitar. Some of his influences include Led Zeppelin, Pink Floyd, and Rush, which can be seen from the band’s go-to setlists. Joel has had years of experience playing and singing live, frequenting southern CT venues such as the Grey Goose, the Black Duck, and the Spotted Horse. With Joel’s bass playing, the Federation has never needed a rhythm guitarist to back Gnorm up.",
+            joel: `Joel is the Federation’s bass player, co-vocalist, and a force of nature. His monster solos and spot-on Elvis vocals turn heads at every gig. A native of Weston, CT he studied music at UConn, and also attended the Culinary Institute. Joel began playing upright bass before moving on to electric bass in his teens, and has played in bands ever since, including Banshee, Bar Car Band, and Virgil Roost rockabilly band. His musical influences include Jeff Beck, Metallica, Ozzy Osborne, Rush, Pink Floyd, and Led Zeppelin. Joel has recently released a modern country CD, "Rollin' Down Liberty Road" (as J.Dale Rose).`,
             jim: `Jim has been playing drums since he was knee high to a grasshopper, encouraged by his drummer dad, who introduced him to jazz and Big Band music. At age 8, Jim discovered Led Zeppelin and Frank Zappa, and at 9 he sat in with his drum teacher's band performing at a club and was hooked. By 15, Jim was playing in local clubs (with his dad as a roadie) and has regularly performed around the tri-state area music scene ever since. Jim is the 'go-to' drummer for many local bands, including Outside Chance, the Federation, and the Cut-Outs. He also plays guitar, keyboards and electronic music.`
         },
         cut: {
