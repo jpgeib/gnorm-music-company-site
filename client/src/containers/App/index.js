@@ -18,7 +18,7 @@ class App extends Component {
   render() {
 
     const location = this.props.history.location.pathname;
-    const { placeholderText, progearText, livemusicText, showsText } = websiteText;
+    const { homeText, progearText, livemusicText, showsText } = websiteText;
     const { mainNavStyle, homeStyle, landingStyle, proGearStyle, liveMusicStyle, 
             subNavStyle, showStyle, contactStyle, footerStyle } = websiteStyle;
 
@@ -27,7 +27,7 @@ class App extends Component {
         <Navbar nav={mainNavStyle} />
         <Grid style={proGearStyle.container}>
           <Route exact path="/" render={() => <LandingPage land={landingStyle} />} />
-          <Route exact path="/home" render={() => <Home home={homeStyle} temp={placeholderText} />}  />
+          <Route exact path="/home" render={() => <Home home={homeStyle} text={homeText} />}  />
           <LiveMusicRoutes text={livemusicText} subNav={subNavStyle} band={liveMusicStyle} path={location} />
           <ProGearRoutes text={progearText} entry={proGearStyle} subNav={subNavStyle} path={location} />
           <Route exact path="/shows" render={() => <Shows shows={showStyle} text={showsText}/>} />

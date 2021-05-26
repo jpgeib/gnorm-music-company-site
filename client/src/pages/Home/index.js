@@ -7,7 +7,7 @@ import GnormProfile from "../../assets/images/GnormProfile.jpg";
 class Home extends Component {
     render() {
 
-        const { home, temp } = this.props;
+        const { home, text } = this.props;
 
         return (
             <>
@@ -27,7 +27,7 @@ class Home extends Component {
                         </Grid>
                     </Grid.Column>
                     <Grid.Column width={11}>
-                        <GnormBio home={home} temp={temp} />
+                        <GnormBio home={home} gnorm={text.gnorm} />
                     </Grid.Column>
                 </Grid.Row>
             </>

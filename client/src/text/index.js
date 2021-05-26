@@ -5,7 +5,12 @@ export const placeholderText = "Lorem, ipsum dolor sit amet consectetur adipisic
 //Home page text
 
 export const homeText = {
-    gnorm: ""
+    gnorm: {
+        paragraph1: "Norm grew up in a musical family - his grandmother played the organ at church, his classically trained  mother taught him piano, and his uncle's jazz trio recorded and toured nationally. Norm's first instrument was a 25-cent ukele that his grandmother taught him to play, before he graduated to a $50 acoustic guitar he bought at another uncle's store, Fladd's Music in Milford, CT.",
+        paragraph2: `Norm taught himself acoustic guitar, and credits Eric Clapton's "Crossroads" with inspiring him to learn electric guitar. His musical influences include Yes, early Genesis, Hot Tuna, Rush and later Stevie Ray Vaughn and Jon Herington of Steely Dan. Norm studied music at the University of Bridgeport with Sal Salvatore and performed with Dave Brubek as part of the UB concert choir. He also learned to play bass, and honed his vocals with choral singing at church camp.`,
+        paragraph3: "Norm has been playing in bands since high school, including Slider, Foxon, Banshee, Metro (rock), Elixir (wedding band), Split Decision (rock/power trio), Brother Clampett & the Brass Knuckle Horns (rock/blues), Hard Luck Harry (modern rock-90s), The Void (classic rock), DNR (rocking doctors), Outside Chance (rock/dance/current hits), The Federation (rock--classic to eclectic), Shell Shokt (rock cover band) and the Cut-outs (country-rockabilly).",
+        paragraph4: `Norm "lives by his ears"and will play any style of music. His signature skill is covering multiple guitar and keyboard parts on his guitar, prompting listeners to do a double take. Over the decades he has committed a sizable and varied repertoire of songs to memory, from Southern Rock to metal to rockabilly. Besides recording his bands' music demos, he has also contributed to friends' CDs and played a broad range of venues, from Toad's Place, the Levitt Pavilion and the Bartlett Arboretum, to local clubs and restaurants such as the Grey Goose, the Black Duck, and the Spotted Horse.`
+    }
 };
 
 //LiveMusic page text
@@ -14,8 +19,8 @@ export const livemusicText = {
     main: "These are the bands I work with most. Between them, we cover everything from Heavy Metal to Frank Sinatra.",
     bios: {
         oc: {
-            peg: "Peg was at a friend’s party when she saw Jeff and Mike playing with Harmony Incorporated. They invited her to step up to the mic and sing Sweet Home Alabama - and the rest is history! The band immediately recognized her talent and persuaded her to join them on a permanent basis. Peg's influences include Fleetwood Mac and jazz-folk-blues great Eva Cassidy. Besides her musical talent as lead singer, Peg is a dynamic front-person who engages the audience with her humor and inclusive style, which is why the band has developed a loyal following of friends and band 'family' who look forward to a great night of dancing and dining.",
-            jeff: "A 'triple threat' on lead guitar, keyboards and vocals, Jeff has been playing since he first stole his father’s guitar at the age of three! Jeff played for 15 years with Take Five, and 8 years with Harmony Inc., before forming Outside Chance with Peggy and Mike. Jeff is an ardent fan of the Beatles (as well as the NY Yankees and UConn Huskies). His later influences include Terry Kath of Chicago, Jeff Beck and Frank Zappa. He can be found tinkering with his beloved Stratocaster and Telecasters, learning new songs.",
+            peg: `Peg was at a friend’s party when she saw Jeff and Mike playing with Harmony Incorporated. They invited her to step up to the mic and sing Sweet Home Alabama - and the rest is history! The band immediately recognized her talent and persuaded her to join them on a permanent basis. Peg's influences include Fleetwood Mac and jazz-folk-blues great Eva Cassidy. Besides her musical talent as lead singer, Peg is a dynamic front-person who engages the audience with her humor and inclusive style, which is why the band has developed a loyal following of friends and band "family" who look forward to a great night of dancing and dining.`,
+            jeff: `A "triple threat" on lead guitar, keyboards and vocals, Jeff has been playing since he first stole his father’s guitar at the age of three! Jeff played for 15 years with Take Five, and 8 years with Harmony Inc., before forming Outside Chance with Peggy and Mike. Jeff is an ardent fan of the Beatles (as well as the NY Yankees and UConn Huskies). His later influences include Terry Kath of Chicago, Jeff Beck and Frank Zappa. He can be found tinkering with his beloved Stratocaster and Telecasters, learning new songs.`,
             mike: "Another Harmony, Inc. alumni, Mike provides a solid foundation for the band with his outstanding bass playing.  Mike's style is anchored in Motown and R&B, from Earth, Wind & Fire to Kool & the Gang. His influences include Jaco Pastorius, Wrecking Crew regulars Joe Osborn and Carol Kaye, and of course Chris Squire - listen for Mike sneaking in bass runs from some of his favorite Yes songs! With his reliable talent and self-deprecating humor, Mike is an essential contributor to the band."
         },
         dnr: {
@@ -58,7 +63,7 @@ export const showsText = {
 //Aggregate Text
 
 export const websiteText = {
-    placeholderText,
+    homeText,
     livemusicText,
     progearText,
     showsText
