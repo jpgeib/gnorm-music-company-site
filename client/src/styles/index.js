@@ -2,7 +2,7 @@ import SubNavImage from "../assets/images/brass-metallic.jpg";
 
 // Main Navbar Styling
 
-export const mainNavStyle = {
+const mainNavStyle = {
     navbar: {
         margin: "0 auto",
         backgroundColor: "#9a9a9a",
@@ -20,7 +20,7 @@ export const mainNavStyle = {
 
 //Sub Navbar Styling
 
-export const subNavStyle = {
+const subNavStyle = {
     backgroundImage: `url(${SubNavImage})`,
     margin: "2%",
     borderRadius: "20px",
@@ -29,7 +29,7 @@ export const subNavStyle = {
 
 // Landing Page Styling
 
-export const landingStyle = {
+const landingStyle = {
     imgTop: {
         marginLeft: "-1.8%",
         // marginTop: "-3%"
@@ -51,9 +51,10 @@ export const landingStyle = {
 
 //Home Page Styling
 
-export const homeStyle = {
+const homeStyle = {
     text: {
-        fontFamily: "'Noto Sans JP', sans-serif"
+        fontFamily: "'Noto Sans JP', sans-serif",
+        fontSize: "14px"
     },
     item: {
         fontSize: "24px",
@@ -63,7 +64,7 @@ export const homeStyle = {
 
 //Shows Styling
 
-export const showStyle = {
+const showStyle = {
     text: {
         header: {
             fontFamily: "'Noto Sans JP', sans-serif"
@@ -83,7 +84,7 @@ export const showStyle = {
 
 //Contact Page Styling
 
-export const contactStyle = {
+const contactStyle = {
     header: {
         marginBottom: "-7%",
         fontFamily: "'Noto Sans JP', sans-serif"
@@ -100,7 +101,7 @@ export const contactStyle = {
 
 // Pro Gear Page Styling
 
-export const proGearStyle = {
+const proGearStyle = {
     container: {
         margin: "0 auto",
         width: "754px",
@@ -120,7 +121,7 @@ export const proGearStyle = {
 
 // Live Music Page Styling
 
-export const liveMusicStyle = {
+const liveMusicStyle = {
     container: {
         margin: "0 auto",
         width: "754px",
@@ -139,7 +140,7 @@ export const liveMusicStyle = {
 
 //Footer Styling
 
-export const footerStyle = {
+const footerStyle = {
     container: {
         computer: {
             marginTop: "4.5%",
