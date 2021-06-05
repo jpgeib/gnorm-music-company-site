@@ -54,7 +54,7 @@ const landingStyle = {
 const homeStyle = {
     text: {
         fontFamily: "'Noto Sans JP', sans-serif",
-        fontSize: "14px"
+        fontSize: "16px"
     },
     item: {
         fontSize: "24px",
