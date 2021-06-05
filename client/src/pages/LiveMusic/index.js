@@ -1,13 +1,12 @@
 import React, { Component } from "react";
 import { Grid, Image, Header } from "semantic-ui-react";
-import { livemusicText } from "../../text";
 import OutsideChanceImage from "../../assets/images/336_OutsideChance1.JPG";
 
 class LiveMusic extends Component {
 
     render() {
 
-        const { band } = this.props;
+        const { band, text } = this.props;
         
         return (
             <>
@@ -24,7 +23,7 @@ class LiveMusic extends Component {
                             </Grid.Row>
                             <Grid.Row>
                                 <Grid.Column width={16}>
-                                    <Header style={band.text} as="h3">{livemusicText.main}</Header>
+                                    <Header style={band.text} as="h3">{text.main}</Header>
                                 </Grid.Column>
                             </Grid.Row>
                         </Grid>

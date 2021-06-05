@@ -1,10 +1,6 @@
-//Placeholder text
-
-export const placeholderText = "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita cupiditate temporibus dicta hic atque amet cum molestiae dolor praesentium quos obcaecati earum adipisci, eius, consequuntur suscipit ex illum sed modi.";
-
 //Home page text
 
-export const homeText = {
+const homeText = {
     gnorm: {
         paragraph1: `Gnorm grew up in a musical family - his grandmother played the organ at church, his classically trained mother taught him piano, and his uncle's jazz trio recorded and toured nationally. Gnorm's first instrument was a 25-cent ukele that his grandmother taught him to play, before he graduated to a $50 acoustic guitar from another uncle's store, Fladd's Music. After teaching himself acoustic, Eric Clapton's "Crossroads" inspired him to take up electric.`,
         paragraph2: `His musical influences include Yes, early Genesis, Hot Tuna, Rush and later Stevie Ray Vaughn and Jon Herington of Steely Dan. Gnorm studied music at the University of Bridgeport with Sal Salvatore and performed with Dave Brubek as part of the UB concert choir.`,
@@ -15,7 +11,7 @@ export const homeText = {
 
 //LiveMusic page text
 
-export const livemusicText = {
+const livemusicText = {
     main: "These are the bands I work with most. Between them, we cover everything from Heavy Metal to Frank Sinatra.",
     bios: {
         oc: {
@@ -44,7 +40,7 @@ export const livemusicText = {
 
 //ProGear page text
 
-export const progearText = {
+const progearText = {
     main: "I am a dealer for selected pro gear that I actually use. As a working musician, quality, reliabilty, and responsive customer support are absolute requirements. All the lines I handle have those virtues.",
     audix: "I've been using Audix mikes for about 6 years. I started with OM5's and OM3's for vocals and D3's for guitar cab miking. I've since added the D6 kick drum mike and SCX1 condensers to my live rig. I became a dealer about 2 years ago because the product has proved itself through countless gigs.",
     boomerang: "The Boomerang is a foot-operated real-time looper. I use it to lay down tracks for myself when I'm learning songs or developing parts for new compositions. It can also be used live as a digital delay with two speeds.",
@@ -56,7 +52,7 @@ export const progearText = {
 
 //Shows page text
 
-export const showsText = {
+const showsText = {
     subheader: "These are the current show dates for May 2021."
 };
 
