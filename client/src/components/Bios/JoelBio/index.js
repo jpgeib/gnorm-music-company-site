@@ -1,6 +1,6 @@
 import React from "react";
 import { Grid, Header, Image } from "semantic-ui-react";
-import JoelProfile from "../../../assets/images/Federation-Joel.jpg";
+import JoelProfile from "../../../assets/images/Federation-Joel.png";
 
 export default (props) => {
 
@@ -9,7 +9,7 @@ export default (props) => {
     return (
         <>
             <Grid.Column width={5}>
-                <Image size="medium" src={JoelProfile} />
+                <Image src={JoelProfile} />
             </Grid.Column>
             <Grid.Column width={11}>
                 <Grid>

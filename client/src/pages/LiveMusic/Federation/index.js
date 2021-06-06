@@ -15,7 +15,7 @@ class Federation extends Component {
                         <Header style={band.text} as="h1">The Federation</Header>
                     </Grid.Column>
                 </Grid.Row>
-                <Grid.Row>
+                <Grid.Row >
                     <JoelBio font={band} joel={bios.fed.joel} />
                 </Grid.Row>
                 <Grid.Row>
