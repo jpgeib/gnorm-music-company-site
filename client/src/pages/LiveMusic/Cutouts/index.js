@@ -18,13 +18,13 @@ class Cutouts extends Component {
                     </Grid.Column>
                 </Grid.Row>
                 <Grid.Row>
-                    <DariaBio font={band} daria={cut.daria} />
+                    <DariaBio band={band} daria={cut.daria} />
                 </Grid.Row>
                 <Grid.Row>
-                    <DaveBio font={band} dave={cut.dave} />
+                    <DaveBio band={band} dave={cut.dave} />
                 </Grid.Row>
                 <Grid.Row>
-                    <JimBio font={band} jim={fed.jim} />
+                    <JimBio band={band} jim={fed.jim} />
                 </Grid.Row>
             </>
         );
