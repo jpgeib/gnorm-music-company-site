@@ -135,11 +135,6 @@ const liveMusicStyle = {
     },
     text: {
         fontFamily: "'Noto Sans JP', sans-serif"
-    },
-    test: {
-        width: "218px",
-        height: "280px",
-        backgroundColor: "blue",
     }
 };
 

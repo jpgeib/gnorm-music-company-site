@@ -8,7 +8,7 @@ export default (props) => {
     return (
         <>
             <Grid.Column width={5}>
-                <Image size="medium" src={JeffProfile} />
+                <Image src={JeffProfile} />
             </Grid.Column>
             <Grid.Column width={11}>
                 <Grid>
