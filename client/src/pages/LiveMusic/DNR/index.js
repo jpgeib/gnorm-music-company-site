@@ -20,22 +20,22 @@ class DNR extends Component {
                     </Grid.Column>
                 </Grid.Row>
                 <Grid.Row>
-                    <LynnBio font={band} lynn={bios.dnr.lynn} />
+                    <LynnBio band={band} lynn={bios.dnr.lynn} />
                 </Grid.Row>
                 <Grid.Row>
-                    <FredBio font={band} fred={bios.dnr.fred} />
+                    <FredBio band={band} fred={bios.dnr.fred} />
                 </Grid.Row>
                 <Grid.Row>
-                    <BobBio font={band} bob={bios.dnr.bob} />
+                    <BobBio band={band} bob={bios.dnr.bob} />
                 </Grid.Row>
                 <Grid.Row>
-                    <AndrewBio font={band} andrew={bios.dnr.andrew} />
+                    <AndrewBio band={band} andrew={bios.dnr.andrew} />
                 </Grid.Row>
                 <Grid.Row>
-                    <KevinBio font={band} kevin={bios.dnr.kevin} />
+                    <KevinBio band={band} kevin={bios.dnr.kevin} />
                 </Grid.Row>
                 <Grid.Row>
-                    <RichBio font={band} rich={bios.dnr.rich} />
+                    <RichBio band={band} rich={bios.dnr.rich} />
                 </Grid.Row>
             </>
         );

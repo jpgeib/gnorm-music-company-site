@@ -4,7 +4,7 @@ import RichProfile from "../../../assets/images/DNR-Rich.jpg";
 
 export default (props) => {
 
-    const { font, rich } = props;
+    const { band, rich } = props;
 
     return (
         <>
@@ -15,12 +15,12 @@ export default (props) => {
                 <Grid>
                     <Grid.Row>
                         <Grid.Column width={16}>
-                            <Header style={font.text} as="h2">Rich - Saxophone</Header>
+                            <Header style={band.text} as="h2">Rich - Saxophone</Header>
                         </Grid.Column>
                     </Grid.Row>
                     <Grid.Row>
                         <Grid.Column width={16}>
-                            <Header style={font.text} as="h3">{rich}</Header>
+                            <Header style={band.text} as="h3">{rich}</Header>
                         </Grid.Column>
                     </Grid.Row>
                 </Grid>

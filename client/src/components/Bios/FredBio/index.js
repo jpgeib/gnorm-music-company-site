@@ -4,7 +4,7 @@ import FredProfile from "../../../assets/images/DNR-Fred.jpg";
 
 export default (props) => {
 
-    const { font, fred } = props;
+    const { band, fred } = props;
     
     return (
         <>
@@ -15,12 +15,12 @@ export default (props) => {
                 <Grid>
                     <Grid.Row>
                         <Grid.Column width={16}>
-                            <Header style={font.text} as="h2">Fred - Bass</Header>
+                            <Header style={band.text} as="h2">Fred - Bass</Header>
                         </Grid.Column>
                     </Grid.Row>
                     <Grid.Row>
                         <Grid.Column width={16}>
-                            <Header style={font.text} as="h3">{fred}</Header>
+                            <Header style={band.text} as="h3">{fred}</Header>
                         </Grid.Column>
                     </Grid.Row>
                 </Grid>

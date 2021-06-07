@@ -4,7 +4,7 @@ import LynnProfile from "../../../assets/images/DNR-Lynn.jpg";
 
 export default (props) => {
 
-    const { font, lynn } = props;
+    const { band, lynn } = props;
 
     return (
         <>
@@ -15,12 +15,12 @@ export default (props) => {
                 <Grid>
                     <Grid.Row>
                         <Grid.Column width={16}>
-                            <Header style={font.text} as="h2">Lynn - Flute, Vocals</Header>
+                            <Header style={band.text} as="h2">Lynn - Flute, Vocals</Header>
                         </Grid.Column>
                     </Grid.Row>
                     <Grid.Row>
                         <Grid.Column width={16}>
-                            <Header style={font.text} as="h3">{lynn}</Header>
+                            <Header style={band.text} as="h3">{lynn}</Header>
                         </Grid.Column>
                     </Grid.Row>
                 </Grid>

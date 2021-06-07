@@ -4,7 +4,7 @@ import AndrewProfile from "../../../assets/images/DNR-Andy.jpg";
 
 export default (props) => {
 
-    const { font, andrew } = props;
+    const { band, andrew } = props;
 
     return (
         <>
@@ -15,12 +15,12 @@ export default (props) => {
                 <Grid>
                     <Grid.Row>
                         <Grid.Column width={16}>
-                            <Header style={font.text} as="h2">Andrew - Lead Vocals</Header>
+                            <Header style={band.text} as="h2">Andrew - Lead Vocals</Header>
                         </Grid.Column>
                     </Grid.Row>
                     <Grid.Row>
                         <Grid.Column width={16}>
-                            <Header style={font.text} as="h3">{andrew}</Header>
+                            <Header style={band.text} as="h3">{andrew}</Header>
                         </Grid.Column>
                     </Grid.Row>
                 </Grid>
