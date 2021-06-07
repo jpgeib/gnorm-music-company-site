@@ -18,16 +18,16 @@ class OutsideChance extends Component {
                     </Grid.Column>
                 </Grid.Row>
                 <Grid.Row>
-                    <JeffBio font={band} jeff={bios.oc.jeff} />
+                    <JeffBio band={band} jeff={bios.oc.jeff} />
                 </Grid.Row>
                 <Grid.Row>
-                    <PegBio font={band} peg={bios.oc.peg} />
+                    <PegBio band={band} peg={bios.oc.peg} />
                 </Grid.Row>
                 <Grid.Row>
-                    <MikeBio font={band} mike={bios.oc.mike} />
+                    <MikeBio band={band} mike={bios.oc.mike} />
                 </Grid.Row>
                 <Grid.Row>
-                    <JimBio font={band} jim={bios.fed.jim} />
+                    <JimBio band={band} jim={bios.fed.jim} />
                 </Grid.Row>
             </>
         );
