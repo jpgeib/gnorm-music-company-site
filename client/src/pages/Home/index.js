@@ -7,7 +7,7 @@ import GnormProfile from "../../assets/images/GnormProfile.jpg";
 class Home extends Component {
     render() {
 
-        const { home, text } = this.props;
+        const { home, text} = this.props;
 
         return (
             <>

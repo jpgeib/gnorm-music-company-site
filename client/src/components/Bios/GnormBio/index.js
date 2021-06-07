@@ -18,16 +18,6 @@ export default (props) => {
                         <Header style={home.text} as="h3">{gnorm.paragraph2}</Header>
                     </Grid.Column>
                 </Grid.Row>
-                <Grid.Row>
-                    <Grid.Column width={16}>
-                        <Header style={home.text} as="h3">{gnorm.paragraph3}</Header>
-                    </Grid.Column>
-                </Grid.Row>
-                <Grid.Row>
-                    <Grid.Column width={16}>
-                        <Header style={home.text} as="h3">{gnorm.paragraph4}</Header>
-                    </Grid.Column>
-                </Grid.Row>
             </Grid>
         </>
     );
