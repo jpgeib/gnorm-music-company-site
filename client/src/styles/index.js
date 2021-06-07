@@ -163,8 +163,9 @@ const footerStyle = {
     },
     copyright: {
         color: "white",
-        marginLeft: "2%",
-        fontFamily: "'Noto Sans JP', sans-serif"
+        marginTop: "7%",
+        fontFamily: "'Noto Sans JP', sans-serif",
+        textAlign: "center"
     },
     guitar: {
         margin: "0 auto"

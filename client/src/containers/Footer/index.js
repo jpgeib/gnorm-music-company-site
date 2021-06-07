@@ -31,20 +31,17 @@ export default class Footer extends Component {
                 <Grid>
                     {windowHeight <= 800 && <Grid.Row style={container.computer}>
                         <Grid.Column width={16}>
-                            <Header style={copyright} id="company-copyright" as="h3">© Gnorm Music LLC 2020</Header>
-                            <Header style={copyright} id="designer-copyright" as="h3">© Geib Designs 2020</Header>
+                            <Header style={copyright} id="company-copyright" as="h1">© Gnorm Music LLC 2020</Header>
                         </Grid.Column>  
                     </Grid.Row>}
                     {(windowHeight >= 801 && windowHeight <= 1000) && <Grid.Row style={container.largescreen}>
                         <Grid.Column width={16}>
-                            <Header style={copyright} id="company-copyright" as="h3">© Gnorm Music LLC 2020</Header>
-                            <Header style={copyright} id="designer-copyright" as="h3">© Geib Designs 2020</Header>
+                            <Header style={copyright} id="company-copyright" as="h1">© Gnorm Music LLC 2020</Header>
                         </Grid.Column>  
                     </Grid.Row>}
                     {windowHeight >= 1001 && <Grid.Row style={container.widescreen}>
                         <Grid.Column width={16}>
-                            <Header style={copyright} id="company-copyright" as="h3">© Gnorm Music LLC 2020</Header>
-                            <Header style={copyright} id="designer-copyright" as="h3">© Geib Designs 2020</Header>
+                            <Header style={copyright} id="company-copyright" as="h1">© Gnorm Music LLC 2020</Header>
                         </Grid.Column>  
                     </Grid.Row>}
                 </Grid>
