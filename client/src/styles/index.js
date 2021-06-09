@@ -162,12 +162,12 @@ const footerStyle = {
         largescreen: {
             marginTop: "8%",
             backgroundColor: "#3d413f",
-            height: "210px"
+            height: "250px"
         },
         widescreen: {
             marginTop: "9%",
             backgroundColor: "#3d413f",
-            height: "200px"
+            height: "230px"
         }
     },
     copyright: {

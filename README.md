@@ -1,6 +1,6 @@
 # Gnorm Music LLC Company Site
 
-A new version of local CT musician's (Gnorm) company website, rebuilt with the React.js library.
+A new version of local CT musician's (Gnorm) company website, rebuilt with the React.js library. (Note: Site has not yet been optimized for mobile/tablet screen views. Viewing is highly recommended for most computer/monitor screens.)
 
 ![](client/src/assets/screenshots/gnorm-landing-page.png)
 
