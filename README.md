@@ -29,7 +29,7 @@ Gnorm is a locally well-known freelance musician in the southern CT area, and he
 
 ![](client/src/assets/screenshots/gnorm-fed-band.png)
 
-* In addition, some of the bands featured also have a page for video examples of their live performances, so even if their background/personalities haven't made an impression, maybe their performances will. (Only "Outside Chance" and "The Federation" have video examples at this time, other bands such as "DNR" will be updated in the future if provided.)
+* In addition, some of the bands featured also have a page for video examples of their live performances. So even if their background/personalities haven't made an impression, perahps their playing will. (Only "Outside Chance" and "The Federation" have video examples at this time, other bands such as "DNR" will be updated in the future if provided.)
 
 ![](client/src/assets/screenshots/gnorm-fed-videos.png)
 
@@ -41,7 +41,7 @@ Gnorm is a locally well-known freelance musician in the southern CT area, and he
 
 ![](client/src/assets/screenshots/gnorm-audix.png)
 
-* Lastly, the Shows page lists the current set of live performance dates for the current month. This will be updated on a monthly basis at the very least, with minor updates later in the month if Gnorm receives a new gig date out of the blue. (Pictures/locations of venues will be provided for each entry, excluding private events.)
+* Lastly, the Shows page lists the current set of live performance dates for that month. This will be updated on a monthly basis at the very least, with minor updates later in the month if Gnorm receives a new gig date out of the blue. (Pictures/locations for venues will be provided with each entry, excluding private events.)
 
 ![](client/src/assets/screenshots/gnorm-shows.png)
 
