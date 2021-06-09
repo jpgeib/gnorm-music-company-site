@@ -23,7 +23,7 @@ class LiveMusicNavbar extends Component {
 
         return (
             <>
-                {path === "/livemusic" && <Menu style={subNav} text>
+                {path === "/livemusic" && <Menu style={subNav.navbar} text>
                     <Menu.Item
                         as={Link}
                         to="/livemusic/outsidechance"
@@ -65,7 +65,7 @@ class LiveMusicNavbar extends Component {
                         The Cut-Outs
                     </Menu.Item>
                 </Menu>}
-                {bandPaths && <Menu style={subNav} text>
+                {bandPaths && <Menu style={subNav.navbar} text>
                     <Menu.Item
                         as={Link}
                         to="/livemusic"

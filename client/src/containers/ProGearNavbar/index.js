@@ -14,51 +14,59 @@ class ProGearNavbar extends Component {
     render() {
 
         const { activeItem } = this.state;
-        const { subNav } = this.props;
+        const { navbar, navItem, image } = this.props.subNav;
 
         return (
             <>
-                <Menu style={subNav} text>
-                    <Menu.Item
-                        as={Link}
-                        to="/progear/audix"
-                        name="audix"
-                        active={activeItem === "audix"}
-                        onClick={this.handleItemClick}
-                    >
-                        <Image size="mini" src={VolumeDial} />
-                    Audix
-                </Menu.Item>
-                    <Menu.Item
-                        as={Link}
-                        to="/progear/guytron"
-                        name="guytron"
-                        active={activeItem === "guytron"}
-                        onClick={this.handleItemClick}
-                    >
-                        <Image size="mini" src={VolumeDial} />
-                    Guytron
-                </Menu.Item>
-                    <Menu.Item
-                        as={Link}
-                        to="/progear/boomerang"
-                        name="boomerang"
-                        active={activeItem === "boomerang"}
-                        onClick={this.handleItemClick}
-                    >
-                        <Image size="mini" src={VolumeDial} />
-                    Boomerang
-                </Menu.Item>
-                    <Menu.Item
-                        as={Link}
-                        to="/progear/weber"
-                        name="weber"
-                        active={activeItem === "weber"}
-                        onClick={this.handleItemClick}
-                    >
-                        <Image size="mini" src={VolumeDial} />
-                    Weber
-                </Menu.Item>
+                <Menu style={navbar} text>
+                    <div style={navItem}>
+                        <Menu.Item
+                            as={Link}
+                            to="/progear/audix"
+                            name="audix"
+                            active={activeItem === "audix"}
+                            onClick={this.handleItemClick}
+                        >
+                            <Image style={image} size="mini" src={VolumeDial} />
+                            Audix
+                        </Menu.Item>
+                    </div>
+                    <div style={navItem}>
+                        <Menu.Item
+                            as={Link}
+                            to="/progear/guytron"
+                            name="guytron"
+                            active={activeItem === "guytron"}
+                            onClick={this.handleItemClick}
+                        >
+                            <Image style={image} size="mini" src={VolumeDial} />
+                            Guytron
+                        </Menu.Item>
+                    </div>
+                    <div style={navItem}>
+                        <Menu.Item
+                            as={Link}
+                            to="/progear/boomerang"
+                            name="boomerang"
+                            active={activeItem === "boomerang"}
+                            onClick={this.handleItemClick}
+                        >
+                            <Image style={image} size="mini" src={VolumeDial} />
+                            Boomerang
+                        </Menu.Item>
+                    </div>
+                    <div style={navItem}>
+                        <Menu.Item
+                            as={Link}
+                            to="/progear/weber"
+                            name="weber"
+                            active={activeItem === "weber"}
+                            onClick={this.handleItemClick}
+                        >
+                            <Image style={image} size="mini" src={VolumeDial} />
+                            Weber
+                        </Menu.Item>
+                    </div>
                 </Menu>
             </>
         );

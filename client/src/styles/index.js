@@ -21,10 +21,18 @@ const mainNavStyle = {
 //Sub Navbar Styling
 
 const subNavStyle = {
-    backgroundImage: `url(${SubNavImage})`,
-    margin: "2%",
-    borderRadius: "20px",
-    fontFamily: "'Noto Sans JP', sans-serif"
+    navbar: {
+        backgroundImage: `url(${SubNavImage})`,
+        margin: "2%",
+        borderRadius: "20px",
+        fontFamily: "'Noto Sans JP', sans-serif"
+    },
+    navItem: {
+        marginLeft: "2%"
+    },
+    image: {
+        marginRight: "7%"
+    }
 };
 
 // Landing Page Styling
