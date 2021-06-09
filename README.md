@@ -23,6 +23,8 @@ Gnorm is a locally well-known freelance musician in the southern CT area, and he
 
 ## Features
 
+
+
 ## Technologies Used
 
 - [React.js](https://reactjs.org/)
