@@ -18,7 +18,7 @@ class ProGearNavbar extends Component {
 
         return (
             <>
-                {<Menu style={subNav} text>
+                <Menu style={subNav} text>
                     <Menu.Item
                         as={Link}
                         to="/progear/audix"
@@ -51,26 +51,6 @@ class ProGearNavbar extends Component {
                 </Menu.Item>
                     <Menu.Item
                         as={Link}
-                        to="/progear/radian"
-                        name="radian"
-                        active={activeItem === "radian"}
-                        onClick={this.handleItemClick}
-                    >
-                        <Image size="mini" src={VolumeDial} />
-                    Radian
-                </Menu.Item>
-                    <Menu.Item
-                        as={Link}
-                        to="/progear/georgeLs"
-                        name="georgeLs"
-                        active={activeItem === "georgeLs"}
-                        onClick={this.handleItemClick}
-                    >
-                        <Image size="mini" src={VolumeDial} />
-                    George L's
-                </Menu.Item>
-                    <Menu.Item
-                        as={Link}
                         to="/progear/weber"
                         name="weber"
                         active={activeItem === "weber"}
@@ -79,7 +59,7 @@ class ProGearNavbar extends Component {
                         <Image size="mini" src={VolumeDial} />
                     Weber
                 </Menu.Item>
-                </Menu>}
+                </Menu>
             </>
         );
     }
