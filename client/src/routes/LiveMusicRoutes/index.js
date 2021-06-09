@@ -22,7 +22,7 @@ class LiveMusicRoutes extends Component {
         return (
             <>
                 {livePaths && <Grid.Row centered>
-                    <Grid.Column width={12}>
+                    <Grid.Column width={15}>
                         <LiveMusicNavbar path={path} subNav={subNav} />
                     </Grid.Column>
                 </Grid.Row>}

@@ -24,59 +24,7 @@ class LiveMusicNavbar extends Component {
         return (
             <>
                 {path === "/livemusic" && <Menu style={subNav.navbar} text>
-                    <Menu.Item
-                        as={Link}
-                        to="/livemusic/outsidechance"
-                        name="oc"
-                        active={activeItem === "oc"}
-                        onClick={this.handleItemClick}
-                    >
-                        <Image size="mini" src={VolumeDial} />
-                        Outside Chance
-                    </Menu.Item>
-                    <Menu.Item
-                        as={Link}
-                        to="/livemusic/dnr"
-                        name="dnr"
-                        active={activeItem === "dnr"}
-                        onClick={this.handleItemClick}
-                    >
-                        <Image size="mini" src={VolumeDial} />
-                        DNR
-                    </Menu.Item>
-                    <Menu.Item
-                        as={Link}
-                        to="/livemusic/federation"
-                        name="fed"
-                        active={activeItem === "fed"}
-                        onClick={this.handleItemClick}
-                    >
-                        <Image size="mini" src={VolumeDial} />
-                        The Federation
-                    </Menu.Item>
-                    <Menu.Item
-                        as={Link}
-                        to="/livemusic/cutouts"
-                        name="cut"
-                        active={activeItem === "cut"}
-                        onClick={this.handleItemClick}
-                    >
-                        <Image size="mini" src={VolumeDial} />
-                        The Cut-Outs
-                    </Menu.Item>
-                </Menu>}
-                {bandPaths && <Menu style={subNav.navbar} text>
-                    <Menu.Item
-                        as={Link}
-                        to="/livemusic"
-                        name="livemusic"
-                        active={activeItem === "livemusic"}
-                        onClick={this.handleItemClick}
-                    >
-                        <Image size="mini" src={VolumeDial} />
-                    Back to Live Music
-                </Menu.Item>
-                    {ocPaths &&
+                    <div style={subNav.navItem}>
                         <Menu.Item
                             as={Link}
                             to="/livemusic/outsidechance"
@@ -84,21 +32,23 @@ class LiveMusicNavbar extends Component {
                             active={activeItem === "oc"}
                             onClick={this.handleItemClick}
                         >
-                            <Image size="mini" src={VolumeDial} />
-                        Band Members
-                    </Menu.Item>}
-                    {ocPaths &&
+                            <Image style={subNav.image} size="mini" src={VolumeDial} />
+                        Outside Chance
+                    </Menu.Item>
+                    </div>
+                    <div style={subNav.navItem}>
                         <Menu.Item
                             as={Link}
-                            to="/livemusic/outsidechance/videos"
-                            name="ocVideos"
-                            active={activeItem === "ocVideos"}
+                            to="/livemusic/dnr"
+                            name="dnr"
+                            active={activeItem === "dnr"}
                             onClick={this.handleItemClick}
                         >
-                            <Image size="mini" src={VolumeDial} />
-                        Videos
-                    </Menu.Item>}
-                    {fedPaths &&
+                            <Image style={subNav.image} size="mini" src={VolumeDial} />
+                        DNR
+                    </Menu.Item>
+                    </div>
+                    <div style={subNav.navItem}>
                         <Menu.Item
                             as={Link}
                             to="/livemusic/federation"
@@ -106,20 +56,88 @@ class LiveMusicNavbar extends Component {
                             active={activeItem === "fed"}
                             onClick={this.handleItemClick}
                         >
-                            <Image size="mini" src={VolumeDial} />
-                        Band Members
-                    </Menu.Item>}
-                    {fedPaths &&
+                            <Image style={subNav.image} size="mini" src={VolumeDial} />
+                        The Federation
+                    </Menu.Item>
+                    </div>
+                    <div style={subNav.navItem}>
                         <Menu.Item
                             as={Link}
-                            to="/livemusic/federation/videos"
-                            name="fedVideos"
-                            active={activeItem === "fedVideos"}
+                            to="/livemusic/cutouts"
+                            name="cut"
+                            active={activeItem === "cut"}
                             onClick={this.handleItemClick}
                         >
-                            <Image size="mini" src={VolumeDial} />
-                        Videos
-                    </Menu.Item>}
+                            <Image style={subNav.image} size="mini" src={VolumeDial} />
+                        The Cutouts
+                    </Menu.Item>
+                    </div>
+                </Menu>}
+                {bandPaths && <Menu style={subNav.navbar} text>
+                    <div style={subNav.navItem}>
+                        <Menu.Item
+                            as={Link}
+                            to="/livemusic"
+                            name="livemusic"
+                            active={activeItem === "livemusic"}
+                            onClick={this.handleItemClick}
+                        >
+                            <Image style={subNav.image} size="mini" src={VolumeDial} />
+                            Back to Live Music
+                        </Menu.Item>
+                    </div>
+                    {ocPaths &&
+                        <div style={subNav.navItem}>
+                            <Menu.Item
+                                as={Link}
+                                to="/livemusic/outsidechance"
+                                name="oc"
+                                active={activeItem === "oc"}
+                                onClick={this.handleItemClick}
+                            >
+                                <Image style={subNav.image} size="mini" src={VolumeDial} />
+                                Band Members
+                            </Menu.Item>
+                        </div>}
+                    {ocPaths &&
+                        <div style={subNav.navItem}>
+                            <Menu.Item
+                                as={Link}
+                                to="/livemusic/outsidechance/videos"
+                                name="ocVideos"
+                                active={activeItem === "ocVideos"}
+                                onClick={this.handleItemClick}
+                            >
+                                <Image style={subNav.image} size="mini" src={VolumeDial} />
+                                Videos
+                            </Menu.Item>
+                        </div>}
+                    {fedPaths &&
+                        <div style={subNav.navItem}>
+                            <Menu.Item
+                                as={Link}
+                                to="/livemusic/federation"
+                                name="fed"
+                                active={activeItem === "fed"}
+                                onClick={this.handleItemClick}
+                            >
+                                <Image style={subNav.image} size="mini" src={VolumeDial} />
+                                Band Members
+                            </Menu.Item>
+                        </div>}
+                    {fedPaths &&
+                        <div style={subNav.navItem}>
+                            <Menu.Item
+                                    as={Link}
+                                    to="/livemusic/federation/videos"
+                                    name="fedVideos"
+                                    active={activeItem === "fedVideos"}
+                                    onClick={this.handleItemClick}
+                                >
+                                <Image style={subNav.image} size="mini" src={VolumeDial} />
+                                Videos
+                             </Menu.Item>
+                        </div>}
                 </Menu>}
             </>
         );

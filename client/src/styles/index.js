@@ -28,10 +28,11 @@ const subNavStyle = {
         fontFamily: "'Noto Sans JP', sans-serif"
     },
     navItem: {
-        marginLeft: "2%"
+        marginLeft: "3%",
     },
     image: {
-        marginRight: "7%"
+        marginLeft: "-10%",
+        marginRight: "8%"
     }
 };
 
