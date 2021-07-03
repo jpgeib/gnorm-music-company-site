@@ -13,9 +13,9 @@ export default (props) => {
                 <Image size="big" src={BistroImage} />
             </Grid.Column>
             <Grid.Column width={8}>
-                <Header style={header} as="h1">Bistro 143 - Oxford, CT</Header>
+                <Header style={header} as="h1">Marine Hall - Seymour, CT</Header>
                 <Header style={header} as="h3"><Image src={VolumeDial} />Starving Artists</Header>
-                <Header style={header} as="h3"><Image src={VolumeDial} />5/29 - 7 PM</Header>
+                <Header style={header} as="h3"><Image src={VolumeDial} />Sunday 7/11 - 2-6 PM</Header>
             </Grid.Column>
         </>
     );

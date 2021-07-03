@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Grid, Divider } from "semantic-ui-react";
 import MariaVs from "./MariaVs";
-import Bistro from "./Bistro";
+import Bistro from "./MarineHall";
 import ShackParty from "./ShackParty";
 
 class ShowsInfo extends Component {
