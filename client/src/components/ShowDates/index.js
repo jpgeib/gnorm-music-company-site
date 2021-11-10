@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import { Grid, Divider } from "semantic-ui-react";
-import MilfordPub from "./MilfordPub";
-import PumpkinFestival from "./PumpkinFestival";
+import BlackDuck from "./BlackDuck";
+import AlfaPizza from "./AlfaPizza";
+import MariaVs from "./MariaVs";
+import UkrainianClub from "./UkrainianClub";
 
 class ShowsInfo extends Component {
     render() {
@@ -11,11 +13,23 @@ class ShowsInfo extends Component {
         return (
             <>
                 <Grid.Row>
-                    <MilfordPub font={text} />
+                    <BlackDuck font={text} />
                 </Grid.Row>
                 <Divider />
                 <Grid.Row>
-                    <PumpkinFestival font={text} />
+                    <AlfaPizza font={text} />
+                </Grid.Row>
+                <Divider />
+                <Grid.Row>
+                    <MariaVs font={text} />
+                </Grid.Row>
+                <Divider />
+                <Grid.Row>
+                    <UkrainianClub font={text} />
+                </Grid.Row>
+                <Divider />
+                <Grid.Row>
+                    <BlackDuck font={text} />
                 </Grid.Row>
             </>
         );
