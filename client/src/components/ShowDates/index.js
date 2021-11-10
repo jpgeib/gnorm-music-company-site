@@ -4,6 +4,7 @@ import BlackDuck from "./BlackDuck";
 import AlfaPizza from "./AlfaPizza";
 import MariaVs from "./MariaVs";
 import UkrainianClub from "./UkrainianClub";
+import BlackDuck2 from "./BlackDuck2";
 
 class ShowsInfo extends Component {
     render() {
@@ -29,7 +30,7 @@ class ShowsInfo extends Component {
                 </Grid.Row>
                 <Divider />
                 <Grid.Row>
-                    <BlackDuck font={text} />
+                    <BlackDuck2 font={text} />
                 </Grid.Row>
             </>
         );
