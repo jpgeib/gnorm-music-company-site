@@ -14,8 +14,8 @@ export default (props) => {
             </Grid.Column>
             <Grid.Column width={8}>
                 <Header style={header} as="h1">Maria V's - Shelton, CT</Header>
-                <Header style={header} as="h3"><Image src={VolumeDial} />Outside Chance</Header>
-                <Header style={header} as="h3"><Image src={VolumeDial} />Saturday 11/13 - 9PM-12AM </Header>
+                <Header style={header} as="h3"><Image src={VolumeDial} />Shell Shockt</Header>
+                <Header style={header} as="h3"><Image src={VolumeDial} />Saturday 1/8 - 8 PM</Header>
             </Grid.Column>
         </>
     );

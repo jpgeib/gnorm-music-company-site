@@ -1,10 +1,12 @@
 import React, { Component } from "react";
 import { Grid, Divider } from "semantic-ui-react";
 import BlackDuck from "./BlackDuck";
-import AlfaPizza from "./AlfaPizza";
 import MariaVs from "./MariaVs";
-import UkrainianClub from "./UkrainianClub";
-import BlackDuck2 from "./BlackDuck2";
+import Sails from "./Sails";
+import Notch8 from "./Notch8";
+import FastEddies from "./FastEddies";
+import SpottedHorse from "./SpottedHorse";
+import MilfordPub from "./MilfordPub";
 
 class ShowsInfo extends Component {
     render() {
@@ -14,11 +16,7 @@ class ShowsInfo extends Component {
         return (
             <>
                 <Grid.Row>
-                    <BlackDuck font={text} />
-                </Grid.Row>
-                <Divider />
-                <Grid.Row>
-                    <AlfaPizza font={text} />
+                    <Sails font={text} />
                 </Grid.Row>
                 <Divider />
                 <Grid.Row>
@@ -26,11 +24,23 @@ class ShowsInfo extends Component {
                 </Grid.Row>
                 <Divider />
                 <Grid.Row>
-                    <UkrainianClub font={text} />
+                    <Notch8 font={text} />
                 </Grid.Row>
                 <Divider />
                 <Grid.Row>
-                    <BlackDuck2 font={text} />
+                    <FastEddies font={text} />
+                </Grid.Row>
+                <Divider />
+                <Grid.Row>
+                    <BlackDuck font={text} />
+                </Grid.Row>
+                <Divider />
+                <Grid.Row>
+                    <SpottedHorse font={text} />
+                </Grid.Row>
+                <Divider />
+                <Grid.Row>
+                    <MilfordPub font={text} />
                 </Grid.Row>
             </>
         );
