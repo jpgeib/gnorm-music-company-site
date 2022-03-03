@@ -15,7 +15,7 @@ export default (props) => {
             <Grid.Column width={8}>
                 <Header style={header} as="h1">Black Duck - Westport, CT</Header>
                 <Header style={header} as="h3"><Image src={VolumeDial} />Crush</Header>
-                <Header style={header} as="h3"><Image src={VolumeDial} />Friday 1/21 - 9 PM</Header>
+                <Header style={header} as="h3"><Image src={VolumeDial} />Friday 3/4 - 9:30 PM</Header>
             </Grid.Column>
         </>
     );

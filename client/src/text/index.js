@@ -49,7 +49,7 @@ const progearText = {
 //Shows page text
 
 const showsText = {
-    subheader: "These are the current show dates for January 2022."
+    subheader: "These are the current show dates for March 2022."
 };
 
 //Aggregate Text
